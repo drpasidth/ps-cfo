@@ -1,0 +1,1798 @@
+﻿itemNo,item,description,unit,ef,reference,update_date
+1,Acrylonitrile Butadiene Styrene (ABS),"ผลิตจากกระบวนการอัลคิลเลชันของเบนซีนและเอ ทีลีน; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,4.1597,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+2,General Purposed Polystyrene (GPPS),ผลิตจาก Styrene และ Ethylbenzene; LCIA method IPCC 2013 GWP 100a V1.03,kg,3.2281,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+3,High Density Polyethylene (HDPE),ผลิตจาก Ethylene โดยมี 1-Butene และ Propylene เป็ น Comonomer; LCIA method IPCC 2013 GWP 100a V1.03,kg,6.7071,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+4,High Impact Polystyrene (HIPS),ผลิตจาก Styrene และ Polybutadiene rubber; LCIA method IPCC 2013 GWP 100a V1.03,kg,3.6843,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+5,Linear Low Density Polyethylene (LLDPE),ผลิตจากกระบวนการที่เป็ น Solution phase และ Gas phase; LCIA method IPCC 2013 GWP 100a V1.03,kg,2.1356,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_July2022
+6,Low Density Polyethylene (LDPE),ผลิตจากกระบวนการที่เป็ น Solution phase และ Gas phase; LCIA method IPCC 2013 GWP 100a V1.03,kg,2.6258,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+7,Polypropylene (PP),"ผลิตจากกระบวนการที่เป็ น Liquid phase และ Gas
+phase; LCIA method IPCC 2013 GWP 100a V1.03",kg,1.8814,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_July2022
+8,Ployvinyl Chloride (PVC),ผลิตจากกระบวนการ Suspension และ Emulsion; LCIA method IPCC 2013 GWP 100a V1.03,kg,2.1331,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+9,P-xylene,ผลิตจากกระบวนการ PAREX / ISOMAR; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.9226,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+10,Styrene Monomer (SM),"ผลิตจากกระบวนการอัลคิลเลชันของเบนซีนและเอ
+ทีลีน; LCIA method IPCC 2013 GWP 100a V1.03",kg,2.3705,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+11,Styrene Acrylonitrile (SAN),"ผลิตจากกระบวนการอัลคิลเลชันของเบนซีนและเอ
+ทีลีน; LCIA method IPCC 2013 GWP 100a V1.03",kg,3.0008,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+12,Vinyl Chlodie Monomer (VCM),ผลิตจากกระบวนการ Suspension และ Emulsion; LCIA method IPCC 2013 GWP 100a V1.03,kg,2.1793,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+13,Benzene,"ผลิตจากกระบวนการ Toluene Hydrodealkylation; LCIA method IPCC 2013
+GWP 100a V1.03",kg,1.3268,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+14,Caprolactam (CPL),"ผลิตจาก Cyclohexane, Ammonia และ Sulfur; LCIA method IPCC 2013 GWP 100a V1.03",kg,1.2916,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+15,Cyclohexane (CX),ผลิตจาก Benzene และ Hydrogen; LCIA method IPCC 2013 GWP 100a V1.03,kg,1.4132,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+16,Ethylene,"ผลิตจากกระบวนการ Natural Gas/ Gas Oil Cracking; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,1.9562,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_July2022
+17,Mixed C4,"ผลิตจากกระบวนการ Natural Gas/ Gas Oil Cracking; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,1.1114,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+18,Toluene,ผลิตจาก Reformate; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.9551,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+19,Propylene,"ผลิตจากกระบวนการ Natural Gas/ Gas Oil
+Cracking; LCIA method IPCC 2013 GWP 100a V1.03",kg,1.4473,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_July2022
+20,Epoxy resin,-,kg,6.686,Industry Data,Update_24Sep12
+21,Expanded polystyrene (EPS),-,kg,4.6127,Franklin USA 98,Update_24Sep12
+22,Polyethylene terephthalate (PET),"Polyethylene terephthalate, granulate, bottle grade, at plant",kg,2.8854,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+23,Polyethylene terephthalate (PET),"Polyethylene terephthalate, granulate, amorphous, at plant",kg,2.6922,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+24,Polybutadiene,"Polybutadiene, at plant",kg,3.9106,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+25,Polycarbonate,"Polycarbonate, at plant",kg,7.776,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+26,Polyester resin,"Polyester resin, unsaturated, at plant",kg,7.4185,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+27,Polyurethane (flexible polyurethane),"Polyurethane, flexible foam, at plant",kg,4.8524,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+28,Polyurethane (rigid urethane board),"Polyurethane, rigid foam, at plant",kg,4.3229,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+29,Xylene,"Xylene, at plant",kg,1.6338,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+30,Bisphenol A,"Bisphenol A, powder, at plant",kg,4.9162,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+31,Ethylene Glycol,"Ethylene glycol, at plant",kg,1.428,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+32,Ethylene oxide,"Ethylene oxide, at plant",kg,1.5746,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+33,Nylon 6,"Nylon 6, at plant",Kg,9.2691,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+34,Paraffin wax,"Paraffin, at plant",kg,0.7982,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+35,Alkylbenzene sulfonate,"Alkylbenzene sulfonate, linear, petrochemical, at plant",kg,1.3586,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+36,Anticrease agent,"Ethoxylated alcohols (AE7), petrochemical, at plant",kg,2.1671,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+37,Ethoxylated alcohols (AE7),"Ethoxylated alcohols (AE7), petrochemical, at plant",kg,2.1671,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+38,Leveling agent,"Ethoxylated alcohols (AE7), petrochemical, at plant",kg,2.1671,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+39,Soaping agent,"Fatty alcohol sulfate, petrochemical, at plant",kg,2.3372,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+40,Wetting agent,"Fatty alcohol sulfate, petrochemical, at plant",kg,2.3372,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+41,"Carbon dioxide
+(ก๊าซคาร์บอนไดออกไซด์)","ก๊าซคาร์บอนไดออกไซด์ที่ได้จากการกระบวนการ
+แยกก๊าซธรรมชาติ; LCIA method IPCC 2013 GWP 100a V1.03",kg,1.0506,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+42,Propane (โพรเพน),"โพรเพนที่ได้จากการกระบวนการแยกก๊าซ
+ธรรมชาติ; LCIA method IPCC 2013 GWP 100a V1.03",kg,1.1692,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+43,Methane (ก๊าซธรรมชาติ / มีเทน),"ก๊าซธรรมชาติ (มีเทน) ที่ได้จากการกระบวนการ แยกก๊าซธรรมชาติ; LCIA method IPCC 2013
+GWP 100a V1.03",kg,1.1283,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+44,Ethane (อีเทน),อีเทนที่ได้จากการกระบวนการแยกก๊าซธรรมชาติ; LCIA method IPCC 2013 GWP 100a V1.03,kg,1.1608,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+45,Natural Gas Liquid (ก๊าซธรรมชาติเหลว),"ก๊าซธรรมชาติเหลวที่ได้จากการกระบวนการแยก
+ก๊าซธรรมชาติ; LCIA method IPCC 2013 GWP 100a V1.03",kg,1.156,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+46,ก๊าซหุงต้ม้,ก๊าซหุงต้มที่ได้จากกระบวนการแยกก๊าซธรรมชาติ; LCIA method IPCC 2013 GWP 100a V1.03,kg,1.1839,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+47,ก๊าซธรรมชาติแบบผสม,"ก๊าซธรรมชาติผสมที่มาจากก๊าซธรรมชาติของ ประเทศไทย (รวมก๊าซธรรมชาติที่มาจากโรงแยก ก๊าซ) ก๊าซธรรมชาติที่นำเข้ามาจากประเทศพม่า และ LNG จากการนำเข้า; LCIA method IPCC
+2013 GWP 100a V1.03",kg,0.7544,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+48,ก๊าซธรรมชาติแบบผสม,"ก๊าซธรรมชาติผสมที่มาจากก๊าซธรรมชาติของ ประเทศไทย (รวมก๊าซธรรมชาติที่มาจากโรงแยก ก๊าซ) ก๊าซธรรมชาติที่นำเข้ามาจากประเทศพม่า และ LNG จากการนำเข้า; LCIA method IPCC
+2013 GWP 100a V1.03",m3,0.5767,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+49,"Liquefied Petroleum Gas,
+LPG Mixed (ก๊าซหุงต้มแบบผสม)","ก๊าซหุงต้มแบบผสมระหว่างก๊าซหุงต้มที่ได้จาก กระบวนการกลั่นน้ำมันดิบและก๊าซหุงต้มที่ได้จาก กระบวนการแยกก๊าซธรรมชาติ รวมถึงการนำเข้าbutane และ Propane มาเพื่อผลิตเป็ น LPG อีก
+ดว้ ย; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.8582,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+50,Naphtha (แนฟทา),แนฟทาที่ได้จากกระบวนการกลั่นน้ำมันดิบ; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.2972,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+51,ก๊าซหุงต้ม้,ก๊าซหุงต้มที่ได้จากกระบวนการกลั่นน้ำมันดิบ; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.4267,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+52,Gasoline (แก๊สโซลีน),"แก๊สโซลีน (น้ำมันเบนซิน) ที่ได้จากกระบวนการ กลั่นน้ำมันดิบ; LCIA method IPCC 2013 GWP
+100a V1.03",kg,0.4024,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+53,Kerosene / Jet oil (น้ำมันก๊าดหรือ น้ำมันเครื่องบิน),น้ำมันก๊าดหรือน้ำมันเครื่องบินที่ได้จากกระบวนการ กลั่นน้ำมันดิบ; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.3284,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+54,Fuel oil (น้ำมันเตา),น้ำมันเตาที่ได้จากกระบวนการกลั่นน้ำมันดิบ; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.3743,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+55,Diesel (น้ำมันดีเซล / น้ำมัน โซล่าร์),น้ำมันดีเซลที่ได้จากกระบวนการกลั่นน้ำมันดิบ; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.3522,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+56,ซัลเฟอร์,ซัลเฟอร์ที่ได้จากกระบวนการกลั่นน้ำมันดิบ; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.239,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+57,Charcoal (ถ่านไม)้,"Charcoal, at plant",kg,1.0054,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+58,การผลิตถ่านหิน,"Lignite coal, at surface mine",kg,0.1187,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+59,"Electricity, grid mix (ไฟฟ้า)",ไฟฟ้าแบบ grid mix ปี 2016-2018; LCIA method IPCC 2013 GWP 100a V1.03,kWh,0.5986,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+60,น้ำประปา-การประปานครหลวง,ผลิตโดยใชน้ำผิวดิน; LCIA method IPCC 2013 GWP 100a V1.03,m3,0.7948,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+61,น้ำประปา-การประปาส่วนภูมิภาค,"ผลิตโดยใชน้ำผิวดิน น้ำใตด้ ิน และน้ำทะเล; ครอบคลุมตั้งแต่ขั้นตอนการสูบน้ำดิบ การผลิต
+น้ำประปา จนถึงการส่งน้ำประปาผ่านระบบท่อ กปภ.
+สู่ผูใ้ ชน้ำ; ขอ้ มูลการผลิตปี งบประมาณ 2561; LCIA method IPCC 2013 GWP 100a V1.03",m3,0.541,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_July2022
+62,น้ำประปา-การนิคมอุตสาหกรรม,ผลิตโดยใช้น้ำผิวดิน และน้ำประปา; LCIA method IPCC 2013 GWP 100a V1.03,m3,0.2575,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+63,น้ำอ่อนสำหรับหมอ้ ไอน้ำ,ผลิตโดยใช้น้ำประปา; LCIA method IPCC 2013 GWP 100a V1.03,m3,1.0301,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_July2022
+64,น้ำปราศจากไอออน ที่ผลิตโดย เทคโนโลยี Reverse Osmosis,ผลิตโดยใชน้ำอ่อน; LCIA method IPCC 2013 GWP 100a V1.03,m3,2.1555,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_July2022
+65,น้ำปราศจากไอออน ที่ผลิตโดย เทคโนโลยี Ion Exchange,ผลิตโดยใชน้ำประปา; LCIA method IPCC 2013 GWP 100a V1.03,m3,2.0432,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+66,รถตูบ้ รรทุก 4 ล้อ  ขนาดเล็ก วิ่งแบบปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 1.5 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.2415,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+67,รถตูบ้ รรทุก 4 ล้อ  ขนาดเล็ก วิ่งแบบปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 1.5 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.3805,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+68,รถตูบ้ รรทุก 4 ล้อ  ขนาดเล็ก วิ่งแบบปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 1.5 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.2706,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+69,รถตูบ้ รรทุก 4 ล้อ  ขนาดเล็ก วิ่งแบบปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 1.5 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.2154,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+70,"รถตูบ้ รรทุก 4 ล้อ  ขนาดเล็ก
+วิ่งแบบสมบุกสมบัน 0% Loading","น้ำหนักบรรทุกสูงสุด 1.5 ตัน; ใชน้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.3091,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+71,"รถตูบ้ รรทุก 4 ล้อ  ขนาดเล็ก วิ่งแบบสมบุกสมบัน
+50% Loading","น้ำหนักบรรทุกสูงสุด 1.5 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.4695,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+72,"รถตูบ้ รรทุก 4 ล้อ  ขนาดเล็ก วิ่งแบบสมบุกสมบัน
+75% Loading","น้ำหนักบรรทุกสูงสุด 1.5 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.3275,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+73,"รถตูบ้ รรทุก 4 ล้อ  ขนาดเล็ก วิ่งแบบสมบุกสมบัน
+100% Loading","น้ำหนักบรรทุกสูงสุด 1.5 ตัน; ใชน้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.2556,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+74,รถตูบ้ รรทุก 4 ล้อ  วิ่งแบบปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 7 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.3345,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+75,รถตูบ้ รรทุก 4 ล้อ  วิ่งแบบปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 7 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.3401,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+76,รถตูบ้ รรทุก 4 ล้อ  วิ่งแบบปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 7 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.2405,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+77,รถตูบ้ รรทุก 4 ล้อ  วิ่งแบบปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 7 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.1835,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+78,รถตูบ้ รรทุก 4 ล้อ  วิ่งแบบสมบุกสมบัน 0% Loading,"น้ำหนักบรรทุกสูงสุด 7 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,0.4106,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+79,รถตูบ้ รรทุก 4 ล้อ  วิ่งแบบสมบุกสมบัน 50% Loading,"น้ำหนักบรรทุกสูงสุด 7 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.3672,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+80,รถตูบ้ รรทุก 4 ล้อ  วิ่งแบบสมบุกสมบัน 75% Loading,"น้ำหนักบรรทุกสูงสุด 7 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.2551,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+81,รถตูบ้ รรทุก 4 ล้อ  วิ่งแบบสมบุกสมบัน 100% Loading,"น้ำหนักบรรทุกสูงสุด 7 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.1991,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+82,รถกระบะบรรทุกขนาดเล็ก 4 ล้อ  วิ่ง แบบปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 7 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,0.3131,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+83,รถกระบะบรรทุกขนาดเล็ก 4 ล้อ  วิ่ง แบบปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 7 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.2698,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+84,รถกระบะบรรทุกขนาดเล็ก 4 ล้อ  วิ่ง แบบปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 7 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.184,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+85,รถกระบะบรรทุกขนาดเล็ก 4 ล้อ  วิ่ง แบบปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 7 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.1411,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+86,รถกระบะบรรทุกขนาดเล็ก 4 ล้อ  วิ่ง แบบสมบุกสมบัน 0% Loading,"น้ำหนักบรรทุกสูงสุด 7 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,0.375,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+87,"รถกระบะบรรทุกขนาดเล็ก 4 ล้อ  วิ่ง แบบสมบุกสมบัน
+50% Loading","น้ำหนักบรรทุกสูงสุด 7 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.3165,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+88,"รถกระบะบรรทุกขนาดเล็ก 4 ล้อ  วิ่ง แบบสมบุกสมบัน
+75% Loading","น้ำหนักบรรทุกสูงสุด 7 ตัน; ใชน้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.2139,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+89,"รถกระบะบรรทุกขนาดเล็ก 4 ล้อ  วิ่ง แบบสมบุกสมบัน
+100% Loading","น้ำหนักบรรทุกสูงสุด 7 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.1627,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+90,รถตูบ้ รรทุก 6 ล้อ  ขนาดเล็ก วิ่งปกติ 0% Loading,น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,km,0.4069,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+91,รถตูบ้ รรทุก 6 ล้อ  ขนาดเล็ก วิ่งปกติ 50% Loading,น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,tkm,0.1198,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+92,รถตูบ้ รรทุก 6 ล้อ  ขนาดเล็ก วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0843,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+93,รถตูบ้ รรทุก 6 ล้อ  ขนาดเล็ก วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0653,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+94,"รถตูบ้ รรทุก 6 ล้อ  ขนาดเล็ก
+วิ่งแบบสมบุกสมบัน 0% Loading","น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใชน้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.4227,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+95,"รถตูบ้ รรทุก 6 ล้อ  ขนาดเล็ก วิ่งแบบสมบุกสมบัน
+50% Loading","น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.1302,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+96,"รถตูบ้ รรทุก 6 ล้อ  ขนาดเล็ก วิ่งแบบสมบุกสมบัน
+75% Loading","น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0913,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+97,"รถตูบ้ รรทุก 6 ล้อ  ขนาดเล็ก วิ่งแบบสมบุกสมบัน
+100% Loading","น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0691,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+98,รถกระบะบรรทุก 6 ล้อ  ขนาดเล็ก วิ่ง ปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.4273,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+99,รถกระบะบรรทุก 6 ล้อ  ขนาดเล็ก วิ่ง ปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.1247,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+100,รถกระบะบรรทุก 6 ล้อ  ขนาดเล็ก วิ่ง ปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0875,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+101,รถกระบะบรรทุก 6 ล้อ  ขนาดเล็ก วิ่ง ปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใชน้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0677,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+102,รถกระบะบรรทุก 6 ล้อ  ขนาดเล็ก วิ่ง แบบสมบุกสมบัน 0% Loading,"น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใช้น้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.5133,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+103,"รถกระบะบรรทุก 6 ล้อ  ขนาดเล็ก วิ่ง แบบสมบุกสมบัน
+50% Loading","น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.1443,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+104,"รถกระบะบรรทุก 6 ล้อ  ขนาดเล็ก วิ่ง แบบสมบุกสมบัน
+75% Loading",น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,tkm,0.099,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+105,"รถกระบะบรรทุก 6 ล้อ  ขนาดเล็ก วิ่ง แบบสมบุกสมบัน
+100% Loading","น้ำหนักบรรทุกสูงสุด 8.5 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0749,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+106,รถตูบ้ รรทุก 6 ล้อ  ขนาดใหญ่ วิ่งปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 11 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.4373,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+107,รถตูบ้ รรทุก 6 ล้อ  ขนาดใหญ่ วิ่งปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 11 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.1021,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+108,รถตูบ้ รรทุก 6 ล้อ  ขนาดใหญ่ วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 11 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0716,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+109,รถตูบ้ รรทุก 6 ล้อ  ขนาดใหญ่ วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 11 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0547,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+110,"รถตูบ้ รรทุก 6 ล้อ  ขนาดใหญ่
+วิ่งแบบสมบุกสมบัน 0% Loading","น้ำหนักบรรทุกสูงสุด 11 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.5598,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+111,"รถตูบ้ รรทุก 6 ล้อ  ขนาดใหญ่ วิ่งแบบสมบุกสมบัน
+50% Loading","น้ำหนักบรรทุกสูงสุด 11 ตัน; ใช้น้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.1228,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+112,"รถตูบ้ รรทุก 6 ล้อ  ขนาดใหญ่ วิ่งแบบสมบุกสมบัน
+75% Loading","น้ำหนักบรรทุกสูงสุด 11 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0863,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+113,"รถตูบ้ รรทุก 6 ล้อ  ขนาดใหญ่ วิ่งแบบสมบุกสมบัน
+100% Loading","น้ำหนักบรรทุกสูงสุด 11 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0679,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+114,รถกระบะบรรทุก 6 ล้อ  ขนาดใหญ่ วิ่ง ปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 11 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.4923,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+115,รถกระบะบรรทุก 6 ล้อ  ขนาดใหญ่ วิ่ง ปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 11 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.1083,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+116,รถกระบะบรรทุก 6 ล้อ  ขนาดใหญ่ วิ่ง ปกติ 75% Loading,น้ำหนักบรรทุกสูงสุด 11 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,tkm,0.0768,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+117,รถกระบะบรรทุก 6 ล้อ  ขนาดใหญ่ วิ่ง ปกติ 100% Loading,น้ำหนักบรรทุกสูงสุด 11 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,tkm,0.0613,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+118,รถกระบะบรรทุก 6 ล้อ  ขนาดใหญ่ วิ่ง แบบสมบุกสมบัน 0% Loading,น้ำหนักบรรทุกสูงสุด 11 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,km,0.6082,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+119,รถกระบะบรรทุก 6 ล้อ  ขนาดใหญ่ วิ่ง แบบสมบุกสมบัน 50% Loading,"น้ำหนักบรรทุกสูงสุด 11 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.1345,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+120,"รถกระบะบรรทุก 6 ล้อ  ขนาดใหญ่ วิ่ง แบบสมบุกสมบัน
+75% Loading","น้ำหนักบรรทุกสูงสุด 11 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0942,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+121,"รถกระบะบรรทุก 6 ล้อ  ขนาดใหญ่ วิ่ง แบบสมบุกสมบัน
+100% Loading","น้ำหนักบรรทุกสูงสุด 11 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0734,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+122,รถตูบ้ รรทุก 10 ล้อ  วิ่งปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.5747,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+123,รถตูบ้ รรทุก 10 ล้อ  วิ่งปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0852,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+124,รถตูบ้ รรทุก 10 ล้อ  วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.059,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+125,รถตูบ้ รรทุก 10 ล้อ  วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0454,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+126,รถตูบ้ รรทุก 10 ล้อ  วิ่งแบบ สมบุกสมบัน 0% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.678,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+127,รถตูบ้ รรทุก 10 ล้อ  วิ่งแบบ สมบุกสมบัน 50% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.1043,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+128,รถตูบ้ รรทุก 10 ล้อ  วิ่งแบบ สมบุกสมบัน 75% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0725,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+129,รถตูบ้ รรทุก 10 ล้อ  วิ่งแบบ สมบุกสมบัน 100% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0553,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+130,รถตูบ้ รรทุกเปิด 10 ล้อ  วิ่งปกติ 0% Loading,น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,km,0.6053,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+131,รถตูบ้ รรทุกเปิด 10 ล้อ  วิ่งปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0881,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+132,รถตูบ้ รรทุกเปิด 10 ล้อ  วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0617,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+133,รถตูบ้ รรทุกเปิด 10 ล้อ  วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0489,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+134,รถตูบ้ รรทุกเปิด 10 ล้อ  วิ่งแบบ สมบุกสมบัน 0% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.6674,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+135,รถตูบ้ รรทุกเปิด 10 ล้อ  วิ่งแบบ สมบุกสมบัน 50% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.1019,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+136,รถตูบ้ รรทุกเปิด 10 ล้อ  วิ่งแบบ สมบุกสมบัน 75% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0738,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+137,รถตูบ้ รรทุกเปิด 10 ล้อ  วิ่งแบบ สมบุกสมบัน 100% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใชน้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0612,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+138,รถกระบะบรรทุก 10 ล้อ  วิ่งปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.59,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+139,รถกระบะบรรทุก 10 ล้อ  วิ่งปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0972,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+140,รถกระบะบรรทุก 10 ล้อ  วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0691,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+141,รถกระบะบรรทุก 10 ล้อ  วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0533,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+142,รถกระบะบรรทุก 10 ล้อ  วิ่งแบบ สมบุกสมบัน 0% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,0.7513,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+143,รถกระบะบรรทุก 10 ล้อ  วิ่งแบบ สมบุกสมบัน 50% Loading,น้ำหนักบรรทุกสูงสุด 16 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,tkm,0.1201,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+144,รถกระบะบรรทุก 10 ล้อ  วิ่งแบบ สมบุกสมบัน 75% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.084,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+145,รถกระบะบรรทุก 10 ล้อ  วิ่งแบบ สมบุกสมบัน 100% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0639,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+146,รถตูบ้ รรทุกกึ่งพ่วง 18 ล้อ  วิ่งปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.8215,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+147,รถตูบ้ รรทุกกึ่งพ่วง 18 ล้อ  วิ่งปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0803,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+148,รถตูบ้ รรทุกกึ่งพ่วง 18 ล้อ  วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0577,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+149,รถตูบ้ รรทุกกึ่งพ่วง 18 ล้อ  วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0449,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+150,รถตูบ้ รรทุกกึ่งพ่วง 18 ล้อ  วิ่งแบบ สมบุกสมบัน 0% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.9963,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+151,รถตูบ้ รรทุกกึ่งพ่วง 18 ล้อ  วิ่งแบบ สมบุกสมบัน 50% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0914,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+152,รถตูบ้ รรทุกกึ่งพ่วง 18 ล้อ  วิ่งแบบ สมบุกสมบัน 75% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0655,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+153,รถตูบ้ รรทุกกึ่งพ่วง 18 ล้อ  วิ่งแบบ สมบุกสมบัน 100% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0523,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+154,รถตูบ้ รรทุกพ่วง 18 ล้อ  วิ่งปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.787,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+155,รถตูบ้ รรทุกพ่วง 18 ล้อ  วิ่งปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.073,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+156,รถตูบ้ รรทุกพ่วง 18 ล้อ  วิ่งปกติ 75% Loading,น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,tkm,0.0517,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+157,รถตูบ้ รรทุกพ่วง 18 ล้อ  วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0404,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+158,รถตูบ้ รรทุกพ่วง 18 ล้อ  วิ่งแบบ สมบุกสมบัน 0% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,0.8657,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+159,รถตูบ้ รรทุกพ่วง 18 ล้อ  วิ่งแบบ สมบุกสมบัน 50% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0858,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+160,รถตูบ้ รรทุกพ่วง 18 ล้อ  วิ่งแบบ สมบุกสมบัน 75% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0628,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+161,รถตูบ้ รรทุกพ่วง 18 ล้อ  วิ่งแบบ สมบุกสมบัน 100% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0502,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+162,รถกระบะบรรทุกกึ่งพ่วง 18 ล้อ วิ่งปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,0.8684,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+163,รถกระบะบรรทุกกึ่งพ่วง 18 ล้อ วิ่งปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0802,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+164,รถกระบะบรรทุกกึ่งพ่วง 18 ล้อ วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0568,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+165,รถกระบะบรรทุกกึ่งพ่วง 18 ล้อ วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0443,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+166,"รถกระบะบรรทุกกึ่งพ่วง 18 ล้อ
+วิ่งแบบสมบุกสมบัน 0% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,1.0657,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+167,"รถกระบะบรรทุกกึ่งพ่วง 18 ล้อ วิ่งแบบสมบุกสมบัน
+50% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0975,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+168,"รถกระบะบรรทุกกึ่งพ่วง 18 ล้อ วิ่งแบบสมบุกสมบัน
+75% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0687,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+169,"รถกระบะบรรทุกกึ่งพ่วง 18 ล้อ วิ่งแบบสมบุกสมบัน
+100% Loading",น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,tkm,0.0533,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+170,รถกระบะบรรทุกพ่วง 18 ล้อ วิ่งปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,0.2363,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+171,รถกระบะบรรทุกพ่วง 18 ล้อ วิ่งปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0761,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+172,รถกระบะบรรทุกพ่วง 18 ล้อ วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0529,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+173,รถกระบะบรรทุกพ่วง 18 ล้อ วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0411,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+174,"รถกระบะบรรทุกพ่วง 18 ล้อ
+วิ่งแบบสมบุกสมบัน 0% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,1.0021,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+175,"รถกระบะบรรทุกพ่วง 18 ล้อ วิ่งแบบสมบุกสมบัน
+50% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.092,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+176,"รถกระบะบรรทุกพ่วง 18 ล้อ วิ่งแบบสมบุกสมบัน
+75% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0651,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+177,"รถกระบะบรรทุกพ่วง 18 ล้อ
+วิ่งแบบสมบุกสมบัน 100% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0507,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+178,รถกระบะบรรทุกพ่วง 20 ล้อ วิ่งปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,0.8404,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+179,รถกระบะบรรทุกพ่วง 20 ล้อ วิ่งปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0839,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+180,รถกระบะบรรทุกพ่วง 20 ล้อ วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0594,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+181,รถกระบะบรรทุกพ่วง 20 ล้อ วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0448,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+182,"รถกระบะบรรทุกพ่วง 20 ล้อ
+วิ่งแบบสมบุกสมบัน 0% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,1.1441,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+183,"รถกระบะบรรทุกพ่วง 20 ล้อ วิ่งแบบสมบุกสมบัน
+50% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.101,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+184,"รถกระบะบรรทุกพ่วง 20 ล้อ วิ่งแบบสมบุกสมบัน
+75% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0706,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+185,"รถกระบะบรรทุกพ่วง 20 ล้อ วิ่งแบบสมบุกสมบัน
+100% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0547,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+186,รถกระบะบรรทุกพ่วง 22 ล้อ วิ่งปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,1.0206,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+187,รถกระบะบรรทุกพ่วง 22 ล้อ วิ่งปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0866,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+188,รถกระบะบรรทุกพ่วง 22 ล้อ วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0597,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+189,รถกระบะบรรทุกพ่วง 22 ล้อ วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0459,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+190,"รถกระบะบรรทุกพ่วง 22 ล้อ
+วิ่งแบบสมบุกสมบัน 0% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,1.2452,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+191,"รถกระบะบรรทุกพ่วง 22 ล้อ วิ่งแบบสมบุกสมบัน
+50% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.1042,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+192,"รถกระบะบรรทุกพ่วง 22 ล้อ วิ่งแบบสมบุกสมบัน
+75% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.071,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+193,"รถกระบะบรรทุกพ่วง 22 ล้อ
+วิ่งแบบสมบุกสมบัน 100% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.054,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+194,รถบรรทุกซีเมนต์ชนิดโม่ 10 ล้อ วิ่งปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,0.6316,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+195,รถบรรทุกซีเมนต์ชนิดโม่ 10 ล้อ วิ่งปกติ  50% Loading,น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,tkm,0.0918,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+196,รถบรรทุกซีเมนต์ชนิดโม่ 10 ล้อ วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0625,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+197,รถบรรทุกซีเมนต์ชนิดโม่ 10 ล้อ วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0471,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+198,"รถบรรทุกซีเมนต์ชนิดโม่ 10 ล้อ
+วิ่งแบบสมบุกสมบัน 0% Loading",น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,km,0.7382,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+199,"รถบรรทุกซีเมนต์ชนิดโม่ 10 ล้อ วิ่งแบบสมบุกสมบัน
+50% Loading","น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.1098,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+200,"รถบรรทุกซีเมนต์ชนิดโม่ 10 ล้อ วิ่งแบบสมบุกสมบัน
+75% Loading","น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0772,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+201,"รถบรรทุกซีเมนต์ชนิดโม่ 10 ล้อ  วิ่ง แบบสมบุกสมบัน
+100% Loading","น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0611,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+202,"รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด ถว้ ย) 10 ล้อ  วิ่งปกติ
+0% Loading",น้ำหนักบรรทุกสูงสุด 16 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,km,0.464,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+203,"รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด
+ถว้ ย) 10 ล้อ  วิ่งปกติ 50% Loading","น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0834,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+204,"รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด
+ถว้ ย) 10 ล้อ  วิ่งปกติ 75% Loading","น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.061,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+205,"รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด ถว้ ย) 10 ล้อ  วิ่งปกติ
+100% Loading","น้ำหนักบรรทุกสูงสุด 16 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0475,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+206,รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด ถว้ ย) 10 ล้อ  วิ่งแบบสมบุกสมบัน 0% Loading,น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,km,0.4825,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+207,"รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด ถว้ ย) 10 ล้อ  วิ่งแบบสมบุกสมบัน
+50% Loading","น้ำหนักบรรทุกสูงสุด 16 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0986,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+208,รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด ถว้ ย) 10 ล้อ วิ่งแบบสมบุกสมบัน 75% Loading,น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,tkm,0.0732,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+209,"รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด
+ถว้ ย) 10 ล้อ  วิ่งแบบสมบุกสมบัน 100% Loading","น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0546,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+210,"รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด ถว้ ย) 18 ล้อ  วิ่งปกติ
+0% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,0.9131,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+211,"รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด ถว้ ย) 18 ล้อ  วิ่งปกติ
+50% Loading",น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,tkm,0.0841,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+212,"รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด ถว้ ย) 18 ล้อ  วิ่งปกติ
+75% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0594,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+213,"รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด ถว้ ย) 18 ล้อ  วิ่งปกติ
+100% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0461,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+214,"รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด ถว้ ย) 18 ล้อ  วิ่งแบบสมบุกสมบัน 0%
+Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,1.1214,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+215,รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด ถว้ ย) 18 ล้อ  วิ่งแบบสมบุกสมบัน 50% Loading,น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,tkm,0.1043,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+216,"รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด
+ถว้ ย) 18 ล้อ  วิ่งแบบสมบุกสมบัน 75% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0746,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+217,"รถบรรทุกซีเมนต์ผง (ชนิดเตา้ /ชนิด
+ถว้ ย) 18 ล้อ  วิ่งแบบสมบุกสมบัน 100% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0589,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+218,รถบรรทุกซีเมนต์ผง (ชนิดกล้วย) 18 ล้อ  วิ่งปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,0.946,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+219,รถบรรทุกซีเมนต์ผง (ชนิดกล้วย) 18 ล้อ  วิ่งปกติ 50% Loading,น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,tkm,0.084,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+220,รถบรรทุกซีเมนต์ผง (ชนิดกล้วย) 18 ล้อ  วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0577,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+221,รถบรรทุกซีเมนต์ผง (ชนิดกล้วย) 18 ล้อ  วิ่งปกติ 100% Loading,น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,tkm,0.0433,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+222,"รถบรรทุกซีเมนต์ผง (ชนิดกล้วย) 18 ล้อ  วิ่งสมบุกสมบัน
+0% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,1.1855,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+223,"รถบรรทุกซีเมนต์ผง (ชนิดกล้วย) 18 ล้อ  วิ่งสมบุกสมบัน
+50% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.1049,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+224,"รถบรรทุกซีเมนต์ผง (ชนิดกล้วย) 18 ล้อ  วิ่งสมบุกสมบัน
+75% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0745,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+225,"รถบรรทุกซีเมนต์ผง (ชนิดกล้วย) 18 ล้อ  วิ่งสมบุกสมบัน
+100% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0591,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+226,รถบรรทุกเฉพาะกิจ (ติดเครน) 10 ล้อ  วิ่งปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,0.5977,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+227,รถบรรทุกเฉพาะกิจ (ติดเครน) 10 ล้อ  วิ่งปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0956,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+228,รถบรรทุกเฉพาะกิจ (ติดเครน) 10 ล้อ  วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0671,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+229,รถบรรทุกเฉพาะกิจ (ติดเครน) 10 ล้อ  วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0514,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+230,"รถบรรทุกเฉพาะกิจ (ติดเครน) 10 ล้อ  วิ่งแบบสมบุกสมบัน
+0% Loading","น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,0.643,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+231,"รถบรรทุกเฉพาะกิจ (ติดเครน) 10 ล้อ  วิ่งแบบสมบุกสมบัน
+50% Loading","น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.1065,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+232,"รถบรรทุกเฉพาะกิจ (ติดเครน) 10 ล้อ  วิ่งแบบสมบุกสมบัน
+75% Loading","น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0752,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+233,"รถบรรทุกเฉพาะกิจ (ติดเครน)
+10 ล้อ  วิ่งแบบสมบุกสมบัน 100% Loading","น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0573,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+234,รถบรรทุกขยะ 6 ล้อ  วิ่งปกติ 0% Loading,น้ำหนักบรรทุกสูงสุด 11 ตัน; ใชน้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,km,0.4923,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+235,รถบรรทุกขยะ 6 ล้อ  วิ่งปกติ 50% Loading,"น้ำหนักบรรทุกสูงสุด 11 ตัน; ใช้น้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.084,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+236,รถบรรทุกขยะ 6 ล้อ  วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 11 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0607,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+237,รถบรรทุกขยะ 6 ล้อ  วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 11 ตัน; ใช้น้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0475,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+238,รถบรรทุกขยะ 6 ล้อ  วิ่งแบบ สมบุกสมบัน 0% Loading,"น้ำหนักบรรทุกสูงสุด 11 ตัน; ใช้น้ำมันดีเซล เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",km,0.5446,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+239,รถบรรทุกขยะ 6 ล้อ  วิ่งแบบ สมบุกสมบัน 50% Loading,"น้ำหนักบรรทุกสูงสุด 11 ตัน; ใชน้ำมันดีเซล เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.0945,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+240,รถบรรทุกขยะ 6 ล้อ  วิ่งแบบ สมบุกสมบัน 75% Loading,"น้ำหนักบรรทุกสูงสุด 11 ตัน; ใชน้ำมันดีเซล เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0693,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+241,รถบรรทุกขยะ 6 ล้อ  วิ่งแบบ สมบุกสมบัน 100% Loading,"น้ำหนักบรรทุกสูงสุด 11 ตัน; ใชน้ำมันดีเซล เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0552,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+242,"รถกระบะบรรทุกพ่วง 18 ล้อ วิ่งปกติและแบบสมบุกสมบัน
+25% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้CNG เป็ น เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.2145,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+243,"รถกระบะบรรทุกพ่วง 18 ล้อ วิ่งปกติและแบบสมบุกสมบัน
+50% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้CNG เป็ น เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a
+V1.03",tkm,0.1072,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+244,"รถกระบะบรรทุกพ่วง 18 ล้อ
+วิ่งปกติและแบบสมบุกสมบัน 75% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้CNG เป็ น
+เช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0715,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+245,"รถกระบะบรรทุกพ่วง 18 ล้อ
+วิ่งปกติและแบบสมบุกสมบัน 100% Loading","น้ำหนักบรรทุกสูงสุด 32 ตัน; ใช้CNG เป็ น
+เชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0536,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+246,รถกระบะบรรทุก 10 ล้อ  วิ่งปกติ 0% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล B5 เป็ นเช้ือเพลิง; LCIA method IPCC 2013 GWP
+100a V1.03",km,0.5344,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+247,รถกระบะบรรทุก 10 ล้อ  วิ่งปกติ 50% Loading,น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล B5 เป็ นเช้ือเพลิง; LCIA method IPCC 2013 GWP 100a V1.03,tkm,0.0786,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+248,รถกระบะบรรทุก 10 ล้อ  วิ่งปกติ 75% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล B5 เป็ นเช้ือเพลิง; LCIA method IPCC 2013 GWP
+100a V1.03",tkm,0.0543,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+249,รถกระบะบรรทุก 10 ล้อ  วิ่งปกติ 100% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล B5
+เป็ นเชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0419,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+250,รถกระบะบรรทุก 10 ล้อ  วิ่งแบบ สมบุกสมบัน 0% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใชน้ำมันดีเซล B5
+เป็ นเชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",km,0.6374,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+251,รถกระบะบรรทุก 10 ล้อ  วิ่งแบบ สมบุกสมบัน 50% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล B5 เป็ นเชื้อเพลิง; LCIA method IPCC 2013 GWP
+100a V1.03",tkm,0.0972,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+252,รถกระบะบรรทุก 10 ล้อ  วิ่งแบบ สมบุกสมบัน 75% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล B5 เป็ นเช้ือเพลิง; LCIA method IPCC 2013 GWP
+100a V1.03",tkm,0.0684,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+253,รถกระบะบรรทุก 10 ล้อ  วิ่งแบบ สมบุกสมบัน 100% Loading,"น้ำหนักบรรทุกสูงสุด 16 ตัน; ใช้น้ำมันดีเซล B5
+เป็ นเชื้อเพลิง; LCIA method IPCC 2013 GWP 100a V1.03",tkm,0.0536,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+254,เรือ แบบ bulk,"Transport, transoceanic tanker (เรือขนส่งขา้ มมหาสมุทรแบบ bulk)",tkm,0.0056,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+255,เรือบรรทุก container,"Transport, transoceanic freight ship (เรือขนส่งขา้ มมหาสมุทรที่เป็ นสนคา้ )",tkm,0.0107,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+256,เรือขนส่งตามล าน้ำ,"Transport, barge",tkm,0.0446,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+257,เส้นด้ายฝ้ายหวี,"จากส้นใยฝ้าย 100; จากกระบวนการปั่นเส้นด้าย;
+; LCIA method IPCC 2013 GWP 100a V1.03",kg,8.7658,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+258,เส้นด้ายฝ้ายสาง,"จากส้นใยฝ้าย 100%; จากกระบวนการปั่น
+เส้นด้าย; LCIA method IPCC 2013 GWP 100a V1.03",kg,8.0419,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+259,เส้นด้ายโพลีเอสเตอร์; จากกระบวนการป่ันเส้นด้าย,จากส้นใยโพลีเอสเตอร์ 100%; LCIA method IPCC 2013 GWP 100a V1.03,kg,3.7902,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+260,เส้นด้ายฝ้ายผสมโพลีเอสเตอร์ แบบ CVC,"อัตราส่วนผสมส้นใยฝ้าย 60% และส้นใยโพลีเอ สเตอร์ 40%; จากกระบวนการปั่นเส้นด้าย; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,4.528,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+261,เส้นด้ายฝ้ายผสมโพลีเอสเตอร์ แบบ TC,"อัตราส่วนผสมส้นใยฝ้าย 34% และส้นใยโพลีเอ
+สเตอร์ 66%; จากกระบวนการปั่นเส้นด้าย; LCIA method IPCC 2013 GWP 100a V1.03",kg,5.5383,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+262,เส้นด้ายฝ้าย,อัตราส่วนผสมส้นใยฝ้าย > 85%; ผ่านการย้อมสี; LCIA method IPCC 2013 GWP 100a V1.03,kg,12.0474,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+263,เส้นด้ายโพลีเอสเตอร์; จากกระบวนการย้อมสี,อัตราส่วนผสมส้นใยโพลีเอสเตอร์ > 85%; LCIA method IPCC 2013 GWP 100a V1.03,kg,6.7552,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+264,เส้นด้ายฝ้ายผสมโพลีเอสเตอร์ แบบ CVC,"อัตราส่วนผสมส้นใยโพลีเอสเตอร์ > 85%; จาก กระบวนการย้อมสี; LCIA method IPCC 2013
+GWP 100a V1.03",kg,10.163,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+265,เส้นด้ายฝ้ายผสมโพลีเอสเตอร์ แบบ TC,"อัตราส่วนผสมส้นใยฝ้าย 34% และส้นใยโพลีเอ สเตอร์ 66%; จากกระบวนการย้อมสี; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,10.3192,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+266,ผ้าทอจากเส้นด้ายฝ้าย,"อัตราส่วนผสมส้นใยฝ้าย > 85%;  น้ำหนักไม่เกิน 200 กรัมต่อตารางเมตร; LCIA method IPCC
+2013 GWP 100a V1.03",kg,12.9209,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+267,ผ้าทอจากเส้นด้ายฝ้าย; จากกระบวนการฟอกย้อมและตกแต่ง สำเร็จ,"อัตราส่วนผสมส้นใยฝ้าย > 85%; น้ำหนักไม่เกิน 200 กรัมต่อตารางเมตร; LCIA method IPCC
+2013 GWP 100a V1.03",kg,17.1644,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+268,ผ้าทอจากเส้นด้ายโพลีเอสเตอร์,อัตราส่วนผสมส้นใยโพลีเอสเตอร์ > 85%; LCIA method IPCC 2013 GWP 100a V1.03,kg,6.5182,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+269,"ผ้าทอจากเส้นด้ายโพลีเอสเตอร์;จาก กระบวนการฟอกย้อมและตกแต่ง
+สำเร็จ",อัตราส่วนผสมส้นใยโพลีเอสเตอร์ > 85%; LCIA method IPCC 2013 GWP 100a V1.03,kg,12.3011,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+270,ผ้าทอจากเส้นด้ายฝ้ายผสม โพลีเอสเตอร์ แบบ CVC,"อัตราส่วนผสมส้นใยฝ้าย 60% และส้นใยโพลีเอ สเตอร์ 40%; LCIA method IPCC 2013 GWP
+100a V1.03",kg,7.1974,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+271,"ผ้าทอจากเส้นด้ายฝ้ายผสม โพลีเอสเตอร์ แบบ CVC; จากกระบวนการฟอกย้อมและตกแต่ง
+สำเร็จ",อัตราส่วนผสมส้นใยฝ้าย 60% และส้นใยโพลีเอ สเตอร์ 40%; LCIA method IPCC 2013 GWP 100a V1.03,kg,11.7725,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+272,ผ้าทอจากเส้นด้ายฝ้ายผสม โพลีเอสเตอร์ แบบ TC,"อัตราส่วนผสมส้นใยฝ้าย 34% และส้นใยโพลีเอ
+สเตอร์ 66%; LCIA method IPCC 2013 GWP 100a V1.03",kg,9.0498,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+273,"ผ้าทอจากเส้นด้ายฝ้ายผสม โพลีเอสเตอร์ แบบ TC;
+จากกระบวนการฟอกย้อมและตกแต่ง สำเร็จ",อัตราส่วนผสมส้นใยฝ้าย 34% และส้นใยโพลีเอ สเตอร์ 66%; LCIA method IPCC 2013 GWP 100a V1.03,kg,15.4007,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+274,ผ้าถักจากเส้นด้ายฝ้าย,อัตราส่วนผสมส้นใยฝ้าย > 85%; LCIA method IPCC 2013 GWP 100a V1.03,kg,8.8571,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+275,ผ้าถักจากเส้นด้ายฝ้าย; จากกระบวนการฟอกย้อมและตกแต่ง สำเร็จ,อัตราส่วนผสมส้นใยฝ้าย > 85%; LCIA method IPCC 2013 GWP 100a V1.03,kg,12.926,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+276,ผ้าถักจากเส้นด้ายโพลีเอสเตอร์,อัตราส่วนผสมส้นใยโพลีเอสเตอร์ > 85%; LCIA method IPCC 2013 GWP 100a V1.03,kg,4.5496,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+277,"ผ้าถักจากเส้นด้ายโพลีเอสเตอร์; จาก กระบวนการฟอกย้อมและตกแต่ง
+สำเร็จ",อัตราส่วนผสมส้นใยโพลีเอสเตอร์ > 85%; LCIA method IPCC 2013 GWP 100a V1.03,kg,7.1259,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+278,ผ้าถักจากเส้นด้ายฝ้ายผสม โพลีเอสเตอร์ แบบ CVC,"อัตราส่วนผสมส้นใยฝ้าย 60% และส้นใยโพลีเอ สเตอร์ 40%; LCIA method IPCC 2013 GWP
+100a V1.03",kg,5.3651,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+279,"ผ้าถักจากเส้นด้ายฝ้ายผสม โพลีเอสเตอร์ แบบ CVC; จากกระบวนการฟอกย้อมและตกแต่ง
+สำเร็จ",อัตราส่วนผสมส้นใยฝ้าย 60% และส้นใยโพลีเอ สเตอร์ 40%; LCIA method IPCC 2013 GWP 100a V1.03,kg,9.2033,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+280,ผ้าถักจากเส้นด้ายฝ้ายผสม โพลีเอสเตอร์ แบบ TC,"อัตราส่วนผสมส้นใยฝ้าย 34% และส้นใยโพลีเอ สเตอร์ 66%; LCIA method IPCC 2013 GWP
+100a V1.03",kg,5.978,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+281,"ผ้าถักจากเส้นด้ายฝ้ายผสม โพลีเอสเตอร์ แบบ TC; จาก กระบวนการฟอกย้อมและตกแต่ง
+สำเร็จ",อัตราส่วนผสมส้นใยฝ้าย 34% และ ส้นใยโพลีเอสเตอร์ 66%,kg,9.4445,Thai National LCI Database/MTEC,Update_09Apr15
+282,คาร์บอนไฟเบอร์,,Kg,7.55,Ecoinvent 2.0 (ส่วนผสมของ graphite และ ไนล่อน),Update_24Aug11
+283,ผ้าถัก CVC (70/30),,kg,11.69,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+284,ผ้าถัก CVC (70/30) (เฉดสีกลาง),,kg,17.2,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+285,ผ้าถัก CVC (70/30) (เฉดสีเข้ม),,kg,20.46,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+286,ผ้าถัก CVC (70/30) (เฉดสีเข้มมาก),,kg,23.81,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+287,ผ้าถัก CVC (70/30) (เฉดสีอ่อน),,kg,15.36,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+288,ผ้าถัก TC (65/35),,kg,11.56,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+289,ผ้าถัก TC (65/35) (เฉดสีกลาง),,kg,17.25,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+290,ผ้าถัก TC (65/35) (เฉดสีเข้ม),,kg,20.89,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+291,ผ้าถัก TC (65/35)  (เฉดสีเข้มมาก),,kg,24.61,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+292,ผ้าถัก TC (65/35) (เฉดสีอ่อน),,kg,15.21,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+293,ผ้าถักฝ้าย,,kg,12.62,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+294,ผ้าถักฝ้าย (เฉดสีกลาง),,kg,18.05,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+295,ผ้าถักฝ้าย (เฉดสีเข้ม),,kg,21,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+296,ผ้าถักฝ้าย (เฉดสีเข้มมาก),,kg,24.02,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+297,ผ้าถักฝ้าย (เฉดสีอ่อน),,kg,16.39,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+298,ผ้าถักโพลิเอสเทอร์,,kg,5.44,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+299,ผ้าถักโพลิเอสเทอร์ (เฉดสีกลาง),,kg,11.21,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+300,ผ้าถักโพลิเอสเทอร์ (เฉดสีเข้ม),,kg,15.22,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+301,ผ้าถักโพลิเอสเทอร์ (เฉดสีเข้มมาก),,kg,19.33,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+302,ผ้าถักโพลิเอสเทอร์ (เฉดสีอ่อน),,kg,8.96,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+303,ผ้าทอ CVC (70/30),,kg,17.17,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+304,ผ้าทอ CVC (70/30) (เฉดสีกลาง),,kg,23.09,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+305,ผ้าทอ CVC (70/30) (เฉดสีเข้ม),,kg,26.35,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+306,ผ้าทอ CVC (70/30) (เฉดสีเข้มมาก),,kg,29.7,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+307,ผ้าทอ CVC (70/30) (เฉดสีอ่อน),,kg,21.25,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+308,ผ้าทอ TC (65/35),,kg,15.91,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+309,ผ้าทอ TC (65/35) (เฉดสีกลาง),,kg,21.82,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+310,ผ้าทอ TC (65/35) (เฉดสีเข้ม),,kg,25.45,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+311,ผ้าทอ TC (65/35) (เฉดสีเข้มมาก),,kg,29.18,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+312,ผ้าทอ TC (65/35) (เฉดสีอ่อน),,kg,19.77,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+313,ผ้าทอฝ้าย,,kg,18.24,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+314,ผ้าทอฝ้าย (เฉดสีอ่อน),,kg,22.58,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+315,ผ้าทอฝ้าย (เฉดสีกลาง),,kg,24.23,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+316,ผ้าทอฝ้าย (เฉดสีเข้ม),,kg,27.18,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+317,ผ้าทอฝ้าย (เฉดสีเข้มมาก),,kg,30.2,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+318,ผ้าทอโพลิเอสเทอร์,,kg,9.41,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+319,ผ้าทอโพลิเอสเทอร์ (เฉดสีกลาง),,kg,15.26,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+320,ผ้าทอโพลิเอสเทอร์ (เฉดสีเข้ม),,kg,19.27,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+321,ผ้าทอโพลิเอสเทอร์ (เฉดสีเข้มมาก),,kg,23.37,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+322,ผ้าทอโพลิเอสเทอร์ (เฉดสีอ่อน),,kg,13.01,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+323,เส้นด้าย CVC (70/30),,kg,11.01,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+324,เส้นด้าย TC (65/35),,kg,9.98,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+325,เส้นด้ายปอกระเจา,,Kg,0.5161,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+326,เส้นด้ายฝ้าย,,kg,11.9,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+327,เส้นด้ายโพลิเอสเทอร์,,kg,4.13,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+328,ส้นใยขนแกะ,,kg,41.3,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+329,ส้นใยไนล่อน 6 ใยยาว (SDY),,kg,5.65,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+330,ส้นใยฝ้าย (เฉลี่ย) การนำเข้าการผลิตแบบดั้งเติม,,kg,5.79,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+331,ส้นใยฝ้าย US การผลิตแบบดั้งเดิม,,kg,6.05,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+332,ส้นใยฝ้าย US การผลิตแบบออร์แกน นิกส์,,kg,2.45,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+333,ส้นใยโพลีเอสเตอร์ใยยาว (SDY),,kg,5.47,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+334,ส้นใยโพลีเอสเตอร์ใยส้ัน (PSF),,kg,3.49,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+335,ส้นใยเรยอนใยส้ัน,,kg,7.28,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์ส่ิงทอ, 2554",Update_24Aug11
+336,ส้นใยอะคริลิคใยส้ัน (ASF),,kg,10.1,"โครงการพัฒนาขอ้ ก าหนด รายผลิตภัณฑ์สิ่งทอ, 2554",Update_24Aug11
+337,ยางก้อนถ้วย (DRC 55%),"DRC 55%; ได้จากการเติมกรดซัลฟูริกลงในน้ำยาง สด; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,0.0863,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+338,น้ำยางขน้  (DRC 60%),"DRC 60%; ใช้เทคโนโลยีการผลิตโดยการป่ัน
+แยก; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.2059,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+339,ยางสกิม,"DRC 90%; ผลิตภัณฑ์ยางสกิมคละประเภทและ
+คุณภาพ; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.3903,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+340,ยางแท่ง STR 10/20,"ผลิตจากยางก้อนถ้วย ยางแผ่นดิบและเศษยาง โดยผ่านกระบวนการสับบดย่อย ลา้ งท าความ
+สะอาด อบแหง้  อัดแท่ง และบรรจุหีบห่อ; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.2966,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+341,ยางแท่ง STR XL/5L/5CV,"DRC 91.31%; ผลิตภจากน้ำยางสดและผ่าน
+กระบวนการจับตัวดว้ ยกรดตัดย่อยและอบแหง้ ; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.2071,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+342,กลา้ ยางชำถุง,"ครอบคลุมตั้งแต่การดูแลตนพันธุ์ยาง การเพาะกลา้ ยางในแปลง และการติดตายางและชำถุง; LCIA
+method IPCC 2013 GWP 100a V1.03",p,0.347,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+343,Synthetic rubber,"Synthetic rubber, at plant",kg,3.5138,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+344,Styrene butadiene rubber (SBR),,kg,0.9732,Franklin USA 98,Update_24Sep12
+345,ไม้ยางพาราสด,"จากการปลูกไม้ยางพารา; ครอบคลุมตลอดช่วงอายุ 25 ปี; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,0.0363,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+346,ไม้ยางพาราท่อนสด,"จากการตัดโค่นต้นยางพาราที่ผ่านการกรีดน้ำยาง จนไม่สามารถใหผ้ ลผลิตน้ำยางไดอ้ ีก หรือมีอายุ 25 ปี ขึ้นไป; LCIA method IPCC 2013 GWP
+100a V1.03",kg,0.0471,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+347,กิ่งไม้ยางพารา,"จากการตัดโค่นต้นยางพาราที่ผ่านการกรีดน้ำยาง จนไม่สามารถใหผ้ ลผลิตน้ำยางไดอ้ ีก หรือมีอายุ 25 ปี ขึ้นไป; LCIA method IPCC 2013 GWP
+100a V1.03",kg,0.0471,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+348,ไม้ยางพาราแปรรูปเกรด AB,ผลิตจากไม้ยางพาราสดท่อน ผ่านกระบวนการแปร รูป อัดน้ำยา และอบแหง้ ; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.0829,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+349,ไม้ยางพาราแปรรูปเกรด C,"ผลิตจากไม้ยางพาราสดท่อน ผ่านกระบวนการแปร
+รูป อัดน้ำยา และอบแหง้ ; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0829,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+350,ปีกไม้ยางพารา,"ผลิตภัณฑ์ร่วมจากการท าไมแ้ ปรรูปจากไม้
+ยางพารา; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0829,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+351,ไม้ยางพาราประสานเกรด AB,"ผลิตจากไม้ยางพารา ผ่านกระบวนการเปิดผิว แยก เกรดไม้ อัดน้ำยาลามิเนท จนกระทั่งห่อและบรรจุ;
+LCIA method IPCC 2013 GWP 100a V1.03",kg,0.2309,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+352,ไม้ยางพาราประสานเกรด C,"ผลิตจากไม้ยางพารา ผ่านกระบวนการเปิดผิว แยก เกรดไม้ อัดน้ำยาลามิเนท จนกระทั่งห่อและบรรจุ;
+LCIA method IPCC 2013 GWP 100a V1.03",kg,0.2309,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+353,ไม้ยางพาราอัดประสานเกรด AB,"ผลิตจากไม้ยางพารา; ผลิตร่วมกับไมป้ ระสานจาก
+ไม้ยางพารา; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.3841,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+354,ไม้ยางพาราอัดประสานเกรด C,"ผลิตจากไม้ยางพารา; ผลิตร่วมกับไมป้ ระสานจาก ไม้ยางพารา; LCIA method IPCC 2013 GWP
+100a V1.03",kg,0.3841,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+355,พาเลทไม้ยางพารา,"ผลิตจากไม้ยางพารา ผ่านการแปรรูปอบแหง้  เกรด C; ผ่านกระบวนการรีดตัด-เบนซอ ประกอบ-เจียรพา เลท และการอบไม;้  LCIA method IPCC 2013
+GWP 100a V1.03",kg,0.093,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+356,ขี้เลื่อยจากไม้ยางพาราแปรรูป,"ผลิตภัณฑ์ร่วมจากการท าไมแ้ ปรรูปจากไม้
+ยางพารา; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0829,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+357,ขี้เลื่อยจากไม้ยางพาราประสาน,"ผลิตภัณฑ์ร่วมจากการท าไมแ้ ปรรูปจากไม้
+ยางพารา; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.2309,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+358,ขี้เลื่อยจากไม้ยางพาราอัดประสาน,"ผลิตภัณฑ์ร่วมจากการท าไมแ้ ปรรูปจากไม้
+ยางพารา; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.3841,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+359,ขี้เลื่อยจากพาเลทไม้ยางพารา,"ผลิตภัณฑ์ร่วมจากการท าไมแ้ ปรรูปจากไม้
+ยางพารา; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.093,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+360,น้ำยางสด,"DRC 30; ไม่มีการเติมสารรักษาสภาพน้ำยาง; ครอบคลุมตั้งแต่การปลูกยางพารา การดูแลตน้ ยางพาราก่อนเปิดกรีด และการดูแลต้นยางพารา หลังเปิดกรีดและการเก็บเกี่ยวผลผลิต; ครอบคลุม
+ตลอดชวงอายุ 25 ปี; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0363,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+361,เศษยาง,DRC 55%; ไม่มีการเติมสารรักษาสภาพน้ำยาง; ครอบคลุมตลอดช่วงอายุ 25 ปี; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.0364,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+362,ผลปาล์มทะลายสด ค่าเฉลี่ยประเทศ ไทย,"จากการปลูกปาล์มน้ำมันทั่วประเทศไทย ทั้งขนาด พื้นที่นอ้ ยกว่าและมากกว่า 250 ไร่; ครอบคลุม
+ตลอดช่วงอายุ 25 ปี; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0717,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+363,ผลปาล์มทะลายสดภาคตะวันออก (สวนขนาดเล็ก),"จากการปลูกปาล์มน้ำมัน ที่มีขนาดพื้นที่นอ้ ยกว่า
+250 ไร่; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0713,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+364,ผลปาล์มทะลายสดภาคตะวันออก (สวนขนาดใหญ่),"จากการปลูกปาล์มน้ำมัน ที่มีขนาดพื้นที่มากกว่า 250 ไร่; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,0.0848,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+365,ผลปาล์มทะลายสดภาคใตตอนบน (สวนขนาดเล็ก),"จากการปลูกปาล์มน้ำมัน ที่มีขนาดพื้นที่นอ้ ยกว่า 250 ไร่; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,0.061,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+366,ผลปาล์มทะลายสดภาคใตตอนบน (สวนขนาดใหญ่),"จากการปลูกปาล์มน้ำมัน ที่มีขนาดพื้นที่มากกว่า
+250 ไร่; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0626,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+367,"ผลปาล์มทะลายสดภาคใตตอนล่างฝั่ง ตะวันออก
+(สวนขนาดเล็ก)","จากการปลูกปาล์มน้ำมัน ที่มีขนาดพื้นที่นอ้ ยกว่า
+250 ไร่; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0808,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+368,"ผลปาล์มทะลายสดภาคใตตอนล่างฝั่ง ตะวันออก
+(สวนขนาดใหญ่)","จากการปลูกปาล์มน้ำมัน ที่มีขนาดพื้นที่มากกว่า 250 ไร่; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,0.0738,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+369,"ผลปาล์มทะลายสดภาคใตตอนล่างฝั่ง ตะวันตก
+(สวนขนาดเล็ก)","จากการปลูกปาล์มน้ำมัน ที่มีขนาดพื้นที่นอ้ ยกว่า 250 ไร่; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,0.0729,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+370,"ผลปาล์มทะลายสดภาคใตตอนล่างฝั่ง ตะวันตก
+(สวนขนาดใหญ่)","จากการปลูกปาล์มน้ำมัน ที่มีขนาดพื้นที่มากกว่า 250 ไร่; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,0.0841,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+371,น้ำมันปาล์มดิบค่าเฉลี่ยประเทศไทย,"จากกระบวนการสกัดน้ำมันปาล์ม ผ่านการหีบน้ำมัน แบบมาตรฐาน (Wet extraction); ขอ้ มูลจาก โรงงานท้ังที่มีและไม่มีระบบผลิตก๊าซชีวภาพ;
+LCIA method IPCC 2013 GWP 100a V1.03",kg,0.9067,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+372,น้ำมันปาล์มดิบ; จากโรงงานที่มีระบบ ผลิตก๊าซชีวภาพ,"จากกระบวนการสกัดน้ำมันปาล์ม ผ่านการหีบน้ำมัน แบบมาตรฐาน (Wet extraction); LCIA method
+IPCC 2013 GWP 100a V1.03",kg,0.7564,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+373,น้ำมันปาล์มดิบ; จากโรงงานที่ไม่มี ระบบผลิตก๊าซชีวภาพ,"จากกระบวนการสกัดน้ำมันปาล์ม ผ่านการหีบน้ำมัน
+แบบมาตรฐาน (Wet extraction); LCIA method IPCC 2013 GWP 100a V1.03",kg,1.2482,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+374,กะลาปาล์มค่าเฉลี่ยประเทศไทย,"ผลิตภัณฑ์ร่วมจากการผลิตน้ำมันปาล์มดิบ; ปันส่วน
+โดยพลังงาน; ขอ้ มูลจากโรงงานทั้งที่มีและไม่มี ระบบผลิตก๊าซชีวภาพ; LCIA method IPCC 2013
+GWP 100a V1.03",kg,0.3965,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+375,กะลาปาล์ม; จากโรงงานที่มีระบบ ผลิตก๊าซชีวภาพ,"ผลิตภัณฑ์ร่วมจากการผลิตน้ำมันปาล์มดิบ; ปันส่วน
+โดยพลังงาน; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.321,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+376,กะลาปาล์ม; จากโรงงานที่ไม่มีระบบ ผลิต,"ผลิตภัณฑ์ร่วมจากการผลิตน้ำมันปาล์มดิบ; ปันส่วน
+โดยพลังงาน; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.5294,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+377,เมล็ดในปาล์มค่าเฉลี่ย ประเทศไทย,"ผลิตภัณฑ์ร่วมจากการผลิตน้ำมันปาล์มดิบ; ปันส่วน โดยพลังงาน; ขอ้ มูลจากโรงงานทั้งที่มีและไม่มี ระบบผลิตก๊าซชีวภาพ; LCIA method IPCC 2013
+GWP 100a V1.03",kg,0.6167,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+378,เมล็ดในปาล์ม; จากโรงงานที่มีระบบ ผลิตก๊าซชีวภาพ,"ผลิตภัณฑ์ร่วมจากการผลิตน้ำมันปาล์มดิบ; ปันส่วน
+โดยพลังงาน; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.5006,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+379,เมล็ดในปาล์ม; จากโรงงานที่ไม่มี ระบบผลิตก๊าซชีวภาพ,"ผลิตภัณฑ์ร่วมจากการผลิตน้ำมันปาล์มดิบ; ปันส่วน
+โดยพลังงาน; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.8259,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+380,น้ำมันปาล์มบริสุทธิ์ (RBDPO) ค่าเฉลี่ยประเทศไทย,"จากกระบวนการกลั่นบริสุทธิ์น้ำมันปาล์มดิบ (Refine processing); LCIA method IPCC 2013
+GWP 100a V1.03",kg,1.399,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+381,กรดไขมันปาล์ม (PFAD) ค่าเฉลี่ย ประเทศไทย,"ผลิตภัณฑ์ร่วมจากการผลิตน้ำมันปาล์มบริสุทธิ์; ปัน ส่วนโดยพลังงาน; LCIA method IPCC 2013
+GWP 100a V1.03",kg,1.4511,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+382,น้ำมันปาล์มโอเลอิน (Olein) ค่าเฉลี่ย ประเทศไทย,จากกระบวนการแยกส่วนน้ำมันปาล์มบริสุทธิ์ (Fractionation); LCIA method IPCC 2013 GWP 100a V1.03,kg,1.4124,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+383,ไขมันปาล์ม (Strearin) ค่าเฉลี่ย ประเทศไทย,"ผลิตภัณฑ์ร่วมจากการผลิตน้ำมันปาล์มโอเลอิน; ปันส่วนโดยพลังงาน; LCIA method IPCC 2013
+GWP 100a V1.03",kg,1.5328,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+384,ไบโอดีเซลค่าเฉลี่ยประเทศไทย,"จากโรงงานผลิตไบโอดีเซล ทั้งที่มีและไม่มี กระบวนการกลั่นบริสุทธิ์น้ำมันปาล์มดิบ หรือมีการ ผลิตปาล์มโอเลอิน หรือผลิตภัณฑ์อื่นๆ ร่วมดว้ ย;
+LCIA method IPCC 2013 GWP 100a V1.03",kg,1.3571,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+385,กลีเซอรีนค่าเฉลี่ยประเทศไทย,ผลิตภัณฑ์ร่วมจากการผลิตไบโอดีเซล; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.8642,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+386,อาหารสุกรขุน,"ผลิตภัณฑ์อาหารสำเร็จรูปสุกรขุนเป็ นอาหารสำหรับเล้ียง สุกรเพื่อขายเน้ือ ซง่ึ จะใชร้ ะยะเวลาการเลี้ยงประมาณ 5 เดือนหรือถงน้ำหนักประมาณ 90-110 กิโลกรัม; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.8659,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+387,อาหารไก่เนื้อที่มีโปรตีนจากเน้ือสัตว์ เป็ นองค์ประกอบ,"ผลิตภัณฑ์อาหารสำเร็จรูปสำหรับไก่เนื้อที่มีโปรตีน จากสัตว์ เป็ นอาหารสัตว์ที่มีสารอาหารโปรตีนท้ัง จากพืชและสัตว์ใชส้  าหรับเลี้ยงไก่เพื่อขายเน้ือ;
+LCIA method IPCC 2013 GWP 100a V1.03",kg,0.8132,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+388,อาหารไก่เนื้อที่ไม่มีโปรตีนจาก เน้ือสัตว์เป็ นองค์ประกอบ,"ผลิตภัณฑ์อาหารสำเร็จรูปสำหรับไก่เน้ือที่ไม่มี โปรตีนจากสัตว์ เป็ นอาหารสัตว์ที่มีสารอาหาร โปรตีนจากพืชเพียงอย่างเดียว ใชส้  าหรับเลี้ยงไก่ เพื่อขายเนื้อ; LCIA method IPCC 2013 GWP
+100a V1.03",kg,0.9183,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+389,อาหารไก่ไข่,"ผลิตภัณฑ์อาหารสำเร็จรูปสำหรับไก่ไข่ ใชส้  าหรับ
+เลี้ยงไก่เพื่อผลิตไข่ไก่เป็ นหลัก; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.7083,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+390,ถั่วเหลือง,การผลิตถั่วเหลืองชนิดสำหรับสกัดน้ำมัน; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.728,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+391,ถั่วเหลืองอินทรีย์,"ครอบคลุมตังแต่การเตรียมแปลง การปลูก การดูแลรักษา และการเก็บเกี่ยว; ขอมูลจากแปลงเกษตรกรที่ขึ้นทะเบียน การรับรองมาตรฐานเกษตรอินทรีย์; LCIA method IPCC
+2013 GWP 100a V1.03",kg,0.0969,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+392,มันสำปะหลัง,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา (การใส่ปุ๋ย และการป้องกันก าจัดแมลง) และ การเก็บเกี่ยว; ขอ้ มูลการปลูกมันสำปะหลังในเขต ภาคตะวันออกเฉียงเหนือของประเทศไทย; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.0489,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+393,มันสำปะหลัง (ปลูกแบบปลอดภัย; อินทรีย์),"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา (การใส่ปุ๋ย และการป้องกันก าจัดแมลง) และ การเก็บเกี่ยว; ขอ้ มูลการปลูกมันสำปะหลังในเขต ภาคตะวันออกเฉียงเหนือของประเทศไทย; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.053,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+394,มันสำปะหลังหมักอินทรีย์,"ครอบคลุมตั้งแต่การเตรียมแปลง การเพาะปลูก การ ดูแลรักษา และการเก็บเกี่ยว; LCIA method IPCC
+2013 GWP 100a V1.03",kg,0.0833,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+395,กากถั่วเหลือง,"การสกัดน้ำมันถั่วเหลืองและไดผ้ ลิตภัณฑ์พลอยได ้ คือกากถั่วเหลือง ซึ่งจะถูกน าไปผ่านกระบวนการ ผลิตเป็ นกากถั่วเหลืองเพ่ือใชเ้ ป็ นวัตถุดิบสำหรับ ผลิตอาหารสัตว์; LCIA method IPCC 2013 GWP
+100a V1.03",kg,1.024,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+396,เศษปลาจากซูริมิ,"เศษปลาซ่ึงเป็ นผลิตภัณฑ์พลอยได้จากโรงงานที่ ผลิตซูริมิ; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,0.2071,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+397,เศษปลาจากทูน่า,"เศษทูน่าซึ่งเป็ นผลิตภัณฑ์พลอยได้จากโรงงานที่ ผลิตผลิตภัณฑ์จากทูน่าในรูปแบบต่างๆ ตาม ประเภทบรรจุภัณฑ์; LCIA method IPCC 2013
+GWP 100a V1.03",kg,1.2702,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+398,ปลาเป็ ด,"การไดม้ าซ่ึงปลาที่ไม่ใชบ้ ริโภค เป็ นผลิตภัณฑ์ พลอยได้จากการท าประมงในน่านน้ำเพื่อจับปลา เพื่อการบริโภค; LCIA method IPCC 2013 GWP
+100a V1.03",kg,0.2071,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+399,ปลาป่นที่ผลิตจากเศษปลาซูริมิ,"ปลาป่นที่ผลิตโดยใชว้ ัตถุดิบหลักจากเศษปลาซึ่ง เป็ นผลิตภัณฑ์พลอยได้จากโรงงานผลิตซูริมิ;
+LCIA method IPCC 2013 GWP 100a V1.03",kg,1.7598,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+400,ปลาป่นที่ผลิตจากเศษปลาทูน่า,"ปลาป่นที่ผลิตโดยใชว้ ัตถุดิบหลักจากเศษปลาทูน่า ซ่ึงเป็ นผลิตภัณฑ์พลอยได้จากโรงงานผลิต
+ผลิตภัณฑ์จากทูน่า; LCIA method IPCC 2013 GWP 100a V1.03",kg,3.7187,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+401,ปลาป่นที่ผลิตจากปลาเป็ ด,ปลาป่นที่ผลิตโดยใชว้ ัตถุดิบหลักจากสัตว์น้ำที่ไม่น าไป บริโภคซงึ่ ได้จากการท าประมงในน่านน้ำเป็ นหลัก; LCIA method IPCC 2013 GWP 100a V1.03,kg,5.1364,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+402,แร่ธาตุพรีมิกซ์,"ผลิตจากการผสมแร่ธาตุต่างๆ ตามส่วนผสมเพื่อให ้ ไดแ้ ร่ธาตุและวิตามินพรีมิกซ์สำหรับการเลี้ยงโคนม;
+LCIA method IPCC 2013 GWP 100a V1.03",kg,0.1748,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+403,แร่ธาตุและวิตามินพรีมิกซ์,"ผลิตจากการผสมแร่ธาตุและวิตามินต่างๆ ตาม ส่วนผสมเพื่อใหไ้ ดแ้ ร่ธาตุและวิตามินพรีมิกซ์
+สำหรับการเลี้ยงโคนม; LCIA method IPCC 2013
+GWP 100a V1.03",kg,1.7246,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+404,หญ้ารูซ่ีสดอินทรีย์,"ครอบคลุมตั้งแต่การเตรียมแปลง การเพาะปลูก การ ดูแลรักษา และการปล่อยใหโคนมแทะเล็ม; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.0045,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+405,หญ้ากินนีสดอินทรีย์,"ครอบคลุมตั้งแต่การเตรียมแปลง การเพาะปลูก การ
+ดูแลรักษา และการเก็บเกี่ยว; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0018,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+406,หญ้าเนเปียร์สดอินทรีย์,"ครอบคลุมตั้งแต่การเตรียมแปลง การเพาะปลูก การ ดูแลรักษา และการเก็บเกี่ยว; LCIA method IPCC
+2013 GWP 100a V1.03",kg,0.0014,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+407,หญ้าแพงโกล่าสดอินทรีย์,"ครอบคลุมตั้งแต่การเตรียมแปลง การเพาะปลูก การ
+ดูแลรักษา และการเก็บเกี่ยว; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0034,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+408,กระถินสดอินทรีย์,"ครอบคลุมตั้งแต่การเตรียมแปลง การเพาะปลูก การ ดูแลรักษา และการเก็บเกี่ยว; LCIA method IPCC
+2013 GWP 100a V1.03",kg,0.0014,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+409,ถั่วฮามาต้าสดอินทรีย์,"ครอบคลุมตั้งแต่การเตรียมแปลง การเพาะปลูก การ
+ดูแลรักษา และการปล่อยใหโคนมแทะเล็ม; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0043,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+410,หญ้ากินนีแหงอินทรีย์ (ความชื้น 10%),"ผลิตจากหญ้ากินนีสดอินทรีย์ที่ปลูกในพื้นที่ฟาร์ม;
+ประกอบดว้ ยการตัด การอัดกอน และการตาก และเก็บเขา้ โรงเรือน; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.018,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+411,หญ้ากินนีอินทรีย์ หมักดว้ ยไซโล,"ผลิตจากหญ้ากินนีอินทรีย์สด โดยใชไ้ ซโลและ
+คลุมดว้ ยพลาสติก ใชเ้ วลาหมัก 60-75 วัน; ประกอบดว้ ย ขั้นตอนการตัด และการหมัก; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0031,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+412,หญ้าเนเปียร์อินทรีย์ หมักด้วย ถุงพลาสติก,"ผลิตจากหญ้าเนเปี ยร์อินทรีย์สด โดยหมักใน ถุงพลาสติกแลว้ ตากแดด ใชเ้ วลาหมัก 7 - 14 วัน; ประกอบดว้ ยขั้นตอนการตัด และการหมัก; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.004,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+413,อาหารขนโคนมอินทรีย์ (16-18% โปรตีน),"ประกอบดว้ ยขั้นตอนการบด และการผสม; ขอ้ มูล จากการทบทวนวรรณกรรม (อา้ งอิงจากกรมปศุ สัตว์); วัตถุดิบต่างๆ ประกอบดว้ ย มันสำปะหลัง ถั่ว เหลืองตม้  ใบกระถินตากแหง้  ร าหยาบ ร าอ่อน จมูก ข้าว กากเบียร์แหง้ และวิตามินและแร่ธาตุ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.6715,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+414,อาหารขนโคนมอินทรีย์ (16-18% โปรตีน) สำหรับการเลี้ยงเฉพาะช่วง ใหน้  ้านม (Lactation),"ประกอบดว้ ยขั้นตอนการบด และการผสม; วัตถุดิบ ประกอบดว้ ย หัวมันหมัก กากเบียร์แหง้  แร่ธาตุและ วิตามินพรีมิกซ์ และร าอ่อน; LCIA method IPCC
+2013 GWP 100a V1.03",kg,0.4148,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+415,อาหารขนโคนมอินทรีย์ (16-18% โปรตีน) สำหรับการเลี้ยงตลอด วัฎจักรชีวิต (Life cycle),"ประกอบดว้ ยขั้นตอนการบด และการผสม; วัตถุดิบ ประกอบดว้ ย หัวมันหมัก กากเบียร์แหง้  ยีสต์ ร า อ่อน ถั่วเหลืองอินทรีย์ และหญ้าหมักอินทรีย์;
+LCIA method IPCC 2013 GWP 100a V1.03",kg,0.3056,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+416,การปลูกข้าวโพดเลี้ยงสัตว์,"การปลูกข้าวโพดเลี้ยงสัตว์แบบ conventional ณ พื้นที่ปลูก; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,0.2441,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+417,เมล็ดข้าวโพดเลี้ยงสัตว์,เมล็ดข้าวโพดเลี้ยงสัตว์ ที่ความชื้น 15% ณ ไซโล; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.2827,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+418,เมล็ดข้าวโพดเล้ียงสัตว์,"เมล็ดข้าวโพดเล้ียงสัตว์ ที่ความช้ืน 15% ณ ลาน
+เท; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.3235,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+419,ถั่วเขียว,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.8808,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+420,ถั่วดำ,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.4078,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+421,ถั่วลิสง,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.7686,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+422,ถั่วเหลืองฝักสด,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.5724,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+423,ข้าวโพดหวาน,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.4156,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+424,อ้อยคั้นน้ำ,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.0622,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+425,อ้อยโรงงาน,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.025,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+426,ข้าวฟ่างเล้ียงสัตว์,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.6614,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+427,ข้าวฟ่างหวาน,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.0551,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+428,สับปะรดโรงงาน,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.3277,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+429,สับปะรดผลสด,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.125,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+430,ขิง,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.1249,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+431,กะหล่ำปลี,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.3538,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+432,ข้าวโพดฝักอ่อน,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.4324,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+433,หอมหัวใหญ่,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.3441,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+434,หอมแดง,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.4207,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+435,กระเทียม,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.4754,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+436,มันฝรั่ง,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.1447,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+437,ถั่วฝักยาว,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.3497,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+438,แตงกวา,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.3438,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+439,มะนาว,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.2023,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+440,ใบมะกรูด,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.4912,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+441,ผลมะกรูด,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.2812,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+442,กะเพรา,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.497,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+443,แครอท,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.2637,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+444,มะเขือเทศ,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.4785,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+445,ผักกาดหอม,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.9417,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+446,พริกขี้หนู,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.4299,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+447,พริกหวาน,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.5714,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+448,พริกช้ีฟ้า,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.461,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+449,หน่อไม้,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,1.0758,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+450,ตะไคร้,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.1706,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+451,ข่า,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.2355,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+452,กะหล่ำดอก,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.275,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+453,เห็ดฟาง,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.3036,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+454,งา,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.3438,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+455,ผักคะน้า,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.2554,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+456,ผักกาดเขียวกวางตุง้,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.2062,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+457,พริกไทย,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,1.3779,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+458,ถั่วแขก,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.3265,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+459,ชาอูหลง (แหง),"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,12.574,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+460,ชาอูหลง (สด),"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,1.6167,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+461,กระเจี๊ยบเขียว,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.1699,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+462,แตงโม,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.5224,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+463,กระเทียม (อินทรีย์),"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.1376,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+464,ถั่วแขก (อินทรีย์),"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.1661,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+465,กะหล่ำปลี (อินทรีย์),"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.3306,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+466,ผักกาดเขียวกวางตุง้  (อินทรีย์),"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.2745,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+467,ชาอูหลง (แหง) (อินทรีย์),"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,5.0743,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+468,ชาอูหลง (สด) (อินทรีย์),"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,2.4384,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+469,กาแฟอาราบิกา (อินทรีย์),"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.9297,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+470,หน่อไมฝ้ รั่ง (อินทรีย์),"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,1.2759,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+471,ผักกาดหัว (อินทรีย์),"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.2673,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+472,ทุเรียน,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.2387,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+473,ลำไยในฤดู,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.6027,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+474,ลำไยนอกฤดู,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.9772,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+475,ลิ้นจี่,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,1.2014,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+476,มังคุด,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.8683,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+477,ส้ม เขียวหวาน,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.7289,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+478,ส้ม โอ,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.2547,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+479,เงาะ,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.203,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+480,มะม่วง,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.3005,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+481,ลองกอง,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.6528,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+482,มะพร้าวน้ำหอม,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,1.3236,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+483,มะพร้าว,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.8535,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+484,สตรอเบอรี่,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.6323,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+485,กล้วยไข่,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.5859,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+486,กล้วยหอม,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.6241,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+487,ฝรั่ง,"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.4892,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+488,องุ่น (ปลูกแบบไม่มีหลังคา),"ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.3455,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+489,องุ่น (ปลูกแบบมีหลังคา),ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.2488,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+490,กาแฟอราบิกา,ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA method IPCC 2013 GWP 100a V1.03,kg,11.0291,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+491,กาแฟโรบัสตา,ครอบคลุมตั้งแต่การเตรียมดิน การปลูก การดูแล รักษา การเก็บเกี่ยว และการจัดการหลังการเก็บ เกี่ยว; ขอ้ มูลจากการทบทวนวรรณกรรม ; LCIA method IPCC 2013 GWP 100a V1.03,kg,8.0986,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+492,กาแฟสารอราบิก้า(ปลูกเชิงเด่ียว),ครอบคลุมตั้งแต่การเพาะกลา้ กาแฟ การเตรียมดิน การปลูก การดูแลรักษา และการเก็บเกี่ยวกาแฟเชอ ร่ี (ตลอดช่วงอายุ 10 ปี) รวมถึงขั้นตอนการสีกาแฟ เชอรี่ (แบบเปียก) และการสีกาแฟกะลา จนได ้ กาแฟสาร,kg,7.3396,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+493,กาแฟสารอราบิก้า(ปลูกร่วม),"ครอบคลุมตั้งแต่การเพาะกลา้ กาแฟ การเตรียมดิน การปลูก การดูแลรักษา และการเก็บเกี่ยวกาแฟเชอ รี่ (ตลอดช่วงอายุ 30 ปี) รวมถึงขั้นตอนการสีกาแฟ เชอรี่ (แบบเปียก) และการสีกาแฟกะลา จนได ้ กาแฟสาร; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,7.7669,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+494,กาแฟสารอราบิก้า(ค่าเฉลี่ย),"ค่าเฉลี่ยจากการปลูกกาแฟอราบิกา้ แบบปลูก
+เชิงเดี่ยวและแบบปลูกร่วม; LCIA method IPCC 2013 GWP 100a V1.03",kg,7.2511,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+495,กาแฟอราบิก้าคั่วบด,"ครอบคลุมต้ังแต่การรับกาแฟสาร คัดแยกส่ิงเจือปน
+การคั่วกาแฟ และการบดกาแฟ; LCIA method IPCC 2013 GWP 100a V1.03",kg,10.2087,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+496,ชานอ้อย,"Bagasse, from sugarcane, at sugar refinery",kg,0.0109,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+497,กากน้ำตาล,"Molasses, at sugar refinery",kg,0.1381,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+498,น้ำมันมะพร้าว,"Crude coconut oil, at plant",kg,0.1896,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+499,น้ำเชื่อม,"Syrup, from sugarcane molasses, at distillery",kg,0.2934,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+500,เมล็ดฝ้าย,"Cotton seed, at farm",kg,0.3447,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+501,น้ำกะทิ,,kg,0.0109,"ขอ้ มูลกรมวิชาการเกษตรและ มหาวิทยาลัยเทคโนโลยีพระจอม
+เกลา้ ธนบุรี",Update_24Sep12
+502,น้ำตาล,,kg,1.08,"วิทยา กันยา. 2551. การประเมินวัฏจักรชีวิตของ กระบวนการผลิตน้ำตาลทรายแดง.
+มหาวิทยาลัยธรรมศาสตร์",Update_24Sep12
+503,ใบโหระพา,,kg,0.0443,ขอ้ มูลกรมวิชาการเกษตร  สำนักส่งเสริมเศรษฐกิจและ การเกษตรกรมวิชาการเกษตร,Update_24Sep12
+504,ผงชูรส,,kg,0.869,Japanese Database,Update_24Sep12
+505,ผิวมะกรูด,,kg,0.0812,"ขอ้ มูลกรมวิชาการเกษตร สำนักส่งเสริมเศรษฐกิจและ
+การเกษตรกรมวิชาการเกษตร",Update_24Sep12
+506,พริกชี้ฟ้าแดง,,kg,0.12,"ขอ้ มูลกรมวิชาการเกษตร สำนักส่งเสริมเศรษฐกิจและ
+การเกษตรกรมวิชาการเกษตร",Update_24Sep12
+507,มะเขือพวง,,kg,0.246,"ขอ้ มูลกรมวิชาการเกษตร สำนักส่งเสริมเศรษฐกิจและ
+การเกษตรกรมวิชาการเกษตร",Update_24Sep12
+508,รากผักชี,,kg,0.0868,"ขอ้ มูลกรมวิชาการเกษตร
+สำนักส่งเสริมเศรษฐกิจและ การเกษตรกรมวิชาการเกษตร",Update_24Sep12
+509,ไก่เนื้อมีชีวิตจากฟาร์ม,"ไก่เนื้อที่เลี้ยงจากฟาร์มเลี้ยงไก่เนื้อที่มีระบบผลิต Biogas ซ่ึงใชร้ ะยะเวลาการเลี้ยงตั้งแต่ 36 วันขึ้นไป จนไดน้  ้าหนักที่ตอ้ งการหรือมีน้ำหนักประมาณ 1.9  – 2.2 กิโลกรัม; LCIA method IPCC 2013 GWP
+100a V1.03",kg,3.2654,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+510,ไก่เน้ือมีชีวิตจากฟาร์มที่เลี้ยงโดยใช้อาหารที่ไม่มีโปรตีนจากเนื้อสัตว์เป็ น องค์ประกอบ,"การเล้ียงไก่เนื้อโดยใชอ้ าหารที่ไม่มีโปรตีนจากสัตว์ ซ่ึงใชร้ ะยะเวลาการเลี้ยงต้ังแต่ 36 วัน ขึ้นไปจนได ้ น้ำหนักที่ตอ้ งการหรือมีน้ำหนักประมาณ 1.9 – 2.2 กิโลกรัม; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,2.6899,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+511,ไก่สดทั้งตัว,"การแปรสภาพไก่เนื้อมีชีวิตจากฟาร์มเลี้ยงไก่เนื้อ ใหเ้ ป็ นไก่สำหรับการบริโภค โดยผ่านกระบวนการ ฆ่าและชำแหละจากโรงฆ่าและชำแหละไก่ที่ได ้
+มาตรฐาน; LCIA method IPCC 2013 GWP 100a V1.03",kg,4.7638,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+512,ไก่สดชำแหละ,"การแปรสภาพไก่เนื้อมีชีวิตจากฟาร์มเล้ียงไก่เนื้อ
+ใหเ้ ป็ นไก่สำหรับการบริโภค โดยผ่านกระบวนการ ฆ่าและชำแหละจากโรงฆ่าและชำแหละไก่ที่ได ้
+มาตรฐาน; LCIA method IPCC 2013 GWP 100a V1.03",kg,4.8449,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+513,ไก่สดชำแหละอื่นๆ,"การแปรสภาพไก่เน้ือมีชีวิตจากฟาร์มเลี้ยงไก่เนื้อ
+ใหเ้ ป็ นไก่สำหรับการบริโภค โดยผ่านกระบวนการ ฆ่าและชำแหละจากโรงฆ่าและชำแหละไก่ที่ได ้
+มาตรฐาน; LCIA method IPCC 2013 GWP 100a V1.03",kg,4.8449,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+514,ไข่ไก่,"ไข่ที่ได้จากไก่รุ่นไข่ที่มีอายุประมาณ 21-72 สัปดาห์ โดยไข่ไก่ 1 ฟองมีน้ำหนักเฉลี่ยเท่ากับ 60 กรัม; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,8.4761,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+515,เป็ ดเนื้อ,"การเลี้ยงเป็ ดเนื้อเชอรี่วัลเลย์ (Cherry valley) ใน ระบบ Evaporation; ครอบคลุมตั้งแต่การเตรียม โรงเรือน การเลี้ยงเป็ ดเล็ก จนถึงการเลี้ยงเป็ ดเนื้อที่ อายุ 45 วัน; LCIA method IPCC 2013 GWP
+100a V1.03",kg,5.1068,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_July2022
+516,สุกรขุนมีชีวิต,"สุกรที่เลี้ยงจากฟาร์มเล้ียงสุกรขุนซึ่งมีระบบผลิต Biogas โดยใชร้ ะยะเวลาการขุน 5-6 เดือน หรือจน มีน้ำหนักประมาณ 101 กิโลกรัมต่อตัว; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,3.1826,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+517,สุกรขุนชำแหละ,"การแปรสภาพสุกรขุนมีชีวิต ใหเป็ นเนื้อสุกร
+ชำแหละเพื่อการบริโภค โดยผ่านกระบวนการฆ่า และชำแหละจากโรงงานฆ่าและชำแหละสุกรที่ได ้ มาตรฐาน; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,3.9027,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+518,สุกรขุนชำแหละอื่นๆ,"การแปรสภาพสุกรขุนมีชีวิต ใหเ้ ป็ นเน้ือสุกร
+ชำแหละเพื่อการบริโภค โดยผ่านกระบวนการฆ่า และชำแหละจากโรงงานฆ่าและชำแหละสุกรที่ได ้ มาตรฐาน; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,3.9027,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+519,โคเน้ือมีชีวิต: ระยะเวลาขุนไม่เกิน 6 เดือน,"โคเนื้อที่เลี้ยงจากฟาร์มเลี้ยงโคเนื้อ โดยมี
+ระยะเวลาการขุนนอ้ ยกว่า 6 เดือน; LCIA method IPCC 2013 GWP 100a V1.03",kg,8.7324,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+520,โคเนื้อมีชีวิต: ระยะเวลาขุน 6-12 เดือน,โคเนื้อที่เลี้ยงจากฟาร์มเลี้ยงโคเนื้อ โดยมี ระยะเวลาการขุน 6 เดือน – 12 เดือน; LCIA method IPCC 2013 GWP 100a V1.03,kg,9.9181,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+521,โคเนื้อมีชีวิต: ระยะเวลาขุนมากกว่า 12 เดือน,"โคเนื้อที่เลี้ยงจากฟาร์มเลี้ยงโคเนื้อ โดยมี
+ระยะเวลาการขุนมากกว่า 12 เดือน; LCIA method IPCC 2013 GWP 100a V1.03",kg,12.6521,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+522,เน้ือโคชำแหละ,"การแปรสภาพโคเนื้อมีชีวิต ใหเ้ ป็ นเนื้อโคชำแหละ เพื่อการบริโภค โดยผ่านกระบวนการฆ่าและ
+ชำแหละจากโรงงานฆ่าและชำแหละโคที่ได ้
+มาตรฐาน; LCIA method IPCC 2013 GWP 100a V1.03",kg,13.4269,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+523,เน้ือโคชำแหละอ่ืนๆ,"การแปรสภาพโคเนื้อมีชีวิต ใหเ้ ป็ นเน้ือโคชำแหละ เพื่อการบริโภค โดยผ่านกระบวนการฆ่าและ
+ชำแหละจากโรงงานฆ่าและชำแหละโคที่ได ้
+มาตรฐาน; LCIA method IPCC 2013 GWP 100a V1.03",kg,13.4269,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+524,หอยแครง (Ark shell),"ครอบคลุมตั้งแต่การเตรียมแปลงเลี้ยงหอย การ เลี้ยงและการดูแล ตลอดจนการเก็บเกี่ยว; ขอ้ มูล จากการเลี้ยงหอยในเขตภาคตะวันตกและภาคใต ้ ของประเทศไทย; LCIA method IPCC 2013
+GWP 100a V1.03",kg,0.0064,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+525,หอยแมลงภู่ (Asian green mussel),"การเลี้ยงแบบปักหลัก; ครอบคลุมตั้งแต่การลงหลัก ล่อหอย การเลี้ยงและการดูแล ตลอดจนการเก็บ เกี่ยว; ขอ้ มูลจากการเลี้ยงหอยแมลงภู่ในเขตภาค ตะวันตกของประเทศไทย; LCIA method IPCC
+2013 GWP 100a V1.03",kg,6.2945,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+526,หอยหวาน (Spotted Babylon),"การเลี้ยงในบ่อพลาสติก; ครอบคลุมตั้งแต่การ เตรียมบ่อ การเลี้ยง และการเก็บเกี่ยวผลผลิต;
+ขอ้ มูลจากการเลี้ยงหอยหวานในเขตภาคตะวันออก
+ของประเทศไทย; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0249,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+527,หอยหลอด,การจับจากธรรมชาติในประเทศไทย; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.6507,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+528,ปลาดุก (เลี้ยงในบ่อดิน),"ปลาดุกที่ท าการเลี้ยงในบ่อดิน จนมีอายุประมาณ 6 – 8 เดือน; LCIA method IPCC 2013 GWP
+100a V1.03",kg,3.9594,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+529,ปลาทับทิม (เลี้ยงในบ่อดิน),"ปลาทับทิมที่ท าการเลี้ยงในบ่อดิน จนมีอายุ
+ประมาณ 6 – 8 เดือน; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.5194,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+530,ปลานิล (เลี้ยงในบ่อดิน),,kg,0.3678,Thai National LCI Database/MTEC,Update_09Oct13
+531,น้ำนมดิบจากโค,"น้ำนมที่รีดได้จากโคนมโดยไม่ผ่านกระบวนการใดๆ ก่อนส่งไปศูนย์รวบรวมน้ำนม; LCIA method IPCC
+2013 GWP 100a V1.03",kg,1.6298,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+532,น้ำนมดิบจากศูนย์รวบรวมน้ำนม,"น้ำนมที่รีดได้จากโคนมที่ผ่านการเก็บรวบรวม ตรวจสอบคุณภาพ และรักษาคุณภาพน้ำนม จาก ศูนย์รวบรวมน้ำนม เพื่อนำเข้ากระบวนการแปรรูป ต่อไป; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,2.5233,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+533,น้ำผึ้งกรอง,"จากการเลี้ยงผ้ึงแบบรังชัน้  เดียวเชิงพาณิชย์; ครอบคลุมตั้งแต่การเตรียมและสรา้ งรังผึ้ง การ จัดการและการเลี้ยงผึ้ง การขนส่งผ้ึงไปยังแหล่ง  น้ำหวานและเกสรดอกไม้ การสลัดน้ำผึ้ง การกรอง
+น้ำผึ้ง ตลอดจนการเก็บเกี่ยวผลผลิตอื่น; ขอ้ มูลจาก การเลี้ยงผึ้งในเขตภาคเหนือของประเทศไทย;
+LCIA method IPCC 2013 GWP 100a V1.03",kg,1.4546,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+534,นมผึ้ง (Royal jelly),"จากการเลี้ยงผึ้งแบบรังชัน้  เดียวเชิงพาณิชย์; ครอบคลุมตั้งแต่การเตรียมและสรา้ งรังผึ้ง การ จัดการและการเลี้ยงผึ้ง การขนส่งผึ้งไปยังแหล่ง  น้ำหวานและเกสรดอกไม้ การสลัดน้ำผึ้ง การกรอง
+น้ำผึ้ง ตลอดจนการเก็บเกี่ยวผลผลิตอื่น; ขอ้ มูลจาก การเลี้ยงผึ้งในเขตภาคเหนือของประเทศไทย;
+LCIA method IPCC 2013 GWP 100a V1.03",kg,1.4564,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+535,ไขผึ้ง,"จากการเล้ียงผ้ึงแบบรังชัน้  เดียวเชิงพาณิชย์; ครอบคลุมตั้งแต่การเตรียมและสรา้ งรังผึ้ง การ จัดการและการเลี้ยงผึ้ง การขนส่งผ้ึงไปยังแหล่ง  น้ำหวานและเกสรดอกไม้ การสลัดน้ำผึ้ง การกรอง
+น้ำผึ้ง ตลอดจนการเก็บเกี่ยวผลผลิตอื่น; ขอ้ มูลจาก
+การเลี้ยงผึ้งในเขตภาคเหนือของประเทศไทย; LCIA method IPCC 2013 GWP 100a V1.03",kg,1.4564,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+536,เกสรผึ้ง,"จากการเลี้ยงผ้ึงแบบรังชัน้  เดียวเชิงพาณิชย์; ครอบคลุมตั้งแต่การเตรียมและสรา้ งรังผึ้ง การจัดการ และการเลี้ยงผึ้ง การขนส่งผึ้งไปยังแหล่งน้ำหวานและ เกสรดอกไม้ การสลัดน้ำผึ้ง การกรองน้ำผึ้ง ตลอดจน การเก็บเกี่ยวผลผลิตอื่น; ขอ้ มูลจากการเลี้ยงผึ้งในเขต ภาคเหนือของประเทศไทย; LCIA method IPCC
+2013 GWP 100a V1.03",kg,1.451,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+537,หนังโคสด,"การแปรสภาพโคเนื้อมีชีวิต ใหเ้ ป็ นเนื้อโคชำแหละ เพื่อการบริโภค โดยผ่านกระบวนการฆ่าและ
+ชำแหละจากโรงงานฆ่าและชำแหละโคที่ได ้
+มาตรฐาน; LCIA method IPCC 2013 GWP 100a V1.03",kg,13.4269,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+538,น้ำมันงาสกัดเย็นแบบครัวเรือน,"ขอ้ มูลการผลิตน้ำมันงาสกัดเย็นแบบครัวเรือนใน เขตภาคเหนือของประเทศไทย; ครอบคลุมตั้งแต่ การเตรียมวัตถุดิบ การบดและการกรอง; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,1.2495,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+539,เกลือทะเล,"ขอ้ มูลการผลิตเกลือจากเขตภาคกลางของประเทศ ไทย; ครอบคลุมตั้งแต่การเตรียมนาปลง (นาวาง) การสูบน้ำทะเล การตกผลึกเกลือ และการเก็บ
+เกี่ยว; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0056,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+540,เกลือสินเธาว์แบบตากลานดิน,"ขอ้ มูลการผลิตเกลือแบบตากลานดิน ในเขตภาค ตะวันออกเฉียงเหนือของประเทศไทย; ครอบคลุม ตั้งแต่การเตรียมพื้นที่นา การสูบน้ำเกลือ การตก
+ผลึกเกลือ และการเก็บเกี่ยว; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0051,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+541,การใช้รถแทรกเตอร์ส่ีล้อ ขนาด 15 แรงม้า,"สำหรับพื้นที่ราบ ในการปลูกข้าว ข้าวโพด มัน
+สำปะหลัง และอ้อย; LCIA method IPCC 2013 GWP 100a V1.03",hr,10.0062,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+542,การใช้รถแทรกเตอร์สี่ล้อ ขนาด 35 แรงม้า,"สำหรับพ้ืนที่ราบ ในการปลูกข้าว ข้าวโพด มัน
+สำปะหลัง และอ้อย; LCIA method IPCC 2013 GWP 100a V1.03",hr,22.3072,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+543,การใช้รถแทรกเตอร์ส่ีล้อ ขนาด 45 แรงม้า,"สำหรับพื้นที่ราบ ในการปลูกข้าว ข้าวโพด มัน
+สำปะหลัง และอ้อย; LCIA method IPCC 2013 GWP 100a V1.03",hr,28.5639,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+544,การใช้รถแทรกเตอร์สี่ล้อ ขนาด 70 แรงม้า,"สำหรับพื้นที่ราบ ในการปลูกข้าว ข้าวโพด มัน
+สำปะหลัง และอ้อย; LCIA method IPCC 2013 GWP 100a V1.03",hr,44.3889,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+545,การใช้รถแทรกเตอร์สี่ล้อ ขนาด 80 แรงม้า,"สำหรับพื้นที่ราบ ในการปลูกข้าว ข้าวโพด มัน
+สำปะหลัง และอ้อย; LCIA method IPCC 2013 GWP 100a V1.03",hr,50.8371,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+546,การใช้รถแทรกเตอร์สี่ล้อ ขนาด 90 แรงม้า,"สำหรับพ้ืนที่ราบ ในการปลูกข้าว ข้าวโพด มัน
+สำปะหลัง และอ้อย; LCIA method IPCC 2013 GWP 100a V1.03",hr,56.9422,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+547,"การใช้รถแทรกเตอร์สองล้อ
+(รถไถเดินตาม) (< 18 แรงม้า ) ขับเคลื่อนดว้ ยน้ำมันดีเซล","คลอบคุลมการผลิตรถแทรกเตอร์และการน าไปใช้
+งานในการเกษตร; LCIA method IPCC 2013 GWP 100a V1.03",hr,5.9162,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+548,"การใช้รถแทรกเตอร์สองล้อ
+(รถไถเดินตาม) (< 18 แรงม้า ) ขับเคล่ือนดว้ ยน้ำมันเบนซิน","คลอบคุลมการผลิตรถแทรกเตอร์และการน าไปใช้
+งานในการเกษตร; LCIA method IPCC 2013 GWP 100a V1.03",hr,7.563,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+549,การใช้เครื่องเติมอากาศขนาด 2-3 แรงม้า,"มีความเร็วรอบระหว่าง 80-120  rpm และใชไ้ ฟฟ้า เป็ นแหล่งพลังงานในช่วงการใชง้ าน; LCIA
+method IPCC 2013 GWP 100a V1.03",hp-hr,1.2757,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+550,"การใชไ้ ถหัวหมูโดยแทรกเตอร์ขนาด 90 แรงม้า  (คิดรวมการใช้
+รถแทรกเตอร์แลว้ )","คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตจาน และ การน าไปใชใ้ นการเกษตรของประเทศไทย; เหมาะ สำหรับดินประเภท ดินร่วน หรือ ดินเหนียวปน
+ทราย; LCIA method IPCC 2013 GWP 100a V1.03",m2,0.0072,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+551,"การไถดว้ ยจานโดยแทรกเตอร์ขนาด 90 แรงม้า  (คิดรวมการใช้
+รถแทรกเตอร์แลว้ )",คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตจาน และ การน าไปใชใ้ นการเกษตร; LCIA method IPCC 2013 GWP 100a V1.03,m2,0.0047,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+552,"การไถดินดานโดยแทรกเตอร์ขนาด 90 แรงม้า  (คิดรวมการใช้
+รถแทรกเตอร์แลว้ )","คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตจาน และ
+การน าไปใชใ้ นการเกษตร; LCIA method IPCC 2013 GWP 100a V1.03",m2,0.0062,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+553,"การไถยกร่องโดยแทรกเตอร์
+ขนาด 90 แรงม้า  (คิดรวมการใช้รถ แทรกเตอร์แลว้ )","คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตจาน และ การน าไปใชใ้ นการเกษตร; LCIA method IPCC
+2013 GWP 100a V1.03",m2,0.0043,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+554,การพรวนจานโดยแทรกเตอร์ ขนาด90 แรงม้า,"คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตจาน และ การน าไปใชใ้ นการเกษตร; LCIA method IPCC
+2013 GWP 100a V1.03",m2,0.0039,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+555,การพรวนซ่ีสริงโดยแทรกเตอร์ขนาด 90 แรงม้า,"คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตอุปกรณ์ ต่อพ่วง และการน าไปใชใ้ นการเกษตร; LCIA
+method IPCC 2013 GWP 100a V1.03",m2,0.003,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+556,การไถพรวนดว้ ยเหล็กแหลม โดยแทรกเตอร์ขนาด 90 แรงม้า,"คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตจาน และ
+การน าไปใชใ้ นการเกษตร; LCIA method IPCC 2013 GWP 100a V1.03",m2,0.0044,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+557,การไถลูกกลิ้งโดยแทรกเตอร์ขนาด90 แรงม้า,"คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตจาน และ การน าไปใชใ้ นการเกษตร; LCIA method IPCC
+2013 GWP 100a V1.03",m2,0.0015,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+558,การใช้เครื่องปลูกหัวมันสำปะหลัง ขนาด 90 แรงม้า,"คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตอุปกรณ์ ต่อพ่วง และการน าไปใชใ้ นการเกษตร; LCIA
+method IPCC 2013 GWP 100a V1.03",m2,0.0022,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+559,การใช้เครื่องหว่านปุ๋ยเม็ดขนาด 35 แรงม้า,คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตเครื่อง หว่าน และการน าไปใชใ้ นการเกษตร; LCIA method IPCC 2013 GWP 100a V1.03,m2,0.0012,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+560,การใช้เครื่องใส่ปุ๋ยมูลสัตว์ขนาด 90 แรงม้า,"คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตเครื่อง
+หว่าน และการน าไปใชใ้ นการเกษตร; LCIA method IPCC 2013 GWP 100a V1.03",m2,0.0023,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+561,การใช้เครื่องใส่ปูนขาวขนาด 90 แรงม้า,คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตเครื่อง หว่าน และการน าไปใชใ้ นการเกษตร; LCIA method IPCC 2013 GWP 100a V1.03,m2,0.003,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+562,การใช้เครื่องพรวนระหว่างแถว (การ ไถย่อยดิน) ขนาด 35 แรงม้า,คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตเครื่อง หว่าน และการน าไปใชใ้ นการเกษตร; LCIA method IPCC 2013 GWP 100a V1.03,m2,0.0014,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+563,การใช้เครื่องเกี่ยวนวดข้าว,มีถังเก็บข้าว 2.5 ตัน และ  เกี่ยวได ้ 30 -50 ไร่/วัน; LCIA method IPCC 2013 GWP 100a V1.03,m2,0.0067,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+564,การใช้เครื่องเกี่ยวนวดข้าวโพด,"ลูกกะเทาะขนาด 24 นิ้วติดพ่วงทา้ ยแทรกเตอร์ ขนาด 60 – 75 แรงม้า  มีอัตราการท างาน 6 – 8 ตันต่อช่วโมง; LCIA method IPCC 2013 GWP
+100a V1.03",m2,0.0076,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+565,การใช้เครื่องพรวนเพื่อก าจัดวัชพืช ขนาด 35 แรงม้า,คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตอุปกรณ์ ต่อพ่วง และการน าไปใชใ้ นการเกษตร; LCIA method IPCC 2013 GWP 100a V1.03,m2,0.0013,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+566,การใช้รถไถตอซัง ขนาด 35 แรงม้า,"คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตอุปกรณ์
+ต่อพ่วง และการน าไปใชใ้ นการเกษตร; LCIA method IPCC 2013 GWP 100a V1.03",m2,0.0027,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+567,การใช้เลื่อย ขนาด 2-3 แรงม้า,ใชเ้ บนซีนเป็ นแหล่งพลังงานในช่วงการใชง้ าน; LCIA method IPCC 2013 GWP 100a V1.03,hp-hr,1.4378,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+568,การใช้เครื่องหว่านเมล็ดขนาด 35 แรงม้า,คลอบคลุมการผลิตรถแทรกเตอร์ การผลิตเครื่อง หว่าน และการน าไปใชใ้ นการเกษตร; LCIA method IPCC 2013 GWP 100a V1.03,m2,0.0019,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+569,การใช้เครื่องสูบน้ำสำหรับการเกษตร ขนาด 15 แรงม้า,เหมาะสำหรับเครื่องสูบน้ำ (ป๊ัมน้ำ) ขนาดความเร็ว การสูบน้ำที่ประมาณ 1 ลูกบาศก์เมตรต่อนาที; LCIA method IPCC 2013 GWP 100a V1.03,m3,0.051,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+570,การใช้เครื่องพ่นยาแบบติดทา้ ยรถ แทรคเตอร์ ขนาด 35 แรงม้า,ต่อพ่วงเขา้ กับรถแทรกเตอร์ขนาดกลางหรือขนาด ใหญ่แลว้ ; LCIA method IPCC 2013 GWP 100a V1.03,m2,0.0008,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+571,การใช้เครื่องพ่นยาแบบสูบโยกสะพาย หลังขนาด 2-5 แรงม้า,ใชเ้ บนซีนเป็ นแหล่งพลังงานในช่วงการใชง้ าน; LCIA method IPCC 2013 GWP 100a V1.03,m2,6.15E-10,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+572,การจัดเก็บรวบรวม และขนถ่ายขยะมูล ฝอยชุมชน,"การจัดเก็บและรวบรวมขยะมูลฝอย ครอบคลุมรูปแบบการจัดเก็บ และรวบรวม 2 แบบ คือ 1.การเก็บขนจากบา้ นเรือนจุดพักขยะ และถังขยะริมทางเทา้ ไปยังสถานีขนถ่ายขยะมูลฝอย และขนส่งไป ยังแหล่งก าจัดขยะมูลฝอย และ 2.การเก็บขยะจากบานเรือนและ และขนไปก าจัด ณ แหล่งก าจัดขยะมูลฝอยโดยตรง; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.0143,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",Update_Mar2021
+573,การคัดแยกขยะมูลฝอยชุมชน,"การคัดแยกขยะมูลฝอยครอบคลุมตั้งแต่การรับขยะ มูลฝอยชุมชนและพักขยะในบริเวณคัดแยก การ
+ล าเลียงขยะบนสายพาน การแยกขยะมูลฝอยทั่วไป
+และการคัดแยกโลหะ; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.0159,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",Update_Mar2021
+574,การกำจัดขยะมูลฝอยชุมชนแบบเท กอง,"การก าจัดขยะแบบเทกองครอบคลุมกิจกรรมการ ด าเนินงาน ณ ลานเทกอง ไดแ้ ก่ การบด อัด หรือ ดันขยะในพื้นที่ลานเทกอง และการลดกลิ่นขยะที่ เกิดขึ้น; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,1.0388,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+575,การฝังกลบขยะมูลฝอยชุมชนแบบถูก หลักสุขาภิบาล,"การฝังกลบขยะมูลฝอยชุมชนแบบถูกหลัก
+สุขาภิบาลครอบคลุมกิจกรรมการด าเนินงาน ณ
+ลานฝังกลบขยะมูลฝอย  ไดแ้ ก่ การบด อัด หรือดัน ขยะในพื้นที่ฝังกลบ และการลดกลิ่นขยะที่เกิดขึ้น; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.7933,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+576,การฝังกลบขยะมูลฝอยชุมชนแบบ ติดตั้งระบบน าก๊าซมีเทนมาใช้ประโยชน์,"การฝังกลบซึ่งมีการติดต้ังระบบน าก๊าซชีวภาพที่ได ้ จากการย่อยสลายสารอินทรีย์ภายในหลุมฝังกลบ และมีองค์ประกอบของก๊าซมีเทนเป็ นหลักน าไปใช้ประโยชน์ในการผลิตกระแสไฟฟ้ า; LCIA method
+IPCC 2013 GWP 100a V1.03",kg,0.0175,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+577,การจัดการมูลฝอยสด (การหมักแบบ ไรอ้ ากาศ),"การหมักแบบไรอ้ ากาศเป็ นการย่อยสลายสาร อินทรีย์แบบไม่ใชอ้ อกซิเจน โดยฐานขอ้ มูลชุดนี้ เป็ นการย่อยสลายแบบ wet  digestion process;
+LCIA method IPCC 2013 GWP 100a V1.03",kg,0.1102,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+578,ปุ๋ยหมักอินทรีย์ จากการจัดการมูล ฝอยสด,การท าปุ๋ยอินทรีย์ เป็ นการหมักแบบใชอ้ ากาศ โดย หมักดว้ ยสารเร่ง; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.3326,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+579,ปุ๋ยอินทรีย์น้ำ จากการจัดการมูลฝอย สด,การท าปุ๋ยอินทรีย์ เป็ นการหมักแบบใชอ้ ากาศ โดย หมักดว้ ยสารเร่ง; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.3338,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Mar2021
+580,"การรวบรวมน้ำเสียชุมชนของประเทศ, ค่าเฉลี่ยประเทศไทย","การรวบรวมน้ำเสียอาศัยแรงโนม้ ถ่วงที่ไหลไปตาม
+ส้นท่อ; LCIA method IPCC 2013 GWP 100a V1.03",m3,0.0101,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+581,การรวบรวมน้ำเสียชุมชนของเมือง ขนาดใหญ่,"การรวบรวมน้ำเสียอาศัยแรงโนม้ ถ่วงที่ไหลไปตาม ส้นท่อ จากเมืองที่มีประชากรมากกว่า 50,000 คน ขึ้นไป; LCIA method IPCC 2013 GWP 100a
+V1.03",m3,0.002,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+582,การรวบรวมน้ำเสียชุมชนของเมือง ขนาดกลาง,"การรวบรวมน้ำเสียอาศัยแรงโนม้ ถ่วงที่ไหลไปตาม ส้น ท่อ จากเมืองที่มีประชากร 10,000-50,000 คน; LCIA method IPCC 2013 GWP 100a
+V1.03",m3,0.0373,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+583,การปรับปรุงคุณภาพน้ำเสียชุมชนของ ประเทศ,ค่าเฉลี่ยจากขอ้ มูลการปรับปรุงคุณภาพน้ำเสีย ชุมชนของเมืองขนาดใหญ่และเมืองขนาดกลาง; LCIA method IPCC 2013 GWP 100a V1.03,m3,0.1201,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+584,การปรับปรุงคุณภาพน้ำเสียชุมชนของ เมืองขนาดใหญ่,"การปรับปรุงคุณภาพน้ำเสียดว้ ยเทคโนโลยีระบบ บ าบัดแบบ AS/CASS/CSAS/VLR-AS/Two-stage AS/OD; ขอ้ มูลจากเมืองที่มีประชากรมากกว่า
+50,000 คนขึ้นไป; LCIA method IPCC 2013 GWP 100a V1.03",m3,0.129,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+585,การปรับปรุงคุณภาพน้ำเสียชุมชนของ เมืองขนาดกลาง,"การปรับปรุงคุณภาพน้ำเสียดว้ ยเทคโนโลยีระบบ บ าบัดแบบ AL/OD/SP; ขอ้ มูลจากเมืองที่มี ประชากร 10,000-50,000 คน; LCIA method
+IPCC 2013 GWP 100a V1.03",m3,0.0901,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+586,การรวบรวมและการปรับปรุงคุณภาพ น้ำเสียชุมชนของประเทศ,"ขอ้ มูลเฉลี่ยของการรวบรวมและการปรับปรุง คุณภาพน้ำเสียชุมชนของเมืองขนาดใหญ่ และการ รวบรวมและการปรับปรุงคุณภาพน้ำเสียชุมชนของ เมืองขนาดกลาง; LCIA method IPCC 2013
+GWP 100a V1.03",m3,0.1302,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+587,การรวบรวมและการปรับปรุงคุณภาพ น้ำเสียชุมชนของเมืองขนาดใหญ่,"การรวบรวมน้ำเสียอาศัยแรงโนม้ ถ่วงที่ไหลไปตาม ส้นท่อ จากเมืองที่มีประชากรมากกว่า 50,000 คน ขึ้นไป; เทคโนโลยีระบบบ าบัดแบบ
+AS/CASS/CSAS/VLR-AS/Two-stage AS/OD; LCIA method IPCC 2013 GWP 100a V1.03",m3,0.131,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+588,การรวบรวมและการปรับปรุงคุณภาพ น้ำเสียชุมชนของเมืองขนาดกลาง,"การรวบรวมน้ำเสียอาศัยแรงโนม้ ถ่วงที่ไหลไปตาม ส้นท่อ จากเมืองที่มีประชากรมากกว่า 50,000 คน ขึ้นไป; เทคโนโลยีระบบบ าบัดแบบ AL/OD/SP;
+LCIA method IPCC 2013 GWP 100a V1.03",m3,0.1274,"Thai National LCI Database, TIIS-MTEC-NSTDA
+(with TGO electricity 2016-2018)",Update_Dec2019
+589,เยื่อกระดาษชนิดฟอกขาวจาก ชานอ้อย,"ผลิตจากชานอ้อยที่เหลือจากกระบวนการผลิต
+น้ำตาล; ครอบคลุมตั้งแต่การเตรียมวัตถุดิบ การตม้ เยื่อ การฟอกเยื่อ และการขึ้นรูปเยื่อแผ่น; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,4.3925,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+590,เยื่อกระดาษชนิดฟอกขาวจาก ยูคาลิปตัส,"ผลิตจากไมย้ ูคาลิปตัส; ครอบคลุมตั้งแต่การเตรียม วัตถุดิบ การตมเยื่อ การฟอกเยื่อ และการขึ้นรูปเยื่อ แผ่น; LCIA method IPCC 2013 GWP 100a
+V1.03",kg,0.6677,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+591,เยื่อกึ่งเคมี,ผลิตจากไมย้ ูคาลิปตัส; ครอบคลุมตั้งแต่การเตรียม วัตถุดิบ การตมเยื่อ และการขึ้นรูปเยื่อแผ่น; LCIA method IPCC 2013 GWP 100a V1.03,kg,0.2994,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+592,กระดาษพิมพ์เขียนแบบ ไม่เคลือบผิว,ครอบคลุมตั้งแต่การเตรียมน้ำเยื่อ การท า แผ่นกระดาษ การแปรรูป และการบรรจุหีบห่อ; LCIA method IPCC 2013 GWP 100a V1.03,kg,2.102,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+593,กระดาษพิมพ์เขียนแบบเคลือบผิว,"ครอบคลุมตั้งแต่การเตรียมน้ำเยื่อ การท า แผ่นกระดาษ การเคลือบผิว การแปรรูป และการ
+บรรจุหีบห่อ; LCIA method IPCC 2013 GWP 100a V1.03",kg,2.1639,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+594,กระดาษหนังสือพิมพ์,ผลิตจากเยื่อกระดาษรีไซเคิลที่ได้จากกระดาษ หนังสอพิมพ์เก่า; LCIA method IPCC 2013 GWP 100a V1.03,kg,1.3589,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+595,กระดาษคราฟท์ ชนิดท าผิวกล่อง,ครอบคลุมตั้งแต่การเตรียมน้ำเยื่อ จนถึงการท า แผ่นกระดาษ; LCIA method IPCC 2013 GWP 100a V1.03,kg,1.6324,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+596,กระดาษคราฟท์ ชนิดท าลอน,ครอบคลุมตั้งแต่การเตรียมน้ำเยื่อ จนถึงการท า แผ่นกระดาษ; LCIA method IPCC 2013 GWP 100a V1.03,kg,1.6184,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+597,กระดาษกล่องขาวเคลือบแป้ ง/ กระดาษกล่องแป้ งหลังเทา,"ครอบคลุมตั้งแต่การเตรียมน้ำเยื่อ การท า แผ่นกระดาษ การเคลือบผิว การแปรรูป และการ บรรจุหีบห่อ; LCIA method IPCC 2013 GWP
+100a V1.03",kg,1.8679,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+598,Lubricating oil (น้ำมันหล่อลื่น),Liquid lubricating oil production,kg,0.8319,"Ecoinvent 2.2,
+2007 GWP 100a",Update_24Sep12
+599,Lime,"Quicklime, in pieces, loose, at plant",kg,0.9985,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+600,Lime,"Quicklime, milled, loose, at plant",kg,1.0154,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+601,Lime,"Quicklime, milled, packed, at plant",kg,1.0215,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+602,Lime (Ca(OH)2),"Lime, hydrated, loose, at plant",kg,0.7759,USLCI,Update_24Sep12
+603,Lime (Ca(OH)2),"Lime, hydrated, packed, at plant",kg,0.782,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+604,Soda powder,"Soda, powder, at plant",kg,0.4449,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+605,Kaolin (ดินขาว),"Kaolin, at plant",kg,0.2167,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+606,Silicone,"Silicone product, at plant",kg,2.8649,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+607,Aluminium hydroxide,"Aluminium hydroxide, at plant",kg,0.647,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+608,Acetaldehyde,"Acetaldehyde, at plant",kg,1.3639,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+609,Acetic acid,"Acetic acid from acetaldehyde, at plant",kg,2.5702,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+610,Acrylic acid,"Acrylic acid, at plant",kg,1.9493,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+611,Alcohol,"Ethanol from ethylene, at plant",kg,1.2381,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+612,Ammonia,"Ammonia, steam reforming, liquid, at plant",kg,1.8876,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+613,Ammonia,"Ammonia, liquid, at regional storehouse",kg,2.052,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+614,Ammonia,"Ammonia, partial oxidation, liquid, at plant",kg,2.7907,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+615,Butyl Cellosolve,"Butyl acetate, at plant",kg,3.5273,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+616,Calcium carbonate,"Limestone, crushed, washed",kg,0.0025,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+617,Calcium carbonate,"Limestone, milled, loose, at plant",kg,0.0305,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+618,Calcium carbonate,"Limestone, milled, packed, at plant",kg,0.0366,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+619,calcium chloride,"Calcium chloride, CaCl2, at plant",kg,0.8729,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+620,Carbon Tetrachloride,"Carbon Tetrachloride at, plant",kg,1.639,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+621,Chlorine,"Chlorine, gaseous, diaphragm cell, at plant",kg,1.0548,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+622,Ethanol,"Ethanol, 95% in H2O, from sugarcane molasses, at sugar refinery",kg,0.3962,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+623,Ethanol,"Ethanol, 95% in H2O, from sugarcane, at fermentation plant",kg,0.3727,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+624,Ethyl Acetate,"Ethyl acetate, at plant",kg,2.811,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+625,Ferro Manganese,"Ferromanganese, high-coal, 74.5% Mn, at regional storage",kg,1.9734,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+626,HCl 100%,"Hydrochloric acid, from Mannheim process, at plant",kg,0.4094,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+627,Hydrogen Peroxide50%,"Hydrogen peroxide, 50% in H2O, at plant",kg,1.1239,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+628,Iso Butyl Alcohol,"Isobutanol, at plant",kg,2.3547,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+629,K2CO3,"Potassium carbonate, at plant",kg,2.2173,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+630,Magnesium,"Magnesium, at plant",kg,83.1368,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+631,Methanol,"Methanol, at plant",kg,0.7212,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+632,Methyl acrylate,"Methyl acrylate, at plant",kg,2.8008,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+633,Monosodium Phosphate,"Sodium phosphate, at plant",kg,2.8586,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+634,MTBE (methyl tert-butyl ether),"Methyl tert-butyl ether, at plant",kg,1.1288,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+635,Nitric acid,Nitric acid,kg,0.6504,ETH - ESU 96 unit processes,Update_24Sep12
+636,Nitric acid,"Nitric acid, 50% in H2O, at plant",kg,3.1596,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+637,Phenol,"Phenol, at plant",kg,3.8971,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+638,Potassium hydroxide,"Potassium hydroxide, at regional storag",kg,1.9272,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+639,Preservative (Bisphenol A),"Preservative (Bisphenol A), powder, at plant",kg,4.9162,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+640,Preservative (Benzaldehyde),"Preservative (Benzaldehyde), at plant",kg,4.9355,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+641,Preservative (Wood preservative),"Wood preservative, creosote, at plant",kg,1.6545,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+642,Silica,"Silica sand, at plant",kg,0.0223,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+643,Silicon tetrahydride,"silicon tetrahydride, at plant",kg,79.8509,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+644,Sodium chlorate,"Sodium chlorate, powder, at plant",kg,4.2407,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+645,Sodium hydroxide,"Sodium hydroxide, 50% in H2O, membrane cell, at plant",kg,1.1148,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+646,Sodium hypochlorite,"Sodium hypochlorite, 15% in H2O, at plant",kg,0.8712,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+647,Sodium Silicate,"Sodium silicate, spray powder 80%, at plant",kg,1.5922,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+648,Sodium tripolyphosphate,"Sodium tripolyphosphate, at plant",kg,5.8902,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+649,Sulfur,Sulfur from Refinery,kg,0.4529,Thai National LCI Database/MTEC,Update_24Sep12
+650,Sulfuric acid,"Sulphuric acid, liquid, at plant",kg,0.1219,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+651,Urea (การผลิต),"Urea, as N, at regional storehouse",kg,3.2826,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+652,Varnish,"Vanish (Acrylic varnish, 87.5% in H2O, at plant)",kg,1.8823,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+653,Zinc,"Zinc, primary, at regional storage",kg,4.5455,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+654,Acetylene,"Acetylene, at regional storehouse",kg,2.2804,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+655,สารส้ม  (Aluminium Sulphate; ALUM (Al2(SO4)3)),"Aluminium sulphate, powder, at plant",kg,0.5311,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+656,Solvents,"Solvents, organic, unspecified, at plant",kg,2.3893,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+657,Magnesium sulphate,"Magnesium sulphate, at plant",kg,0.3385,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+658,Sodium chloride,"Sodium chloride, powder, at plant",kg,0.1937,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+659,Phosphoric acid,"Phosphoric acid, industrial grade, 85% in H2O, at plant",kg,1.4067,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+660,sodium hydroxide diaphram,"Sodium hydroxide, 50% in H2O, diaphragm cell, at plant",kg,1.3711,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+661,Sulphite,"Sulphite, at plant",kg,1.4528,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+662,Benzyl alcohol,"Benzyl alcohol, at plant",kg,3.661,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+663,Benzyl chloride,"Benzyl chloride, at plant",kg,2.1148,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+664,Ammonium nitrate,"Ammonium nitrate, as N, at regional storehouse",kg,8.4819,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+665,Phthalic anhydride,"Phthalic anhydride, at plant",kg,2.5663,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+666,Purified terephthalic acid,"Purified terephthalic acid, at plant",kg,1.8983,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+667,Hydrochloric acid,"Hydrochloric acid, 30% in H2O, at plant",kg,0.8709,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+668,Hydrochloric acid,"Hydrochloric acid, from the reaction of hydrogen with chlorine, at plant",kg,1.3325,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+669,"Chlorodifluoromethane, R22 (สารทำความเย็น, R22)","Chlorodifluoromethane, at plant (R22)",kg,75.786,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+670,"Refrigerant R134a (สารทำความ เย็น, R134a)","Refrigerant R134a, at plant",kg,103.3316,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+671,Copper oxide,"Copper oxide, at plant",kg,1.9568,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+672,Phosphoric acid,"Phosphoric acid, fertiliser grade, 70% in H2O, at plant",kg,0.9207,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+673,Phosphoric acid,"Phosphoric acid, fertiliser grade, 70% in H2O, at plant/Malaysia database using Thai
+Electricity 2009",kg,0.9677,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+674,Phosphoric acid,"Phosphoric acid, fertiliser grade, 70% in H2O, at plant/US database using Thai Electricity
+2009",kg,0.8931,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+675,Phosphoric acid,"Phosphoric acid, industrial grade, 85% in H2O,
+at plant",kg,1.4063,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+676,Sodium sulphate,"Sodium sulphate, from Mannheim process, at plant",kg,0.4695,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+677,Sodium sulphate,"Sodium sulphate, from natural sources, at plant",kg,0.1454,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+678,"Sulphur dioxide, liquid","Sulphur dioxide, liquid, at plant",kg,0.5202,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+679,Zinc oxide,"Zinc oxide, at plant",kg,2.9066,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+680,Soap (สบู่),"Soap, at plant",kg,1.6685,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+681,Nitrogen,"Nitrogen, liquid, at plant",kg,0.497,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+682,Oxygen,"Oxygen, liquid, at plant",kg,0.469,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+683,Sinter iron (เหล็กซินเตอร์),"Sinter, iron, at plant",kg,0.3493,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+684,Cast iron (เหล็กหล่อ),"Cast iron, at plant",kg,1.6382,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+685,Pig iron (เหล็กพิก / เหล็กดิบ),"Pig iron, at plant",kg,1.5143,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+686,Galvanized steel sheet,"Galvanized steel sheet, at plant",kg,2.7073,USLCI,Update_24Sep12
+687,Alumnium Sheet,"Aluminium sheet, primary prod., prod. mix, aluminium semi-finished sheet product",kg,3.2231,ELCD 2.0,Update_24Sep12
+688,Aluminium Primary,"Aluminium, primary, at plant",kg,12.2359,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+689,Aluminium Secondary,"Aluminium, secondary, from new scrap, at plant",kg,0.4329,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+690,Aluminium Secondary,"Aluminium, secondary, from old scrap, at plant",kg,1.4682,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+691,Aluminium alloy (AlMg3),"Aluminium alloy, AlMg3, at plant",kg,6.3369,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+692,Brass,"Brass, at plant",kg,2.4528,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+693,Blow moulding,,kg,1.2077,"Ecoinvent 2.2, IPCC GWP 100a",Update_24Sep12
+694,Injection moulding,,kg,1.4162,"Ecoinvent 2.2, IPCC GWP 100a",Update_24Sep12
+695,"Calendering, rigid sheets",,kg,0.4171,"Ecoinvent 2.2, IPCC GWP 100a",Update_24Sep12
+696,"Casting, brass",,kg,0.0647,"Ecoinvent 2.2, IPCC GWP 100a",Update_24Sep12
+697,"Casting, bronze",,kg,0.0658,"Ecoinvent 2.2, IPCC GWP 100a",Update_24Sep12
+698,"Extrusion, plastic film",,kg,0.5751,"Ecoinvent 2.2, IPCC GWP 100a",Update_24Sep12
+699,"Extrusion, plastic pipes",,kg,0.4169,"Ecoinvent 2.2, IPCC GWP 100a",Update_24Sep12
+700,"Foaming, expanding",,kg,0.755,"Ecoinvent 2.2, IPCC GWP 100a",Update_24Sep12
+701,Stretch blow moulding,,kg,1.6483,"Ecoinvent 2.2, IPCC GWP 100a",Update_24Sep12
+702,"Thermoforming, with calendering",,kg,0.8592,"Ecoinvent 2.2, IPCC GWP 100a",Update_24Sep12
+703,Sand (ทราย),"Sand, at mine",kg,0.0037,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+704,Brick (อิฐ),"Brick, at plant",kg,0.2414,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+705,Clay (ดินเหนียว),"Clay, at mine",kg,0.0004,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+706,Sanitary ceramics (สุขภัณฑ์),"Sanitary ceramics, at regional storage",kg,2.4092,"Ecoinvent 2.2, IPCC 2007 GWP 100a",Update_24Sep12
+707,"lime, CaCO3 (ปูนขาว หินปูน) -การ ผลิต",,kg,1.0676,JEMAI,Update_24Sep12
+708,Dolomite (โดโลไมต์) (ปุ๋ย Mg) -การ ผลิต,,kg,0.0265,Ecoinvent 2.0,Update_24Sep12
+709,Borax (โบแรกซ์) (ปุ๋ยโบรอน) -การ ผลิต,,kg,1.59,Ecoinvent 2.0,Update_24Sep12
+710,ปุ๋ยอินทรีย์ (ขี้ไก่แหง) -การผลิต,,kg,0.1097,Ecoinvent 2.0,Update_24Sep12
+711,ปุ๋ย N: ยูเรีย as N -การผลิต,,kg,3.3036,Ecoinvent 2.0,Update_24Sep12
+712,ปุ๋ย P: ไดแอมโมเนียมฟอสเฟต (DAP) as P2O5  -การผลิต,,kg,1.5716,Ecoinvent 2.0,Update_24Sep12
+713,"ปุ๋ย K: โปแตสเซียมคลอไรด์ as K2O
+-การผลิต",,kg,0.4974,Ecoinvent 2.0,Update_24Sep12
+714,ปุ๋ยสูตร 15-15-15 (การผลิต+การใช)้,,kg,1.5083,Ecoinvent 2.0,Update_24Sep12
+715,ปุ๋ยสูตร 16-20-0 (การผลิต+การใช)้,,kg,1.5922,Ecoinvent 2.0,Update_24Sep12
+716,ปุ๋ยสูตร 13-13-21 (การผลิต+การใช)้,,kg,1.347,Ecoinvent 2.0,Update_24Sep12
+717,Fertiliser ammonium phosphate,,kg,3.77,Ecoinvent 2.0,Update_24Sep12
+718,Fertiliser potassium chloride,,kg,0.533,EcoInvent 2.0,Update_24Sep12
+719,Glyphosate,,kg,16,Ecoinvent 2.0,Update_24Sep12
+720,Atrazine (แอทราซีน),,kg,5.01,Ecoinvent 2.0,Update_24Sep12
+721,Alachlor (อัลลาคลอร์),,kg,8.09,Ecoinvent 2.0,Update_24Sep12
+722,Paraquat,,kg,3.23,Ecoinvent 2.0,Update_24Sep12
+723,Bromacil,,kg,5.25,Ecoinvent 2.0,Update_24Sep12
+724,Diuron,,kg,7.04,Ecoinvent 2.0,Update_24Sep12
+725,Ametine,,kg,8.51,Ecoinvent 2.0,Update_24Sep12
+726,กระดาษ / กระดาษกล่อง,,kg,2.93,2006 IPCC Volume 5: Waste,Update_09Apr15
+727,ผ้า,,kg,2,2006 IPCC Volume 5: Waste,Update_09Apr15
+728,เศษอาหาร,,kg,2.53,2006 IPCC Volume 5: Waste,Update_09Apr15
+729,เศษไม้,,kg,3.33,2006 IPCC Volume 5: Waste,Update_09Apr15
+730,กิ่งไม้ ตนหญ้าจากสวน,,kg,3.27,2006 IPCC Volume 5: Waste,Update_09Apr15
+731,ผ้าออ้ มเด็กท าดว้ ยกระดาษ,,kg,4,2006 IPCC Volume 5: Waste,Update_09Apr15
+732,ยางและหนัง,,kg,3.13,2006 IPCC Volume 5: Waste,Update_09Apr15
+733,ขวดแก้วใส,"ผลิตจากทรายแก้วและเศษแก้วน ามาหลอมในเตา หลอมไดน้  ้าแก้ว และน าไปผ่านกระบวนการขึ้นรูป ใหไ้ ดขวดแก้วรูปทรงต่าง ๆ ตามตอ้ งการ; LCIA
+method IPCC 2013 GWP 100a V1.03",kg,0.8075,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+734,ขวดแก้วสีชา,"ผลิตจากทรายแก้วและเศษแก้วน ามาหลอมในเตา หลอมไดน้  ้าแก้ว (ใส่ส่วนผสมที่ท าใหเ้ กิดสี) และ น าไปผ่านกระบวนการขึ้นรูปใหไ้ ดขวดแก้วรูปทรง
+ต่าง ๆ ตามตอ้ งการ; LCIA method IPCC 2013 GWP 100a V1.03",kg,0.8305,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+735,ฉนวนใยแกว้,"ผลิตจากเศษแก้วเศษขวด (80%) และสารเคมีต่าง ๆ น ามาหลอมรวมกันเป็ นน้ำแก้ว ป่ันออกมาเป็ นส้นใยพ่นกาวใหเ้ สน้ ใยยึดเกาะกัน จากนั้นน ามาอดเป็ น
+แผ่นฉนวน ผ่านการตัดขอบและแยกบรรจุ; LCIA method IPCC 2013 GWP 100a V1.03",kg,2.5612,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+736,กระจกแผ่นเรียบ,"ผลิตจากการหลอมทรายแก้ว และส่วนผสมอ่ืน แลว้ ขึ้นรูปเป็ นแผ่น โดยใหน้  ้าแก้วลอยตัวบนดีบุกหลอม
+ผลิตเป็ นกระจกที่มีขนาดตามตอ้ งการ; LCIA method IPCC 2013 GWP 100a V1.03",kg,1.271,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+737,กระจกนิรภัยชัน้  เดียว,"ผลิตจากกระจกแผ่นเรียบ (Flat Glass) มาท าการ ปรับปรุงคุณสมบัติเพื่อเพิ่มความแข็งแรง ทนทาน ไม่แตกหักง่าย ทนต่ออุณหภูมิสูง-ต ่า และแรง
+กระแทก; LCIA method IPCC 2013 GWP 100a V1.03",kg,3.1359,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+738,กระจกนิรภัยหลายชัน้,"ผลิตโดยการน ากระจกตั้งแต่ 2 แผ่นขึ้นไป มาผนึก เขา้ ดว้ ยกัน โดยมีแผ่นฟิล์มโพลีไวนิลนิวทิเรต ที่ เหนียวและแข็งแรงซอ้ นอยู่ระหว่างกลาง ท าหน้า ที่ ยึดกระจกใหต้ ิดกัน; LCIA method IPCC 2013
+GWP 100a V1.03",kg,2.4449,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+739,กระจกฉนวนความรอ้ น,"ผลิตโดยการน ากระจกตั้งแต่ 2 แผ่น ตัดใหไ้ ดขนาด มาประกบกนโดยมีระยะห่างพอสมควร โดยมี อลูมิเนียมซึงบรรจุสารดูดซมความชื้นค่ันกลาง
+หลังจากนั้นจะปิดรอยที่ขอบกระจก; LCIA method IPCC 2013 GWP 100a V1.03",kg,1.7043,"Thai National LCI Database, TIIS-MTEC-NSTDA",Update_Dec2019
+740,ต้นกล้าหม่อนชาถุง,,kg,0.0751,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+741,ใบหม่อนสด สำหรับเล้ียงไหม ปลูก แบบทั่วไป (Non-GAP),,kg,0.2382,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+742,ใบหม่อนสด สำหรับผลิตชา ปลูกแบบ ทั่วไป (Non-GAP),,kg,0.2351,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+743,ใบหม่อนสด สำหรับเลี้ยงไหม ปลูก แบบมีระบบปฏิบัติทางการเกษตรที่ดี สำหรับหม่อนใบ (GAP),,kg,0.5707,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+744,"ใบหม่อนสด สำหรับผลิตชา ปลูกแบบ มีระบบปฏิบัติทางการเกษตรที่ดี
+สำหรับหม่อนใบ (GAP)",,kg,0.5707,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+745,หม่อนผลสด ปลูกแบบทั่วไป (Non- GAP),,kg,0.4184,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+746,หม่อนผลสด ปลูกแบบมีระบบปฏิบัติ ทางการเกษตรที่ดีสำหรับหม่อนผลสด (GAP),,kg,0.1976,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+747,ไข่ไหม,,p (แผ่น),7.8905,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+748,รังไหม,,kg,6.3547,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+749,ไหม 1 หรือไหมน้อย,,kg,54.0409,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+750,ไหม 3 หรือไหมลืบ,,kg,54.2651,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+751,ส้นไหม ไม่ย้อมสี – ลอกกาวเคมี,,kg,73.4216,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+752,ส้นไหม ไม่ย้อมสี – ลอกกาว ธรรมชาติ,,kg,65.3251,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+753,ส้นไหม ย้อมสีเคมี,,kg,72.8443,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+754,ส้นไหม ย้อมสีธรรมชาติ,,kg,71.8694,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+755,สีธรรมชาติ (สีคราม),,kg,0.1831,"Thai National LCI Database, TIIS-MTEC-NSTDA (with TGO
+electricity 2016-2018)",New_July2022
+756,Magnetite,,kg,0.825,"Ecoinvent 2.0,
+IPCC 2007",Update_24Sep12
+757,PE Foam,,kg,2.1,"Ecoinvent 2.0, IPCC 2007 GWP 100a",Update_24Sep12
+758,ถุงมือ (ผ้าฝ้าย),,kg,2.11,"Ecoinvent 2.0, IPCC 2007 GWP 100a",Update_24Sep12
+759,ทินเนอร์,,kg,2.1222,อา้ งอิงจาก Thinner ใน CFP EF Data v.2.01 ของประเทศญี่ป่ ุน,Update_24Sep12
+760,สติกเกอร์ปิดกล่อง,,kg,0.51,"Ecoinvent 2.0, IPCC 2007 GWP 100a",Update_24Sep12
+761,แผ่นวงจรพิมพ์,,kg,27.7,"Ecoinvent 2.0, IPCC 2007 GWP 100a",Update_24Sep12
+762,ตัวเก็บประจุ,,kg,83.1,"Ecoinvent 2.0, IPCC 2007 GWP 100a",Update_24Sep12

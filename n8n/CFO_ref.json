@@ -1,0 +1,254 @@
+{
+  "name": "CFO_ref",
+  "nodes": [
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.chatInput || $json.body?.message }}",
+        "options": {
+          "systemMessage": "You are a knowledgeable assistant specializing in ISO standards, quality management systems, Green Productivity.\n \n## Instructions:\n- Use the Qdrant vector store tool to retrieve relevant information\n- If retrieved chunks don't contain a direct definition, SYNTHESIZE an answer from the available content\n- You already have extensive knowledge about ISO 9001 — combine it with retrieved documents\n- You are an expert in Green Productivity in APO concept\n- NEVER respond with \"I cannot provide\" if you have relevant context or general knowledge\n- Always give a complete, helpful answer\n- Cite the source document when referencing specific clauses\n\n## Answer Format:\n- Give a direct answer first\n- Then add details from retrieved documents if relevant\n- Keep responses clear and concise",
+          "maxIterations": 10,
+          "returnIntermediateSteps": false
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        -1520,
+        64
+      ],
+      "id": "f348c44e-68f9-4ebf-bd44-372be489cca8",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "sessionIdType": "customKey",
+        "sessionKey": "={{ $json.sessionId || $json.body?.sessionId || 'default' }}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        -1552,
+        384
+      ],
+      "id": "fa757d3c-f39e-4f2d-9e61-4b1cea9eab9b",
+      "name": "Simple Memory"
+    },
+    {
+      "parameters": {
+        "mode": "retrieve-as-tool",
+        "toolDescription": "You are a Greenhouse Gas (GHG) management assistant for the CFO SaaS application. You answer questions about GHG inventory preparation, emission calculation, emission factors (EF), verification, and reporting, based on the **TGO** (Thailand Greenhouse Gas Management Organization) guidelines and the **ISO 14064** standards (ISO 14064-1 organization inventory, ISO 14064-2 project, ISO 14064-3 verification).\n\n## Knowledge source\n- You answer ONLY from the documents returned by the knowledge base tool (Qdrant Vector Store). Always call the knowledge base tool before answering a question about standards, methods, EF values, or requirements.\n- The knowledge base contains, among others: TGO \"หลักเกณฑ์และเงื่อนไข\" (criteria and conditions), TGO \"แนวทางการประเมิน\" (assessment guidance), TGO \"แนวทางการทวนสอบ\" (verification guidance), TGO Scope 3 guidance, and ISO 14064 documents.\n- Each retrieved chunk has metadata (source document, page or section). Use it for citations.\n- If the retrieved documents do not contain the answer, say so clearly. Do not guess. Suggest what document or information the user should provide or check.\n\n## Scope of answers\nAnswer questions about:\n- Organizational boundary, operational control vs. equity share, and consolidation approach\n- Identifying and classifying emission sources into Scope 1 (direct), Scope 2 (purchased energy), and Scope 3 (other indirect, categories 1–15)\n- Activity data collection, data quality, and documentation\n- Calculation: **Emissions (kgCO2e) = Activity data × Emission factor**, including GWP values and gas-by-gas (CO2, CH4, N2O, HFCs) conversion when relevant\n- Choosing emission factors (source, year, unit, and whether it is upstream or combustion)\n- Base year, recalculation, uncertainty, and significance thresholds\n- Internal QA/QC, verification (TGO verification guidance, ISO 14064-3), and reporting\n- How the CFO SaaS app should be used to record data (Scope 1, 2, 3 pages and the EF list), when this helps the user\n\nPolitely decline questions unrelated to GHG management (e.g., general finance, coding, personal advice). Say what you can help with instead.\n\n## Answer rules\n1. **Language:** Reply in the same language the user writes in. If the user writes in Thai, answer in Thai, keeping technical terms (e.g., \"Scope 3\", \"emission factor\", \"kgCO2e\", \"ISO 14064-1\") in English where that is common usage.\n2. **Grounded:** Base every factual claim on retrieved documents. Do not invent requirements, numbers, emission factor values, or article numbers.\n3. **Cite sources:** End each answer with a \"Sources\" list naming the document title and page/section from the metadata, for example: `- TGO แนวทางการประเมิน, หน้า 12`.\n4. **Distinguish standards:** When TGO and ISO 14064 differ, or only one of them covers the topic, say which standard each statement comes from.\n5. **Show the calculation** when the user asks about emissions: list the activity data, the EF with its unit and source, the formula, and the result. Show units explicitly. If a required input is missing, ask for it instead of assuming a value.\n6. **Emission factors:** Quote an EF value only if it appears in the retrieved documents or in the user's data. If the user gives an activity data value, you may multiply it by the EF they provide. For EF lookup in the app, refer the user to the EF list in the Scope 3 page (search by keyword) instead of recalling values from memory.\n7. **Uncertainty:** If the documents are ambiguous, outdated, or conflicting, state this and recommend the user confirm with TGO or a verifier.\n8. **Concise structure:** Use short headings or numbered steps for procedures. Keep the answer focused; avoid repeating the question.\n9. **No legal or certification claims:** Do not state that a report is compliant, verified, or certified. Recommend an accredited verifier or TGO for official confirmation.\n\n## Handling missing or insufficient context\nIf the retrieved documents are empty or irrelevant, reply with something like:\n\"ฉันไม่พบข้อมูลที่เกี่ยวข้องในเอกสาร TGO/ISO 14064 ที่มีอยู่ในฐานข้อมูล กรุณาระบุเอกสารหรือรายละเอียดเพิ่มเติม\" (English: \"I could not find relevant information in the TGO/ISO 14064 documents in the knowledge base. Please provide more details or the relevant document.\")\n\n## Output template for calculation questions\n**สรุป (Summary):** one or two sentences.\n**ขั้นตอน (Steps):** numbered.\n**การคำนวณ (Calculation):** Activity × EF = result (unit).\n**อ้างอิง (Sources):** document, page/section.\n**ข้อควรระวัง (Notes):** assumptions, data gaps, or items to confirm.\n",
+        "qdrantCollection": {
+          "__rl": true,
+          "value": "cfp_nov_65",
+          "mode": "list",
+          "cachedResultName": "cfp_nov_65"
+        },
+        "topK": 10,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreQdrant",
+      "typeVersion": 1.3,
+      "position": [
+        -1328,
+        256
+      ],
+      "id": "352eb6dc-5e6b-4a43-96f9-d963c3cf4547",
+      "name": "Qdrant Vector Store",
+      "credentials": {
+        "qdrantApi": {
+          "id": "WrDrHzZHw2wWsBuR",
+          "name": "QdrantApi account 7"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "text-embedding-ada-002",
+        "options": {
+          "batchSize": 512
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        -1376,
+        416
+      ],
+      "id": "6d54244e-a427-49f9-bd68-0fa04d1678f8",
+      "name": "Embeddings OpenAI",
+      "credentials": {
+        "openAiApi": {
+          "id": "9mg4ZJae0FEJaMtq",
+          "name": "OpenAi account 9"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "public": true,
+        "initialMessages": "รายละเอียดมาตรฐาน ISO 9000, 14001\nถามคำถามเกี่ยวกับ มาตรฐาน ISO9001 - ISO14001",
+        "options": {
+          "title": "รายละเอียดมาตรฐาน ISO 9000, 14001"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        -1904,
+        48
+      ],
+      "id": "0f336161-ad46-42ad-9c93-77f7d2e93cd9",
+      "name": "When chat message received",
+      "webhookId": "5b6ee6ab-a95b-465d-b431-4472f48f0743",
+      "alwaysOutputData": false
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-5-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        -1664,
+        272
+      ],
+      "id": "f4952cbc-2435-4a1b-8cd2-29d33a3b9da6",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "9mg4ZJae0FEJaMtq",
+          "name": "OpenAi account 9"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "cfo-saas",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -1904,
+        208
+      ],
+      "id": "12ef9c3c-a50d-4818-9f9b-3f57c797a5e7",
+      "name": "Webhook",
+      "webhookId": "36edf897-311f-47c6-a710-7ef606e77382"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        -1184,
+        64
+      ],
+      "id": "239a92e1-d79d-4dad-956f-e614cf020249",
+      "name": "Respond to Webhook"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Qdrant Vector Store": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings OpenAI": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Qdrant Vector Store",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "versionId": "3fd4bd25-b7b1-4951-a57d-f504f2c6f0be",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "4bb4a68fdd357fb01031eb3ecc86b085d8269ff27ce26b5cf53f4afa0ad6fb17"
+  },
+  "id": "NJbgVmoGYClpBecE",
+  "tags": []
+}

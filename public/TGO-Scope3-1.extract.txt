@@ -1,0 +1,381 @@
+=== PAGE 1 ===
+ค่าการปล่อยก๊าซเรือนกระจก (Emission Factor) รวบรวมมาจากข้อมูลทุติยภูมิส าหรับการประมาณค่าคาร์บอนฟุตพริ้นท์ขององค์กร      UPDATE: กุมภาพันธ์ 2569 
+สามารถใช้ได้ตั้งแต่บัดนี้เป็นต้นไป และเริ่มบังคับใช้ตั้งแต่วันที่ 1 มกราคม พ.ศ. 2569               ตัวที่มีการเพิ่มเติม          ตัวที่มีการเปลี่ยนแปลง 
+Global Warming Potential (GWP100a) 
+GHGs CO2 Fossil CH4 CH4 N2O Reference: IPCC Assessment Report, AR5, WG 1, chapter 8, 
+p.73 - 79 GWP100 1 30 28 265 
+ 
+GHG Emission Factors for energy consumption (per unit) 
+Emission Source Units 
+Emission Factor 
+Emission Reference CO2 Fossil CH4 CH4 N2O Total 
+(kgCO2/unit) (kgCH4/unit) (kgCH4/unit) (kgN2O/unit) (kgCO2-eq/unit) 
+Stationary Source 
+Natural Gas (NCV) SCF 0.0572 - 0.0000 0.0000 0.0573 IPCC defaults (2006), volume 2, chapter 2, 
+table 2.3, p.2.18 - 2.19 และ Convert ค่าโดย
+อาศัยค่าคุณลักษณะเชื้อเพลิง Natural Gas (NCV) MJ 0.0561 - 0.0000 0.0000 0.0562 
+Natural Gas (HHV) MJ 0.0501 - 0.0000 0.0000 0.0502 2021 API Compendium, Table 4.3 & Table 
+4.6 Natural Gas (HHV) MMBTU 52.9000 - 0.0010 0.0001 52.9545 
+LPG liter 1.6797 - 0.0000 0.0000 1.6812 IPCC defaults (2006), volume 2, chapter 2, 
+table 2.3, p.2.18 - 2.19 และ Convert ค่าโดย
+อาศัยค่าคุณลักษณะเชื้อเพลิง LPG kg 3.1106 - 0.0000 0.0000 3.1133 
+Acetylene kg 3.3846 - - - 3.3846 2C2H2+5O2 → 4CO2+2H2O  
+(MW C2H2 =26, MW CO2 =44)  
+Ethane kg 3.1429 - - - 3.1429 C2H4 + 3O2 → 2CO2 + 2H2O  
+(MW C2H4 =28, MW CO2 =44) 
+Propane kg 3.0000 - - - 3.0000 C3H8+5O2→3CO2+4H2O  
+(MW C3H8 =44, MW CO2 =44) 
+=== PAGE 2 ===
+ค่าการปล่อยก๊าซเรือนกระจก (Emission Factor) รวบรวมมาจากข้อมูลทุติยภูมิส าหรับการประมาณค่าคาร์บอนฟุตพริ้นท์ขององค์กร      UPDATE: กุมภาพันธ์ 2569 
+สามารถใช้ได้ตั้งแต่บัดนี้เป็นต้นไป และเริ่มบังคับใช้ตั้งแต่วันที่ 1 มกราคม พ.ศ. 2569               ตัวที่มีการเพิ่มเติม          ตัวที่มีการเปลี่ยนแปลง 
+Emission Source Units 
+Emission Factor 
+Emission Reference CO2 Fossil CH4 CH4 N2O Total 
+(kgCO2/unit) (kgCH4/unit) (kgCH4/unit) (kgN2O/unit) (kgCO2-eq/unit) 
+Butane kg 3.0345 - - - 3.0345 2C4H10+ 13O2 → 8CO2+10H2O  
+(MW C4H10 =58, MW CO2 =44) 
+Fuel Oil A liter 3.2097 - 0.0001 0.0000 3.2198 
+IPCC defaults (2006), volume 2, chapter 2, 
+table 2.3, p.2.18 - 2.19 และ Convert ค่าโดย
+อาศัยค่าคุณลักษณะเชื้อเพลิง 
+Fuel Oil C liter 3.2353 - 0.0001 0.0000 3.2455 
+Jet Kerosene liter 2.4689 - 0.0001 0.0000 2.4773 
+Other Kerosene liter 2.4827 - 0.0001 0.0000 2.4911 
+Diesel  liter 2.6987 - 0.0001 0.0000 2.7076 
+Gasoline  liter 2.1816 - 0.0001 0.0000 2.1892 
+Biodiesel  liter 1.6440 - 0.0001 0.0000 1.6496 
+Bio-gasoline (Ethanol) liter 1.4968 - 0.0001 0.0000 1.5019 
+Diesel B7 (แบบคิด EF ของ Biofuel ด้วย)       คิดที่สัดส่วนไบโอดีเซล (7%) 
+- Diesel B7: Report in Scope 1 liter 2.5098 - 0.0001 0.0000 2.5184 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+- Diesel B7: Report in Biogenic CO2 emissions liter 0.1151    0.1151 นับเฉพาะ CO2 จาก biofuel   
+Diesel B20 (แบบคิด EF ของ Biofuel ด้วย)       คิดที่สัดส่วนไบโอดีเซล (20%) 
+- Diesel B20: Report in Scope 1 liter 2.1590 - 0.0001 0.0000 2.1672 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O  
+- Diesel B20: Report in Biogenic CO2 emissions liter 0.3288 - - - 0.3288  นับเฉพาะ CO2 จาก biofuel    
+Gasohol (E10)       คิดที่สัดส่วนเอทานอล  (10%) 
+- Gasohol E10: Report in Scope 1 liter 1.9634 - 0.0001 0.0000 1.9708 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+- Gasohol E10: Report in Biogenic CO2 
+emissions liter 0.1497 - - - 0.1497 นับเฉพาะ CO2 จาก biofuel 
+Gasohol (E20)       คิดที่สัดส่วนเอทานอล (20%) 
+- Gasohol E20: Report in Scope 1 liter 1.7453 - 0.0001 0.0000 1.7524 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+=== PAGE 3 ===
+ค่าการปล่อยก๊าซเรือนกระจก (Emission Factor) รวบรวมมาจากข้อมูลทุติยภูมิส าหรับการประมาณค่าคาร์บอนฟุตพริ้นท์ขององค์กร      UPDATE: กุมภาพันธ์ 2569 
+สามารถใช้ได้ตั้งแต่บัดนี้เป็นต้นไป และเริ่มบังคับใช้ตั้งแต่วันที่ 1 มกราคม พ.ศ. 2569               ตัวที่มีการเพิ่มเติม          ตัวที่มีการเปลี่ยนแปลง 
+Emission Source Units 
+Emission Factor 
+Emission Reference CO2 Fossil CH4 CH4 N2O Total 
+(kgCO2/unit) (kgCH4/unit) (kgCH4/unit) (kgN2O/unit) (kgCO2-eq/unit) 
+- Gasohol E20: Report in Biogenic CO2 
+emissions liter 0.2994 - - - 0.2994 นับเฉพาะ CO2 จาก biofuel 
+Gasohol (E85)       คิดที่สัดส่วนเอทานอล (85%) 
+- Gasohol E85: Report in Scope 1 liter 0.3272 - 0.0001 0.0000 0.3327 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O  
+- Gasohol E85: Report in Biogenic CO2 
+emissions liter 1.2723 - - - 1.2723 นับเฉพาะ CO2 จาก biofuel 
+Lignite kg 1.2019 - 0.0001 0.0000 1.2100 IPCC defaults (2006), volume 2, chapter 2, 
+table 2.3, p.2.18 - 2.19 และ Convert ค่าโดย
+อาศัยค่าคุณลักษณะเชื้อเพลิง 
+Anthracite kg 3.0866 - 0.0003 0.0000 3.1079 
+Bituminous Coal kg 2.4946 - 0.0003 0.0000 2.5125 
+Coking Coal kg 2.6138 - 0.0003 0.0000 2.6325 
+Fuel wood       
+IPCC defaults (2006), volume 2, chapter 2, 
+table 2.3, p.2.18 - 2.19 และ Convert ค่าโดย
+อาศัยค่าคุณลักษณะเชื้อเพลิง 
+- Fuel wood: Report in Scope 1 kg - - 0.0005 0.0001 0.0304 นับเฉพาะ CH4 และ N2O 
+- Fuel wood: Report in Biogenic CO2 
+emissions kg 1.7909 - - - 1.7909 นับเฉพาะ CO2 จาก biofuel   
+Saw dust       
+IPCC defaults (2006), volume 2, chapter 2, 
+table 2.3, p.2.18 - 2.19 และ Convert ค่าโดย
+อาศัยค่าคุณลักษณะเชื้อเพลิง 
+- Saw dust: Report in Scope 1 kg - - 0.0003 0.0000 0.0207 นับเฉพาะ CH4 และ N2O 
+- Saw dust: Report in Biogenic CO2 emissions kg 1.2186 - - - 1.2186 นับเฉพาะ CO2 จาก biofuel   
+=== PAGE 4 ===
+ค่าการปล่อยก๊าซเรือนกระจก (Emission Factor) รวบรวมมาจากข้อมูลทุติยภูมิส าหรับการประมาณค่าคาร์บอนฟุตพริ้นท์ขององค์กร      UPDATE: กุมภาพันธ์ 2569 
+สามารถใช้ได้ตั้งแต่บัดนี้เป็นต้นไป และเริ่มบังคับใช้ตั้งแต่วันที่ 1 มกราคม พ.ศ. 2569               ตัวที่มีการเพิ่มเติม          ตัวที่มีการเปลี่ยนแปลง 
+Emission Source Units 
+Emission Factor 
+Emission Reference CO2 Fossil CH4 CH4 N2O Total 
+(kgCO2/unit) (kgCH4/unit) (kgCH4/unit) (kgN2O/unit) (kgCO2-eq/unit) 
+Charcoal       
+IPCC defaults (2006), volume 2, chapter 2, 
+table 2.3, p.2.18 - 2.19 และ Convert ค่าโดย
+อาศัยค่าคุณลักษณะเชื้อเพลิง 
+- Charcoal: Report in Scope 1 kg - - 0.0058 0.0001 0.1923 นับเฉพาะ CH4 และ N2O  
+- Charcoal: Report in Biogenic CO2 emissions kg 3.2346 - - - 3.2346 นับเฉพาะ CO2 จาก biofuel   
+Paddy husk       
+IPCC defaults (2006), volume 2, chapter 2, 
+table 2.3, p.2.18 - 2.19 และ Convert ค่าโดย
+อาศัยค่าคุณลักษณะเชื้อเพลิง 
+- Paddy husk: Report in Scope 1 kg - - 0.0004 0.0001 0.0274 นับเฉพาะ CH4 และ N2O 
+- Paddy husk: Report in Biogenic CO2 
+emissions kg 1.4400 - - - 1.4400 นับเฉพาะ CO2 จาก biofuel  
+Bagasse       
+IPCC defaults (2006), volume 2, chapter 2, 
+table 2.3, p.2.18 - 2.19 และ Convert ค่าโดย
+อาศัยค่าคุณลักษณะเชื้อเพลิง 
+- Bagasse: Report in Scope 1 kg  - 0.0002 0.0000 0.0143 นับเฉพาะ CH4 และ N2O 
+- Bagasse: Report in Biogenic CO2 emissions kg 0.7530 - - - 0.7530 นับเฉพาะ CO2 จาก biofuel  
+Palm kernel shell       
+IPCC defaults (2006), volume 2, chapter 2, 
+table 2.3, p.2.18 - 2.19 และ Convert ค่าโดย
+อาศัยค่าคุณลักษณะเชื้อเพลิง 
+- Palm kernel shell: Report in Scope 1 kg - - 0.0006 0.0001 0.0352 นับเฉพาะ CH4 และ N2O 
+- Palm kernel shell: Report in Biogenic CO2 
+emissions kg 1.8530 - - - 1.8530 นับเฉพาะ CO2 จาก biofuel   
+=== PAGE 5 ===
+ค่าการปล่อยก๊าซเรือนกระจก (Emission Factor) รวบรวมมาจากข้อมูลทุติยภูมิส าหรับการประมาณค่าคาร์บอนฟุตพริ้นท์ขององค์กร      UPDATE: กุมภาพันธ์ 2569 
+สามารถใช้ได้ตั้งแต่บัดนี้เป็นต้นไป และเริ่มบังคับใช้ตั้งแต่วันที่ 1 มกราคม พ.ศ. 2569               ตัวที่มีการเพิ่มเติม          ตัวที่มีการเปลี่ยนแปลง 
+Emission Source Units 
+Emission Factor 
+Emission Reference CO2 Fossil CH4 CH4 N2O Total 
+(kgCO2/unit) (kgCH4/unit) (kgCH4/unit) (kgN2O/unit) (kgCO2-eq/unit) 
+Cob       
+IPCC defaults (2006), volume 2, chapter 2, 
+table 2.3, p.2.18 - 2.19 และ Convert ค่าโดย
+อาศัยค่าคุณลักษณะเชื้อเพลิง 
+- Cob: Report in Scope 1 kg - - 0.0005 0.0001 0.0319 นับเฉพาะ CH4 และ N2O 
+- Cob: Report in Biogenic CO2 emissions kg 1.6780 - - - 1.6780 นับเฉพาะ CO2 จาก biofuel  
+Biogas       
+IPCC defaults (2006), volume 2, chapter 2, 
+table 2.3, p.2.18 - 2.19 และ Convert ค่าโดย
+อาศัยค่าคุณลักษณะเชื้อเพลิง 
+- Biogas: Report in Scope 1 m3 - - 0.0000 0.0000 0.0011 นับเฉพาะ CH4 และ N2O 
+- Biogas: Report in Biogenic CO2 emissions m3 1.1428 - - - 1.1428 นับเฉพาะ CO2 จาก biofuel  
+  
+=== PAGE 6 ===
+ค่าการปล่อยก๊าซเรือนกระจก (Emission Factor) รวบรวมมาจากข้อมูลทุติยภูมิส าหรับการประมาณค่าคาร์บอนฟุตพริ้นท์ขององค์กร      UPDATE: กุมภาพันธ์ 2569 
+สามารถใช้ได้ตั้งแต่บัดนี้เป็นต้นไป และเริ่มบังคับใช้ตั้งแต่วันที่ 1 มกราคม พ.ศ. 2569               ตัวที่มีการเพิ่มเติม          ตัวที่มีการเปลี่ยนแปลง 
+Emission Source Units 
+Emission Factor 
+Emission Reference CO2 Fossil CH4 CH4 N2O Total 
+(kgCO2/unit) (kgCH4/unit) (kgCH4/unit) (kgN2O/unit) (kgCO2-eq/unit) 
+Mobile Source 
+Off-road vehicles/mobile equipment 
+LPG kg 3.1106 - 0.0025 0.0001 3.2057 IPCC defaults (2006) และ Convert ค่าโดยอาศัย
+ค่าคุณลักษณะเชื้อเพลิง 
+Diesel: Agriculture liter 2.6987 - 0.0002 0.0010 2.9790 
+IPCC defaults (2006), volume 2, chapter 3, 
+table 3.3.1 และ Convert ค่าโดยอาศัยค่า
+คุณลักษณะเชื้อเพลิง 
+Diesel: Forestry liter 2.6987 - 0.0002 0.0010 2.9790 
+Diesel: Industry liter 2.6987 - 0.0002 0.0010 2.9790 
+Diesel: Household liter 2.6987 - 0.0002 0.0010 2.9790 
+Biodiesel liter 1.6440 - - - 1.6440 IPCC defaults (2006) และ Convert ค่าโดยอาศัย
+ค่าคุณลักษณะเชื้อเพลิง  Ethanol, Bio-gasoline liter 1.4968 - - - 1.4968 
+Motor Gasoline 4-stroke: Agriculture liter 2.1816 - 0.0025 0.0001 2.2688 
+IPCC defaults (2006), volume 2, chapter 3, 
+table 3.3.1 และ Convert ค่าโดยอาศัยค่า
+คุณลักษณะเชื้อเพลิง 
+Motor Gasoline 4-stroke:  Forestry liter 2.1816 - - - 2.1816 
+Motor Gasoline 4-stroke:  Industry liter 2.1816 - 0.0016 0.0001 2.2423 
+Motor Gasoline 4-stroke:  Household liter 2.1816 - 0.0038 0.0001 2.3040 
+Motor Gasoline 2-stroke: Agriculture liter 2.1816 - 0.0044 0.0000 2.3083 
+Motor Gasoline 2-stroke:  Forestry liter 2.1816 - 0.0054 0.0000 2.3347 
+Motor Gasoline 2-stroke:  Industry liter 2.1816 - 0.0041 0.0000 2.2995 
+Motor Gasoline 2-stroke:  Household liter 2.1816 - 0.0057 0.0000 2.3436 
+Diesel B7       คิดที่สัดส่วนไบโอดีเซล (7%)  
+- Diesel B7: Report in Scope 1 liter 2.5098 - 0.0002 0.0010 2.7901 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+=== PAGE 7 ===
+ค่าการปล่อยก๊าซเรือนกระจก (Emission Factor) รวบรวมมาจากข้อมูลทุติยภูมิส าหรับการประมาณค่าคาร์บอนฟุตพริ้นท์ขององค์กร      UPDATE: กุมภาพันธ์ 2569 
+สามารถใช้ได้ตั้งแต่บัดนี้เป็นต้นไป และเริ่มบังคับใช้ตั้งแต่วันที่ 1 มกราคม พ.ศ. 2569               ตัวที่มีการเพิ่มเติม          ตัวที่มีการเปลี่ยนแปลง 
+Emission Source Units 
+Emission Factor 
+Emission Reference CO2 Fossil CH4 CH4 N2O Total 
+(kgCO2/unit) (kgCH4/unit) (kgCH4/unit) (kgN2O/unit) (kgCO2-eq/unit) 
+- Diesel B7: Report in Biogenic CO2 
+emissions liter 0.1151 - - - 0.1151 นับเฉพาะ CO2 จาก biofuel    
+Gasohol E10, 4-stroke: Agriculture       คิดที่สัดส่วนเอทานอล  (10%) 
+- Gasohol E10: Report in Scope 1 liter 1.9634 - 0.0025 0.0001 2.0506 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+- Gasohol E10: Report in Biogenic CO2 
+emissions liter 0.1497 - - - 0.1497 นับเฉพาะ CO2 จาก biofuel   
+Gasohol E10, 4-stroke:  Forestry       คิดที่สัดส่วนเอทานอล  (10%) 
+- Gasohol E10: Report in Scope 1 liter 1.9634 - - - 1.9634 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+- Gasohol E10: Report in Biogenic CO2 
+emissions liter 0.1497 - - - 0.1497 นับเฉพาะ CO2 จาก biofuel    
+Gasohol E10, 4-stroke:  Industry       คิดที่สัดส่วนเอทานอล  (10%) 
+- Gasohol E10: Report in Scope 1 liter 1.9634 - 0.0016 0.0001 2.0242 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+- Gasohol E10: Report in Biogenic CO2 
+emissions liter 0.1497 - - - 0.1497 นับเฉพาะ CO2 จาก biofuel   
+Gasohol E10, 4-stroke:  Household       คิดที่สัดส่วนเอทานอล  (10%) 
+- Gasohol E10: Report in Scope 1 liter 1.9634 - 0.0038 0.0001 2.0859 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+- Gasohol E10: Report in Biogenic CO2 
+emissions liter 0.1497 - - - 0.1497 นับเฉพาะ CO2 จาก biofuel   
+Gasohol E10, 2-stroke: Agriculture       คิดที่สัดส่วนเอทานอล  (10%) 
+- Gasohol E10: Report in Scope 1 liter 1.9634 - 0.0044 0.0000 2.0901 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+=== PAGE 8 ===
+ค่าการปล่อยก๊าซเรือนกระจก (Emission Factor) รวบรวมมาจากข้อมูลทุติยภูมิส าหรับการประมาณค่าคาร์บอนฟุตพริ้นท์ขององค์กร      UPDATE: กุมภาพันธ์ 2569 
+สามารถใช้ได้ตั้งแต่บัดนี้เป็นต้นไป และเริ่มบังคับใช้ตั้งแต่วันที่ 1 มกราคม พ.ศ. 2569               ตัวที่มีการเพิ่มเติม          ตัวที่มีการเปลี่ยนแปลง 
+Emission Source Units 
+Emission Factor 
+Emission Reference CO2 Fossil CH4 CH4 N2O Total 
+(kgCO2/unit) (kgCH4/unit) (kgCH4/unit) (kgN2O/unit) (kgCO2-eq/unit) 
+- Gasohol E10: Report in Biogenic CO2 
+emissions liter 0.1497 - - - 0.1497 นับเฉพาะ CO2 จาก biofuel   
+Gasohol E10, 2-stroke:  Forestry       คิดที่สัดส่วนเอทานอล  (10%) 
+- Gasohol E10: Report in Scope 1 liter 1.9634 - 0.0054 0.0000 2.1166 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+- Gasohol E10: Report in Biogenic CO2 
+emissions liter 0.1497 - - - 0.1497 นับเฉพาะ CO2 จาก biofuel   
+Gasohol E10, 2-stroke:  Industry       คิดที่สัดส่วนเอทานอล  (10%) 
+- Gasohol E10: Report in Scope 1 liter 1.9634 - 0.0041 0.0000 2.0813 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+- Gasohol E10: Report in Biogenic CO2 
+emissions liter 0.1497 - - - 0.1497 นับเฉพาะ CO2 จาก biofuel   
+Gasohol E10, 2-stroke: Household       คิดที่สัดส่วนเอทานอล  (10%) 
+- Gasohol E10: Report in Scope 1 liter 1.9634 - 0.0057 0.0000 2.1254 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+- Gasohol E10: Report in Biogenic CO2 
+emissions  liter 0.1497 - - - 0.1497  นับเฉพาะ CO2 จาก biofuel   
+  
+=== PAGE 9 ===
+ค่าการปล่อยก๊าซเรือนกระจก (Emission Factor) รวบรวมมาจากข้อมูลทุติยภูมิส าหรับการประมาณค่าคาร์บอนฟุตพริ้นท์ขององค์กร      UPDATE: กุมภาพันธ์ 2569 
+สามารถใช้ได้ตั้งแต่บัดนี้เป็นต้นไป และเริ่มบังคับใช้ตั้งแต่วันที่ 1 มกราคม พ.ศ. 2569               ตัวที่มีการเพิ่มเติม          ตัวที่มีการเปลี่ยนแปลง 
+Emission Source Units 
+Emission Factor 
+Emission Reference CO2 Fossil CH4 CH4 N2O Total 
+(kgCO2/unit) (kgCH4/unit) (kgCH4/unit) (kgN2O/unit) (kgCO2-eq/unit) 
+On-road vehicles 
+CNG  kg 2.1262 - 0.0035 0.0001 2.2540 
+IPCC defaults (2006), volume 2, chapter 3, 
+table 3.2.1 & 3.2.2 และ Convert ค่าโดยอาศัยค่า
+คุณลักษณะเชื้อเพลิง 
+LPG  liter 1.6797 - 0.0017 0.0000 1.7273 
+LPG kg 3.1106 - 0.0031 0.0000 3.1988 
+Diesel liter 2.6987 - 0.0001 0.0001 2.7403 
+Motor Gasoline - uncontrolled liter 2.1816 - 0.0010 0.0001 2.2373 
+Motor Gasoline - oxidation catalyst  liter 2.1816 - 0.0008 0.0003 2.2703 
+Motor Gasoline - low mileage light 
+duty vehicle vintage 1995 or late  liter 2.1816 - 0.0001 0.0002 2.2325 
+Biodiesel liter 1.6440 - 0.0001 0.0001 1.6705 
+Ethanol (Bio-gasoline) liter 1.4968 - 0.0004 - 1.5074 
+Diesel (แบบคิด EF ของ Biofuel ด้วย)       คิดที่สัดส่วนไบโอดีเซล 7% 
+- Diesel B7: Report in Scope 1  liter 2.5098 - 0.0001 0.0001 2.5504 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O  
+- Diesel B7: Report in Biogenic CO2 
+emissions  liter 0.1151 - - - 0.1151 นับเฉพาะ CO2 จาก biofuel   
+Diesel (แบบคิด EF ของ Biofuel ด้วย)       คิดที่สัดส่วนไบโอดีเซล 20% 
+- Diesel B20: Report in Scope 1  liter 2.1590 - 0.0001 0.0001 2.1976 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+- Diesel B20: Report in Biogenic CO2 
+emissions  liter 0.3288 - - - 0.3288 นับเฉพาะ CO2 จาก biofuel  
+Motor Gasoline - oxydation catalyst: L       คิดที่สัดส่วนเอทานอล 10% 
+- Gasohol E10: Report in Scope 1  liter 1.9634 - 0.0007 0.0002 2.0444 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+=== PAGE 10 ===
+ค่าการปล่อยก๊าซเรือนกระจก (Emission Factor) รวบรวมมาจากข้อมูลทุติยภูมิส าหรับการประมาณค่าคาร์บอนฟุตพริ้นท์ขององค์กร      UPDATE: กุมภาพันธ์ 2569 
+สามารถใช้ได้ตั้งแต่บัดนี้เป็นต้นไป และเริ่มบังคับใช้ตั้งแต่วันที่ 1 มกราคม พ.ศ. 2569               ตัวที่มีการเพิ่มเติม          ตัวที่มีการเปลี่ยนแปลง 
+Emission Source Units 
+Emission Factor 
+Emission Reference CO2 Fossil CH4 CH4 N2O Total 
+(kgCO2/unit) (kgCH4/unit) (kgCH4/unit) (kgN2O/unit) (kgCO2-eq/unit) 
+- Gasohol E10: Report in Biogenic CO2 
+emissions  liter 0.1497 - - - 0.1497 นับเฉพาะ CO2 จาก biofuel 
+Motor Gasoline - oxydation catalyst: L       คิดที่สัดส่วนเอทานอล 20% 
+- Gasohol E20: Report in Scope 1 liter 1.7453 - 0.0007 0.0002 1.8184 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+- Gasohol E20: Report in Biogenic CO2 
+emissions  liter 0.2994 - - - 0.2994 นับเฉพาะ CO2 จาก biofuel 
+Motor Gasoline - oxydation catalyst: L       คิดที่สัดส่วนเอทานอล 85% 
+- Gasohol E85: Report in Scope 1 liter 0.3272 - 0.0004 0.0000 0.3496 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+- Gasohol E85: Report in Biogenic CO2 
+emissions  liter 1.2723 - - - 1.2723 นับเฉพาะ CO2 จาก biofuel 
+Motor Gasoline - low mileage light 
+duty vehicle vintage 1995 or later       คิดที่สัดส่วนเอทานอล 10% 
+- Gasohol E10: Report in Scope 1 liter 1.9634 - 0.0001 0.0002 2.0103 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O 
+- Gasohol E10: Report in Biogenic CO2 
+emissions  liter 0.1497 - - - 0.1497 นับเฉพาะ CO2 จาก biofuel   
+Motor Gasoline - low mileage light 
+duty vehicle vintage 1995 or later       คิดที่สัดส่วนเอทานอล 20% 
+- Gasohol E20: Report in Scope 1 liter 1.7453 - 0.0002 0.0001 1.7881 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O  
+- Gasohol E20: Report in Biogenic CO2 
+emissions  liter 0.2994 - - - 0.2994 นับเฉพาะ CO2 จาก biofuel   
+Motor Gasoline - low mileage light 
+duty vehicle vintage 1995 or later       คิดที่สัดส่วนเอทานอล 85% 
+=== PAGE 11 ===
+ค่าการปล่อยก๊าซเรือนกระจก (Emission Factor) รวบรวมมาจากข้อมูลทุติยภูมิส าหรับการประมาณค่าคาร์บอนฟุตพริ้นท์ขององค์กร      UPDATE: กุมภาพันธ์ 2569 
+สามารถใช้ได้ตั้งแต่บัดนี้เป็นต้นไป และเริ่มบังคับใช้ตั้งแต่วันที่ 1 มกราคม พ.ศ. 2569               ตัวที่มีการเพิ่มเติม          ตัวที่มีการเปลี่ยนแปลง 
+Emission Source Units 
+Emission Factor 
+Emission Reference CO2 Fossil CH4 CH4 N2O Total 
+(kgCO2/unit) (kgCH4/unit) (kgCH4/unit) (kgN2O/unit) (kgCO2-eq/unit) 
+- Gasohol E85: Report in Scope 1 liter 0.3272 - 0.0003 0.0000 0.3439 นับเฉพาะ CO2 จาก fossil fuel, CH4 และ N2O  
+- Gasohol E85: Report in Biogenic CO2 
+emissions  liter 1.2723 - - - 1.2723  นับเฉพาะ CO2 จาก biofuel   
+Electricity, grid mix (ไฟฟ้า)   
+ไฟฟ้าแบบ grid mix ปี 2016-2018; LCIA 
+method IPCC 2013 GWP 100a V1.03 
+(CFO Scope2) 
+หมายเหตุ ค่า EF นี้สามารถใช้ได้ถึง 31 มี.ค. 2569 
+kWh 
+ 
+0.4999 Thai National LCI Database, TIISMTEC-NSTDA, 
+AR5 (with TGO electricity 2016-2018) 
+ไฟฟ้าแบบ grid mix ปี 2016-2018; การ
+ได้มาซึ่งเชื้อเพลิงรวมถึงการขนส่งเชื้อเพลิงที่
+ใช้ในการผลิตไฟฟ้าส าหรับ SCOPE 3 
+หมายเหตุ ค่า EF นี้สามารถใช้ได้ถึง 31 มี.ค. 2569 
+kWh 0.0987 Thai National LCI Database,TIISMTEC-NSTDA, 
+AR5 (with TGO electricity 2016-2018) 
+ไฟฟ้าแบบ grid mix ปี 2016-2018; LCIA 
+method IPCC 2013 GWP 100a V1.03 
+(CFP) 
+kWh 0.5986 Thai National LCI Database, TIISMTEC-NSTDA, 
+AR5 (with TGO electricity 2016-2018) 
+ไฟฟ้าแบบ grid mix ปี 2022-2024; LCIA 
+method IPCC 2013 GWP 100a V1.03 
+(CFO Scope2) 
+kWh 
+ 
+  
+0.4750 Thai National LCI Database, TIISMTEC-NSTDA, 
+AR5 (with TGO electricity 2022-2024) 
+ไฟฟ้าแบบ grid mix ปี 2022-2024; การ
+ได้มาซึ่งเชื้อเพลิงรวมถึงการขนส่ง 
+เชื้อเพลิงที่ใช้ในการผลิตไฟฟ้า 
+ส าหรับ SCOPE 3 
+kWh 0.0812 Thai National LCI Database, TIISMTEC-NSTDA, 
+AR5 (with TGO electricity 2022-2024) 
+=== PAGE 12 ===
+ค่าการปล่อยก๊าซเรือนกระจก (Emission Factor) รวบรวมมาจากข้อมูลทุติยภูมิส าหรับการประมาณค่าคาร์บอนฟุตพริ้นท์ขององค์กร      UPDATE: กุมภาพันธ์ 2569 
+สามารถใช้ได้ตั้งแต่บัดนี้เป็นต้นไป และเริ่มบังคับใช้ตั้งแต่วันที่ 1 มกราคม พ.ศ. 2569               ตัวที่มีการเพิ่มเติม          ตัวที่มีการเปลี่ยนแปลง 
+Emission Source Units 
+Emission Factor 
+Emission Reference CO2 Fossil CH4 CH4 N2O Total 
+(kgCO2/unit) (kgCH4/unit) (kgCH4/unit) (kgN2O/unit) (kgCO2-eq/unit) 
+ไฟฟ้าแบบ grid mix ปี 2022-2024; LCIA 
+method IPCC 2013 GWP 100a V1.03 
+(CFP) 
+kWh 0.5562 Thai National LCI Database, TIISMTEC-NSTDA, 
+AR5 (with TGO electricity 2022-2024) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+=== PAGE 13 ===
+ค่าการปล่อยก๊าซเรือนกระจก (Emission Factor) รวบรวมมาจากข้อมูลทุติยภูมิส าหรับการประมาณค่าคาร์บอนฟุตพริ้นท์ขององค์กร      UPDATE: กุมภาพันธ์ 2569 
+สามารถใช้ได้ตั้งแต่บัดนี้เป็นต้นไป และเริ่มบังคับใช้ตั้งแต่วันที่ 1 มกราคม พ.ศ. 2569               ตัวที่มีการเพิ่มเติม          ตัวที่มีการเปลี่ยนแปลง 
+Emission Source Units 
+Global warming potential: GWP 
+Emission Reference CO2 Fossil CH4 CH4 N2O Total 
+(kgCO2/unit) (kgCH4/unit) (kgCH4/unit) (kgN2O/unit) (kgCO2-eq/unit) 
+Refrigerants (สารท าความเย็น) 
+R-22 (HCFC-22) kg 
+ 
+1,760.0000 IPCC 2013, AR5 
+R-32 kg 677.0000 IPCC 2013, AR5 
+R-125 kg 3,170.0000 IPCC 2013, AR5 
+R-134 kg 1,120.0000 IPCC 2013, AR5 
+R-134a kg 1,300.0000 IPCC 2013, AR5 
+R-143 kg 328.0000 IPCC 2013, AR5 
+R-143a kg 4,800.0000 IPCC 2013, AR5 
+R-404a kg 3,942.8000 IPCC defaults (2006), volume 3, chapter 7, table 7.8, p.7.44 
+(HFC-125/HFC-143a/HFC-134a) (44.0%/52.0%/4.0%) 
+R-407a kg 1,923.4000 IPCC defaults (2006), volume 3, chapter 7, table 7.8, p.7.44 
+(HFC-32/HFC-125/HFC-134a) (20.0%/40.0%/40.0%) 
+R-407C kg 1,624.2100 IPCC defaults (2006), volume 3, chapter 7, table 7.8, p.7.44 
+(HFC-32/HFC-125/HFC-134a) (23.0%/25.0%/52.0%) 
+R-410a kg 1,923.5000 IPCC defaults (2006), volume 3, chapter 7, table 7.8, p.7.44 
+(HFC-32/HFC-125) (50.0%/50.0%) 
+ 
+ 
+ 
