@@ -1,0 +1,106 @@
+/*
+ * Color themes. The app uses Tailwind palette classes (gray-*, emerald-*, bg-white),
+ * so each theme remaps those palette variables on <html data-theme="...">.
+ * "white" is the default and has no overrides.
+ */
+
+/* ---------- Dark ---------- */
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --color-gray-50: #0f172a;
+  --color-gray-100: #1e293b;
+  --color-gray-200: #334155;
+  --color-gray-300: #475569;
+  --color-gray-400: #64748b;
+  --color-gray-500: #94a3b8;
+  --color-gray-600: #cbd5e1;
+  --color-gray-700: #e2e8f0;
+  --color-gray-800: #f1f5f9;
+  --color-gray-900: #f8fafc;
+  --color-gray-950: #ffffff;
+  --color-emerald-50: #064e3b;
+  --color-emerald-500: #34d399;
+  --color-emerald-600: #059669;
+  --color-emerald-700: #6ee7b7;
+  --theme-panel: #1e293b;
+  --theme-btn-hover: #047857;
+}
+
+/* ---------- Navy blue ---------- */
+html[data-theme="navy"] {
+  color-scheme: dark;
+  --color-gray-50: #0b1f3a;
+  --color-gray-100: #10284a;
+  --color-gray-200: #1f3a62;
+  --color-gray-300: #2d4d7a;
+  --color-gray-400: #5a78a3;
+  --color-gray-500: #8ea6c7;
+  --color-gray-600: #b8c9de;
+  --color-gray-700: #d9e4f2;
+  --color-gray-800: #ebf1f9;
+  --color-gray-900: #f5f8fc;
+  --color-gray-950: #ffffff;
+  --color-emerald-50: #1e3a6e;
+  --color-emerald-500: #60a5fa;
+  --color-emerald-600: #2563eb;
+  --color-emerald-700: #93c5fd;
+  --theme-panel: #132f54;
+  --theme-btn-hover: #1d4ed8;
+}
+
+/* ---------- Natural green (light) ---------- */
+html[data-theme="green"] {
+  color-scheme: light;
+  --color-gray-50: #f5f8f3;
+  --color-gray-100: #eaf1e4;
+  --color-gray-200: #d8e4cd;
+  --color-gray-300: #bccdaa;
+  --color-gray-400: #97ab80;
+  --color-gray-500: #6f8560;
+  --color-gray-600: #4f6443;
+  --color-gray-700: #3b4c33;
+  --color-gray-800: #2a3725;
+  --color-gray-900: #18210f;
+  --color-gray-950: #0b1007;
+  --color-emerald-50: #e3f1de;
+  --color-emerald-500: #5a9a4f;
+  --color-emerald-600: #3f7d37;
+  --color-emerald-700: #2f6229;
+  --theme-panel: #ffffff;
+  --theme-btn-hover: #2f6229;
+}
+
+/* ---------- Earth tone (light, warm) ---------- */
+html[data-theme="earth"] {
+  color-scheme: light;
+  --color-gray-50: #faf6ef;
+  --color-gray-100: #f3ecdf;
+  --color-gray-200: #e3d6c1;
+  --color-gray-300: #cdbb9d;
+  --color-gray-400: #a8926f;
+  --color-gray-500: #86714f;
+  --color-gray-600: #5f4d33;
+  --color-gray-700: #4a3b27;
+  --color-gray-800: #352b1c;
+  --color-gray-900: #221b11;
+  --color-gray-950: #120e08;
+  --color-emerald-50: #f3e6d3;
+  --color-emerald-500: #a0703f;
+  --color-emerald-600: #8b5e34;
+  --color-emerald-700: #6b4520;
+  --theme-panel: #fffdf8;
+  --theme-btn-hover: #6f4a28;
+}
+
+/* ---------- Shared rules for every non-default theme ---------- */
+html:not([data-theme="white"]) body {
+  background-color: var(--color-gray-50);
+  color: var(--color-gray-900);
+}
+html:not([data-theme="white"]) .bg-white,
+html:not([data-theme="white"]) .panel {
+  background-color: var(--theme-panel);
+}
+html:not([data-theme="white"]) .btn-primary:hover {
+  background-color: var(--theme-btn-hover);
+}

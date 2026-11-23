@@ -80,9 +80,40 @@
     text-wrap: balance;
   }
   .print-hide {
-    @apply hidden print:hidden;
+    @apply print:hidden;
   }
   .print-show {
     @apply hidden print:block;
   }
+}
+
+/* พิมพ์เฉพาะพื้นที่ .print-area (เช่น แผน Net Zero) โดยไม่กระทบหน้าอื่น */
+@media print {
+  /* Only apply when .print-area exists and .manual-overlay does NOT exist */
+  body:has(.print-area):not(:has(.manual-overlay)) * {
+    visibility: hidden;
+  }
+  body:has(.print-area):not(:has(.manual-overlay)) .print-area,
+  body:has(.print-area):not(:has(.manual-overlay)) .print-area * {
+    visibility: visible;
+  }
+  body:has(.print-area):not(:has(.manual-overlay)) .print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .break-before-page {
+    break-before: page;
+  }
+  .break-inside-avoid {
+    break-inside: avoid;
+  }
+}
+
+
+
+@page {
+  size: A4;
+  margin: 15mm;
 }

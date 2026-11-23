@@ -1,6 +1,7 @@
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
 import AiAssistant from "./AiAssistant";
+import Copyright from "./Copyright";
 import { useAuth } from "../context/AuthContext";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -12,6 +13,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <Navbar />
         <main className="flex-1 min-w-0 overflow-y-auto bg-gray-50 p-6 md:p-8">
           {children}
+          <Copyright className="mt-8" />
         </main>
       </div>
       {hasFeature("ai") && <AiAssistant />}

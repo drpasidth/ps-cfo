@@ -401,16 +401,18 @@ app.post('/api/auth/signup', (req, res) => {
     return res.status(409).json({ error: 'อีเมลนี้ถูกใช้งานแล้ว' });
   }
 
-  // Every signup gets its own empty tenant and is logged in right away, but the account stays
-  // unapproved: the user picks a package, pays by QR and uploads the slip; a superuser then approves it.
+  // Every signup gets its own empty company and a free 1-month trial (no payment, no slip).
+  // The trial uses the full BB package so every feature is available; when the trial ends the
+  // company chooses a package and pays by QR as before.
   const now = new Date().toISOString();
   const tenantId = crypto.randomUUID();
   const tenantFile = `tenants/${tenantId}.sqlite3`;
+  const TRIAL_PACKAGE_ID = 'BB';
   master.transaction(() => {
     master.prepare('INSERT INTO tenants (id, name, db_file, created_at, package_id, trial_ends_at) VALUES (?,?,?,?,?,?)')
-      .run(tenantId, companyName, tenantFile, now, null, addMonths(now, TRIAL_MONTHS));
+      .run(tenantId, companyName, tenantFile, now, TRIAL_PACKAGE_ID, addMonths(now, TRIAL_MONTHS));
     master.prepare(`INSERT INTO users (id, tenant_id, email, name, password_hash, role, approved, created_at)
-      VALUES (?,?,?,?,?,?,0,?)`).run(crypto.randomUUID(), tenantId, email, contactPerson, hashPassword(password), 'tenant_admin', now);
+      VALUES (?,?,?,?,?,?,1,?)`).run(crypto.randomUUID(), tenantId, email, contactPerson, hashPassword(password), 'tenant_admin', now);
   })();
   getTenantDb(tenantFile).prepare('INSERT INTO company_profile (id, data) VALUES (1, ?)').run(JSON.stringify({
     companyName,
@@ -464,6 +466,23 @@ function parseMaxUsers(value, fallback) {
   const n = Number(value);
   return Number.isInteger(n) && n >= 1 ? n : null;
 }
+
+// Backup: a consistent single-file copy of this tenant's database (activities, company, settings).
+app.get('/api/tenant/backup', requireAuth, requireTenantAdmin, (req, res) => {
+  const tmpFile = path.join(require('os').tmpdir(), `cfo-backup-${crypto.randomUUID()}.sqlite3`);
+  try {
+    req.db.prepare('VACUUM INTO ?').run(tmpFile);
+  } catch (err) {
+    console.error('[backup] ไม่สำเร็จ:', err.message);
+    return res.status(500).json({ error: 'สร้างไฟล์สำรองข้อมูลไม่สำเร็จ' });
+  }
+  const date = new Date().toISOString().slice(0, 10);
+  logEvent('backup', { actor: req.session.email, tenantName: req.session.tenant_name });
+  const safeName = (req.session.tenant_name || 'company').replace(/[\\/:*?"<>|\x00-\x1f]/g, '').trim() || 'company';
+  res.download(tmpFile, `${safeName}-${date}.sqlite3`, () => {
+    fs.rm(tmpFile, { force: true }, () => {});
+  });
+});
 
 app.get('/api/team', requireAuth, requireTenantAdmin, (req, res) => {
   const users = master.prepare('SELECT id, email, name, role, permissions, created_at FROM users WHERE tenant_id = ? ORDER BY created_at')
@@ -566,6 +585,18 @@ app.get('/api/admin/tenants', requireAuth, requireSuperuser, (req, res) => {
       })),
     };
   }));
+});
+
+// Superuser: change a user's role to Tenant admin ('tenant_admin') or User ('member').
+app.put('/api/admin/users/:id/role', requireAuth, requireSuperuser, (req, res) => {
+  const role = String(req.body?.role || '');
+  if (!['tenant_admin', 'member'].includes(role)) return res.status(400).json({ error: 'บทบาทไม่ถูกต้อง' });
+  if (req.params.id === req.session.user_id) return res.status(400).json({ error: 'ไม่สามารถเปลี่ยนบทบาทของตัวเองได้' });
+  const result = master.prepare('UPDATE users SET role = ? WHERE id = ?').run(role, req.params.id);
+  if (result.changes === 0) return res.status(404).json({ error: 'ไม่พบผู้ใช้' });
+  const user = master.prepare('SELECT email FROM users WHERE id = ?').get(req.params.id);
+  logEvent('change_role', { actor: req.session.email, target: user.email, detail: `บทบาทใหม่: ${role}` });
+  res.json({ ok: true });
 });
 
 // Superuser: approve a pending account so it can log in.
@@ -1062,6 +1093,68 @@ app.post('/api/ai/chat', requireAuth, async (req, res) => {
       reply = data.reply ?? data.output ?? data.message ?? data.text ?? text;
     } catch { /* plain-text response */ }
     if (!upstream.ok) return res.status(502).json({ error: 'webhook ตอบกลับด้วยสถานะ ' + upstream.status });
+    res.json({ reply: typeof reply === 'string' ? reply : JSON.stringify(reply) });
+  } catch (err) {
+    res.status(502).json({ error: 'เรียก webhook ไม่สำเร็จ: ' + (err.message || err) });
+  }
+});
+
+// Net Zero Pathway advice: the client sends a summary of the plan (targets, gaps, initiatives, alerts).
+// It goes to the same AI webhook (n8n) as the assistant, which already holds the LLM API key.
+const NET_ZERO_ADVICE_PROMPT = [
+  'คุณคือที่ปรึกษาด้านการลดก๊าซเรือนกระจกและ Net Zero ของบริษัท',
+  'จากข้อมูลแผน Net Zero Pathway ใน context (หน่วย tCO2e, ค่าที่เป็นเปอร์เซ็นต์และงบประมาณระบุไว้ในชื่อฟิลด์) ให้:',
+  '1) สรุปสถานะเทียบเป้าหมายระยะกลางและเป้าหมาย Net Zero แยกตาม Scope 1, 2, 3 และระบุ Scope ที่มีช่องว่างการลดมากที่สุด',
+  '2) ชี้โครงการที่ล่าช้า ไม่อัปเดต ขาดตัวชี้วัด หรือมีความเสี่ยง พร้อมเหตุผล',
+  '3) เสนอมาตรการเพิ่มเติมที่เหมาะสมกับช่องว่าง โดยระบุหมวดการปล่อย ปริมาณลดโดยประมาณ (tCO2e/ปี) ปีที่เริ่มให้ผล งบประมาณโดยประมาณ และ KPI',
+  '4) ระบุข้อสมมติที่ใช้และสิ่งที่บริษัทต้องยืนยันเพิ่ม ตัวเลขที่เสนอเป็นค่าประมาณเบื้องต้นเท่านั้น',
+  'ตอบเป็นภาษาไทย จัดเป็นหัวข้อสั้น กระชับ และอ่านง่าย',
+].join('\n');
+
+app.post('/api/net-zero/advice', requireAuth, async (req, res) => {
+  const packageFeatures = JSON.parse(req.session.package_features || '[]');
+  if (!packageFeatures.includes('ai')) {
+    return res.status(403).json({ error: 'ฟีเจอร์ AI Assistant ไม่รวมอยู่ในแพ็กเกจของคุณ' });
+  }
+  const url = getSetting('ai_webhook_url');
+  if (!url) return res.status(503).json({ error: 'ยังไม่ได้ตั้งค่า AI webhook ในหน้าผู้ดูแลระบบ' });
+  const context = req.body?.context;
+  if (!context || typeof context !== 'object' || Array.isArray(context)) {
+    return res.status(400).json({ error: 'ไม่มีข้อมูลแผนสำหรับวิเคราะห์' });
+  }
+  if (JSON.stringify(context).length > 60000) {
+    return res.status(413).json({ error: 'ข้อมูลแผนมีขนาดใหญ่เกินไป' });
+  }
+  // ยกเลิกคำขอไปยัง AI ทันทีเมื่อผู้ใช้กดหยุดหรือปิดหน้า (และยังมี timeout เดิม)
+  const ac = new AbortController();
+  const timer = setTimeout(() => ac.abort(), Number(process.env.AI_WEBHOOK_TIMEOUT_MS) || 180000);
+  timer.unref?.();
+  res.on('close', () => {
+    if (!res.writableFinished) ac.abort();
+  });
+  try {
+    const upstream = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        task: 'net_zero_advice',
+        // Put the plan data inside `message` so the existing n8n workflow (which reads `message`) sees it.
+        message: `${NET_ZERO_ADVICE_PROMPT}\n\nข้อมูลแผน (JSON):\n${JSON.stringify(context)}`,
+        context,
+        sessionId: 'net-zero-' + req.session.user_id,
+        history: [],
+        user: req.session.name || '',
+      }),
+      signal: ac.signal,
+    });
+    const text = await upstream.text();
+    clearTimeout(timer);
+    if (!upstream.ok) return res.status(502).json({ error: 'webhook ตอบกลับด้วยสถานะ ' + upstream.status });
+    let reply = text;
+    try {
+      const data = JSON.parse(text);
+      reply = data.reply ?? data.output ?? data.message ?? data.text ?? text;
+    } catch { /* plain-text response */ }
     res.json({ reply: typeof reply === 'string' ? reply : JSON.stringify(reply) });
   } catch (err) {
     res.status(502).json({ error: 'เรียก webhook ไม่สำเร็จ: ' + (err.message || err) });

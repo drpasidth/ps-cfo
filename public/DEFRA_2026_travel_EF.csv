@@ -1,0 +1,13 @@
+﻿UK DEFRA/DESNZ GHG Conversion Factors 2026 - Business travel (Scope 3 Cat. 6 / Cat. 7)
+Edition: published 11 June 2026 (gov.uk). GWP basis: IPCC AR5 GWP-100. Unit: kgCO2e per unit shown.
+Official workbook: https://assets.publishing.service.gov.uk/media/6a29392bade52dc0882218a8/ghg-conversion-factors-2026-full-set.xlsx
+Official page: https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2026
+
+HOW THESE VALUES WERE OBTAINED / ข้อควรระวัง
+1) The official xlsx could not be opened directly in this session. Values were taken from greencalculus.com (secondary site that cites DEFRA 2026 cell references) and cross-checked against carbonrecycling.co.uk (national rail).
+"2) Verify every figure against the official workbook (sheets ""Business travel- air"", ""Business travel- land"", ""Business travel- sea"") before using in a verified report."
+"3) DEFRA factors reflect UK conditions. For Thai CFO reports, use TGO (อบก.) factors first; use DEFRA only where TGO has no matching factor, and state the reason."
+"4) Air factors: ""With RF"" includes radiative forcing (CO2 uplift ~70%). WTT (well-to-tank) is added to either basis. Report which basis is used."
+5) 2026 rail/coach factors changed vs 2025 (e.g. national rail 0.03546 -> 0.03092; international rail 0.00446 -> 0.01135; coach 0.02776 -> 0.03948). Do not reuse 2025 rail values.
+6) Regular-taxi and motorbike 2026 values were not retrieved - read them from the official workbook.
+Blue font = hardcoded input from source; black = formula.

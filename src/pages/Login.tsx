@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
+import Copyright from "../components/Copyright";
 
 export default function Login() {
   const { status, login } = useAuth();
@@ -27,10 +28,10 @@ export default function Login() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
+    <div className="relative min-h-screen flex items-center justify-center bg-gray-50 p-4 pb-12">
       <div className="w-full max-w-sm bg-white border border-gray-200 rounded-xl shadow-sm p-8">
         <h1 className="text-xl font-semibold text-gray-900 mb-1">เข้าสู่ระบบ</h1>
-        <p className="text-sm text-gray-500 mb-6">CFO Carbon Footprint</p>
+        <p className="text-sm text-gray-500 mb-6">CFO-flow · Carbon Footprint</p>
 
         <form onSubmit={onSubmit} className="space-y-4">
           <div>
@@ -74,6 +75,7 @@ export default function Login() {
           </Link>
         </p>
       </div>
+      <Copyright className="absolute bottom-0 left-0 right-0" />
     </div>
   );
 }

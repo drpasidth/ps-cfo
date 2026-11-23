@@ -18,6 +18,7 @@ import {
   ClipboardCheck,
   ClipboardCheck as QualityIcon,
   Gauge,
+  Target,
   CreditCard,
   Users,
 } from "lucide-react";
@@ -36,18 +37,19 @@ interface NavItem {
 const navItems: NavItem[] = [
   { path: "/", label: "หน้าแรก", short: "หน้าหลัก", icon: LayoutDashboard },
   { path: "/company", label: "ข้อมูลบริษัท", short: "บริษัท", icon: Building2 },
-  { path: "/quality", label: "การจัดการคุณภาพข้อมูล (ข้อ 7)", short: "ข้อ 7", icon: QualityIcon },
   { path: "/billing", label: "ค่าสมาชิก", short: "สมาชิก", icon: CreditCard },
   { path: "/scope1", label: "ขอบเขตที่ 1 (Scope 1)", short: "S1", icon: Factory, feature: "scope1" },
   { path: "/scope2", label: "ขอบเขตที่ 2 (Scope 2)", short: "S2", icon: Zap, feature: "scope2" },
   { path: "/scope3", label: "ขอบเขตที่ 3 (Scope 3)", short: "S3", icon: Truck, feature: "scope3" },
-  { path: "/scope3-list", label: "ตาราง CFP", short: "CFP", icon: ClipboardList, feature: "scope3" },
   { path: "/scope3-significance", label: "ประเมินนัยสำคัญ S3 (Fr-03.2)", short: "FR-03.2", icon: ClipboardCheck, feature: "scope3" },
   { path: "/scope3-criteria", label: "เกณฑ์คะแนน S3 (ตาราง G)", short: "ตาราง G", icon: Table2, feature: "scope3" },
   { path: "/uncertainty", label: "ประเมินความไม่แน่นอน (Uncertainty)", short: "Uncertainty", icon: Gauge, feature: "scope3" },
+  { path: "/quality", label: "การจัดการคุณภาพข้อมูล", short: "คุณภาพ", icon: QualityIcon },
   { path: "/emission-factors", label: "ตาราง EF (Scope 1/2)", short: "EF", icon: Table2, feature: "scope1" },
   { path: "/scope1-items", label: "รายการ Scope 1 (Reference)", short: "S1 List", icon: ListChecks, feature: "scope1" },
   { path: "/ef-components", label: "EF Components", short: "EF Comp", icon: Layers, feature: "scope1" },
+  { path: "/scope3-list", label: "ตาราง CFP", short: "CFP", icon: ClipboardList, feature: "scope3" },
+  { path: "/net-zero", label: "Net Zero Pathway", short: "Net Zero", icon: Target },
 ];
 
 export default function Sidebar() {
@@ -84,7 +86,7 @@ export default function Sidebar() {
         </button>
         {!collapsed && (
           <h1 className="font-bold text-emerald-700 text-sm tracking-tight">
-            CFO <span className="text-gray-500">Saas</span>
+            CFO<span className="text-gray-500">-flow</span>
           </h1>
         )}
         {!collapsed && session?.tenant.package && (

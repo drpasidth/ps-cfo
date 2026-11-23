@@ -233,6 +233,16 @@ export default function Admin() {
     }
   }
 
+  async function changeRole(userId: string, role: string) {
+    setError("");
+    try {
+      await apiJson(`/api/admin/users/${userId}/role`, { method: "PUT", body: JSON.stringify({ role }) });
+      load();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "เปลี่ยนบทบาทไม่สำเร็จ");
+    }
+  }
+
   async function approve(userId: string) {
     setError("");
     try {
@@ -507,7 +517,20 @@ export default function Admin() {
                 <tr key={u.id} className="border-b border-gray-100">
                   <td className="py-2">{u.name}</td>
                   <td className="py-2">{u.email}</td>
-                  <td className="py-2">{u.role}</td>
+                  <td className="py-2">
+                    {u.role === "owner" || u.role === "tenant_admin" || u.role === "member" ? (
+                      <select
+                        value={u.role === "owner" ? "tenant_admin" : u.role}
+                        onChange={(e) => changeRole(u.id, e.target.value)}
+                        className="border border-gray-300 rounded-md px-2 py-1 text-xs"
+                      >
+                        <option value="tenant_admin">Tenant admin</option>
+                        <option value="member">User</option>
+                      </select>
+                    ) : (
+                      u.role
+                    )}
+                  </td>
                   <td className="py-2">{u.isSuperuser ? "Superuser" : "-"}</td>
                   <td className="py-2">
                     {u.approved ? (
@@ -679,6 +702,8 @@ interface LogEntry {
 const ACTION_LABELS: Record<string, string> = {
   signup: "สมัครใช้งาน",
   approve_user: "อนุมัติผู้ใช้",
+  change_role: "เปลี่ยนบทบาทผู้ใช้",
+  backup: "สำรองข้อมูลบริษัท",
   payment_submit: "ส่งสลิปชำระเงิน",
   payment_confirm: "ยืนยันการชำระเงิน",
   payment_reject: "ปฏิเสธการชำระเงิน",

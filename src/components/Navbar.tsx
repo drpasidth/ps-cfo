@@ -1,10 +1,22 @@
 import { Menu, User, Bell, HelpCircle, LogOut } from "lucide-react";
+import { useCallback, useState } from "react";
 import { useAuth } from "../context/AuthContext";
+import { THEMES, applyTheme, getTheme, type ThemeId } from "../theme";
+import UserManualModal from "./UserManualModal";
 
 export default function Navbar() {
   const { session, logout } = useAuth();
+  const [theme, setTheme] = useState<ThemeId>(getTheme);
+  const [manualOpen, setManualOpen] = useState(false);
+  const closeManual = useCallback(() => setManualOpen(false), []);
+
+  function changeTheme(id: ThemeId) {
+    setTheme(id);
+    applyTheme(id);
+  }
 
   return (
+    <>
     <header className="h-16 border-b border-gray-200 bg-white flex items-center justify-between px-6 shrink-0 z-40">
       <div className="flex items-center gap-4">
         <button
@@ -25,9 +37,22 @@ export default function Navbar() {
       </div>
 
       <div className="flex items-center gap-3">
+        <select
+          value={theme}
+          onChange={(e) => changeTheme(e.target.value as ThemeId)}
+          title="ธีมสี"
+          className="text-xs border border-gray-300 rounded-md px-2 py-1 bg-white text-gray-700"
+        >
+          {THEMES.map((t) => (
+            <option key={t.id} value={t.id}>
+              {t.label}
+            </option>
+          ))}
+        </select>
         <button
+          onClick={() => setManualOpen(true)}
           className="p-2 text-gray-500 hover:text-gray-900 relative"
-          title="ความช่วยเหลือ"
+          title="คู่มือการใช้งาน"
         >
           <HelpCircle className="w-5 h-5" />
         </button>
@@ -55,5 +80,7 @@ export default function Navbar() {
         </div>
       </div>
     </header>
+    <UserManualModal open={manualOpen} onClose={closeManual} />
+    </>
   );
 }

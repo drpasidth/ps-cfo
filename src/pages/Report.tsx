@@ -15,6 +15,7 @@ import { jsPDF } from "jspdf";
 import "jspdf-autotable";
 import { filterActivitiesByPackage } from "../utils/packages";
 import { downloadWordReport } from "../utils/wordReport";
+import ReportInsights from "../components/ReportInsights";
 
 export default function Report() {
   const { state: rawState } = useApp();
@@ -263,6 +264,10 @@ export default function Report() {
           </p>
         </div>
 
+        <div className="mb-6">
+          <ReportInsights activities={state.activities} company={state.company} includeScope3={includeScope3} />
+        </div>
+
         <div className="panel p-5 mb-6">
           <h3 className="text-lg font-bold text-gray-900 mb-3">รายละเอียดรายการกิจกรรมและเอกสารแนบ</h3>
           {state.activities.length === 0 ? (
@@ -330,7 +335,7 @@ export default function Report() {
 
         <div className="border-t border-gray-200 pt-6 mt-8">
           <p className="text-xs text-gray-400 text-center">
-            รายงานนี้ถูกสร้างโดยระบบ CFO SaaS - ข้อมูลอ้างอิงจาก TGO Emission Factor
+            รายงานนี้ถูกสร้างโดยระบบ CFO-flow - ข้อมูลอ้างอิงจาก TGO Emission Factor
           </p>
         </div>
       </div>

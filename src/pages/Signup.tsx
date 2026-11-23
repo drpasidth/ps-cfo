@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
+import Copyright from "../components/Copyright";
 
 export default function Signup() {
   const { status, signup } = useAuth();
@@ -40,10 +41,10 @@ export default function Signup() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
+    <div className="relative min-h-screen flex items-center justify-center bg-gray-50 p-4 pb-12">
       <div className="w-full max-w-lg bg-white border border-gray-200 rounded-xl shadow-sm p-8">
         <h1 className="text-xl font-semibold text-gray-900 mb-1">สมัครใช้งาน</h1>
-        <p className="text-sm text-gray-500 mb-6">กรอกข้อมูลบริษัทของคุณ แล้วเลือกแพ็กเกจเพื่อชำระค่าสมาชิก</p>
+        <p className="text-sm text-gray-500 mb-6">กรอกข้อมูลบริษัทของคุณ เพื่อใช้งานฟรี 1 เดือน ไม่ต้องชำระเงินหรือแนบสลิป</p>
 
         <form onSubmit={onSubmit} className="space-y-4">
           <div>
@@ -120,7 +121,7 @@ export default function Signup() {
             disabled={busy}
             className="w-full py-2 rounded-lg bg-emerald-600 text-white font-medium hover:bg-emerald-700 disabled:opacity-60"
           >
-            {busy ? "กำลังสร้างบัญชี..." : "สมัครใช้งานและเลือกแพ็กเกจ"}
+            {busy ? "กำลังสร้างบัญชี..." : "สมัครใช้งานฟรี 1 เดือน"}
           </button>
         </form>
 
@@ -131,6 +132,7 @@ export default function Signup() {
           </Link>
         </p>
       </div>
+      <Copyright className="absolute bottom-0 left-0 right-0" />
     </div>
   );
 }

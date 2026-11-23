@@ -183,7 +183,7 @@ export default function Landing() {
       {/* Top bar */}
       <header className="sticky top-0 z-20 bg-white/90 backdrop-blur border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
-          <a href="#top" className="font-bold text-emerald-700 text-lg">CFO Carbon</a>
+          <a href="#top" className="font-bold text-emerald-700 text-lg">CFO-flow</a>
           <nav className="hidden md:flex items-center gap-6 text-sm text-gray-600">
             <a href="#features" className="hover:text-emerald-700">ฟีเจอร์</a>
             <a href="#infographic" className="hover:text-emerald-700">ขั้นตอน</a>
@@ -388,8 +388,12 @@ export default function Landing() {
         </div>
       </section>
 
-      <footer className="py-8 text-center text-xs text-gray-500">
-        CFO Carbon Footprint for Organization · ข้อมูลอ้างอิงจาก TGO Emission Factor
+      <footer className="py-8 text-center text-xs text-gray-500 space-y-1">
+        <p>CFO-flow · Carbon Footprint for Organization · ข้อมูลอ้างอิงจาก TGO Emission Factor</p>
+        <p>
+          Copyright © PS Evolution Ltd. ·{" "}
+          <a href="mailto:psevolutionth@gmail.com" className="hover:underline">psevolutionth@gmail.com</a>
+        </p>
       </footer>
     </div>
   );

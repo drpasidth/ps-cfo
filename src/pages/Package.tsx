@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { apiJson } from "../api";
 import { useAuth } from "../context/AuthContext";
+import Copyright from "../components/Copyright";
 import { FEATURES, type FeatureKey } from "../utils/packages";
 
 interface PackageOption {
@@ -260,5 +261,10 @@ export default function Package({ standalone = false }: { standalone?: boolean }
   );
 
   if (!standalone) return content;
-  return <div className="min-h-screen bg-gray-50 flex justify-center p-6 md:p-10">{content}</div>;
+  return (
+    <div className="min-h-screen bg-gray-50 flex flex-col">
+      <div className="flex-1 flex justify-center p-6 md:p-10">{content}</div>
+      <Copyright />
+    </div>
+  );
 }

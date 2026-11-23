@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CFO Saas – Infographic</title>
+<style>
+  @page { size: A4 landscape; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --em: #059669; --em-dark: #047857; --em-soft: #ecfdf5;
+    --ink: #111827; --mute: #6b7280; --line: #e5e7eb;
+    --s1: #f59e0b; --s2: #0ea5e9; --s3: #8b5cf6;
+  }
+  html, body { background: #e5e7eb; font-family: 'Sarabun', 'Leelawadee UI', 'Tahoma', sans-serif; color: var(--ink); }
+  body { display: flex; justify-content: center; padding: 20px 0; }
+
+  .page {
+    width: 297mm; height: 210mm; padding: 9mm 11mm;
+    background: #fff; overflow: hidden;
+    display: grid; grid-template-rows: auto 1fr auto auto; gap: 5mm;
+    box-shadow: 0 6px 24px rgba(0,0,0,.15);
+  }
+
+  /* header */
+  .hdr { display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid var(--em); padding-bottom: 3mm; }
+  .hdr h1 { font-size: 24pt; font-weight: 800; color: var(--em-dark); line-height: 1; }
+  .hdr h1 span { color: var(--mute); font-weight: 400; }
+  .hdr p { font-size: 10pt; color: var(--mute); margin-top: 1.5mm; }
+  .badges { display: flex; gap: 2mm; flex-wrap: wrap; justify-content: flex-end; max-width: 120mm; }
+  .badge { font-size: 8.5pt; font-weight: 600; padding: 1mm 2.5mm; border-radius: 10px; background: var(--em-soft); color: var(--em-dark); border: 1px solid #a7f3d0; }
+
+  /* main 3 columns */
+  .main { display: grid; grid-template-columns: 1.25fr 1fr 1fr; gap: 5mm; min-height: 0; }
+  .col { display: flex; flex-direction: column; min-height: 0; }
+  .h2 { font-size: 11pt; font-weight: 700; color: var(--em-dark); margin-bottom: 2.5mm; text-transform: uppercase; letter-spacing: .3px; }
+
+  /* workflow */
+  .steps { display: flex; flex-direction: column; gap: 1.8mm; }
+  .step {
+    display: grid; grid-template-columns: 9mm 1fr; gap: 2.5mm; align-items: center;
+    border: 1px solid var(--line); border-radius: 8px; padding: 2mm 2.5mm; background: #fff;
+    cursor: pointer; text-align: left; font: inherit; color: inherit; transition: all .15s;
+  }
+  .step:hover, .step.on { border-color: var(--em); background: var(--em-soft); box-shadow: 0 1px 4px rgba(5,150,105,.2); }
+  .num { width: 9mm; height: 9mm; border-radius: 50%; background: var(--em); color: #fff; font-weight: 800; font-size: 12pt; display: flex; align-items: center; justify-content: center; }
+  .step b { display: block; font-size: 10pt; }
+  .step small { font-size: 8.5pt; color: var(--mute); }
+  .detail {
+    margin-top: 2.5mm; border-left: 4px solid var(--em); background: #f9fafb; border-radius: 6px;
+    padding: 2.5mm 3mm; font-size: 9pt; line-height: 1.45; min-height: 19mm;
+  }
+  .detail strong { color: var(--em-dark); }
+
+  /* scopes */
+  .scope { border-radius: 8px; padding: 2.5mm 3mm; margin-bottom: 2.5mm; color: #fff; }
+  .scope h3 { font-size: 11pt; font-weight: 800; }
+  .scope p { font-size: 8.8pt; line-height: 1.4; opacity: .95; margin-top: .6mm; }
+  .scope ul { margin: 1mm 0 0 4mm; font-size: 8.5pt; line-height: 1.4; }
+  .s1 { background: var(--s1); }
+  .s2 { background: var(--s2); }
+  .s3 { background: var(--s3); }
+  .ef { font-size: 8pt; background: rgba(255,255,255,.2); border-radius: 4px; padding: .4mm 1.5mm; display: inline-block; margin-top: 1mm; }
+
+  /* packages */
+  table { width: 100%; border-collapse: collapse; font-size: 8.5pt; }
+  th, td { border-bottom: 1px solid var(--line); padding: 1.3mm 1.2mm; text-align: center; }
+  th:first-child, td:first-child { text-align: left; }
+  thead th { background: var(--em-dark); color: #fff; font-size: 8.5pt; }
+  thead th small { display: block; font-weight: 400; opacity: .85; font-size: 7.5pt; }
+  .yes { color: var(--em-dark); font-weight: 800; font-size: 10pt; }
+  .no { color: #d1d5db; }
+  tr.hl td { background: var(--em-soft); }
+  .price td { font-weight: 700; color: var(--em-dark); }
+
+  /* stats strip */
+  .stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 3mm; }
+  .stat { border: 1px solid var(--line); border-radius: 8px; padding: 2mm; text-align: center; }
+  .stat .n { font-size: 17pt; font-weight: 800; color: var(--em-dark); line-height: 1.1; }
+  .stat .t { font-size: 8.5pt; color: var(--mute); }
+
+  /* footer */
+  .ftr { display: flex; justify-content: space-between; align-items: center; font-size: 8.5pt; color: var(--mute); border-top: 1px solid var(--line); padding-top: 2.5mm; }
+  .ftr b { color: var(--ink); }
+
+  .print-btn {
+    position: fixed; top: 14px; right: 14px; z-index: 10;
+    background: var(--em); color: #fff; border: 0; border-radius: 8px;
+    padding: 9px 16px; font: 600 14px 'Sarabun', 'Tahoma', sans-serif; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,.2);
+  }
+  .print-btn:hover { background: var(--em-dark); }
+
+  @media print {
+    html, body { background: #fff; }
+    body { padding: 0; display: block; }
+    .page { box-shadow: none; width: 297mm; height: 210mm; }
+    .print-btn { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<button class="print-btn" onclick="window.print()">พิมพ์ / บันทึกเป็น PDF</button>
+
+<div class="page">
+
+  <!-- Header -->
+  <div class="hdr">
+    <div>
+      <h1>CFO <span>Saas</span></h1>
+      <p>ระบบจัดทำข้อมูลการปล่อยก๊าซเรือนกระจก (GHG) ตั้งแต่ Scope 1 ถึง Scope 3 พร้อม Verification Sheet และรายงาน</p>
+    </div>
+    <div class="badges">
+      <span class="badge">Scope 1 · 2 · 3</span>
+      <span class="badge">Verification Sheet</span>
+      <span class="badge">รายงาน Word</span>
+      <span class="badge">AI Assistant</span>
+      <span class="badge">หลักเกณฑ์ CFO ข้อ 7</span>
+    </div>
+  </div>
+
+  <!-- Main: 3 columns -->
+  <div class="main">
+
+    <!-- Column 1: workflow (interactive) -->
+    <div class="col">
+      <div class="h2">ขั้นตอนการทำงาน (คลิกดูรายละเอียด)</div>
+      <div class="steps" id="steps">
+        <button class="step on" data-i="0"><span class="num">1</span><span><b>ตั้งค่าบริษัท</b><small>สมัคร เข้าสู่ระบบ และกรอกข้อมูลองค์กร</small></span></button>
+        <button class="step" data-i="1"><span class="num">2</span><span><b>บันทึกข้อมูล Scope 1 และ 2</b><small>เชื้อเพลิง ยานพาหนะ และไฟฟ้า</small></span></button>
+        <button class="step" data-i="2"><span class="num">3</span><span><b>บันทึกและประเมิน Scope 3</b><small>รายการ CFP นัยสำคัญ ตาราง G และความไม่แน่นอน</small></span></button>
+        <button class="step" data-i="3"><span class="num">4</span><span><b>จัดการคุณภาพข้อมูล</b><small>ตรวจทานและจัดทำหลักฐานตามข้อ 7</small></span></button>
+        <button class="step" data-i="4"><span class="num">5</span><span><b>ส่งออกรายงาน</b><small>Verification Sheet และรายงาน Word</small></span></button>
+      </div>
+      <div class="detail" id="detail"></div>
+    </div>
+
+    <!-- Column 2: scopes -->
+    <div class="col">
+      <div class="h2">ขอบเขตการปล่อยก๊าซ</div>
+      <div class="scope s1">
+        <h3>Scope 1 · การปล่อยทางตรง</h3>
+        <p>แหล่งที่บริษัทเป็นเจ้าของหรือควบคุม</p>
+        <ul><li>การเผาไหม้เชื้อเพลิง</li><li>ยานพาหนะขององค์กร</li><li>รายการ Reference พร้อมค่า EF</li></ul>
+        <span class="ef">ตาราง EF + EF Components</span>
+      </div>
+      <div class="scope s2">
+        <h3>Scope 2 · พลังงานที่ซื้อมา</h3>
+        <p>การปล่อยทางอ้อมจากการใช้ไฟฟ้า</p>
+        <ul><li>ปริมาณการใช้ไฟฟ้าตามช่วงเวลา</li><li>คำนวณด้วยค่า EF อัตโนมัติ</li></ul>
+      </div>
+      <div class="scope s3">
+        <h3>Scope 3 · ห่วงโซ่คุณค่า</h3>
+        <p>การปล่อยทางอ้อมอื่นในห่วงโซ่คุณค่า</p>
+        <ul><li>การขนส่งและการเดินทางพนักงาน</li><li>ของเสีย และตาราง CFP</li><li>ประเมินนัยสำคัญ FR-03.2 และความไม่แน่นอน</li></ul>
+      </div>
+    </div>
+
+    <!-- Column 3: packages -->
+    <div class="col">
+      <div class="h2">แพ็กเกจและฟีเจอร์</div>
+      <table>
+        <thead>
+          <tr><th>ฟีเจอร์</th><th>A<small>990 บาท</small></th><th>AA<small>1,490 บาท</small></th><th>B<small>2,490 บาท</small></th><th>BB<small>3,490 บาท</small></th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Scope 1 · 2</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Scope 3</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Verification Sheet</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>รายงาน Word</td><td class="no">–</td><td class="yes">✓</td><td class="no">–</td><td class="yes">✓</td></tr>
+          <tr><td>AI Assistant</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>ผู้ใช้งานสูงสุด</td><td>1</td><td>5</td><td>10</td><td>20</td></tr>
+        </tbody>
+      </table>
+      <div class="detail" style="margin-top:3mm">
+        <strong>เลือกแพ็กเกจตามขอบเขต:</strong> หากต้องรายงาน Scope 3 หรือใช้ AI Assistant ให้เลือก B หรือ BB แพ็กเกจแสดงในหน้า ค่าสมาชิก ของแอป
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="stats">
+    <div class="stat"><div class="n">5</div><div class="t">ขั้นตอนหลักจากการตั้งค่าถึงการส่งออก</div></div>
+    <div class="stat"><div class="n">3</div><div class="t">ขอบเขต GHG (Scope 1, 2, 3)</div></div>
+    <div class="stat"><div class="n">14</div><div class="t">เมนูการทำงานในระบบ</div></div>
+    <div class="stat"><div class="n">4</div><div class="t">แพ็กเกจให้เลือก</div></div>
+    <div class="stat"><div class="n">20</div><div class="t">ผู้ใช้งานสูงสุดต่อบริษัท</div></div>
+  </div>
+
+  <!-- Footer -->
+  <div class="ftr">
+    <span><b>CFO Saas</b> · ปุ่ม <b>?</b> ด้านบนขวาของแอปเปิดคู่มือการใช้งาน</span>
+    <span>https://cfo.biz-flow.org</span>
+  </div>
+
+</div>
+
+<script>
+  const details = [
+    "<strong>สมัครหรือเข้าสู่ระบบ</strong> แล้วกรอกข้อมูลบริษัท ที่อยู่ อุตสาหกรรม และขอบเขตการรายงานในหน้า <em>ข้อมูลบริษัท</em> ข้อมูลส่วนนี้ใช้ในรายงานทุกฉบับ",
+    "<strong>Scope 1:</strong> เลือกรายการจากหน้า รายการ Scope 1 แล้วกรอกปริมาณ ระบบคำนวณ CO₂e จากค่า EF ในหน้า ตาราง EF <br><strong>Scope 2:</strong> กรอกปริมาณการใช้ไฟฟ้าตามช่วงเวลาที่รายงาน",
+    "<strong>Scope 3:</strong> บันทึกกิจกรรมในหน้า Scope 3 และตาราง CFP จากนั้นประเมิน <em>นัยสำคัญ (FR-03.2)</em> ใช้ <em>ตาราง G</em> เป็นเกณฑ์คะแนน และประเมิน <em>ความไม่แน่นอน</em> ของแต่ละรายการ",
+    "<strong>ข้อ 7 คุณภาพข้อมูล:</strong> บันทึกการตรวจทาน การเก็บหลักฐาน และการควบคุมความถูกต้องของข้อมูลก่อนส่งออก เพื่อให้ผู้ทวนสอบตรวจสอบย้อนกลับได้",
+    "<strong>ส่งออก:</strong> สร้าง Verification Sheet จากเมนู ส่งออก และรายงาน Word (แพ็กเกจ AA และ BB) ตรวจข้อมูลทุก Scope ให้ครบก่อนส่งออก เพราะไฟล์จะสะท้อนข้อมูล ณ เวลานั้น"
+  ];
+  const steps = document.querySelectorAll('.step');
+  const detail = document.getElementById('detail');
+  function show(i) {
+    steps.forEach((s, k) => s.classList.toggle('on', k === i));
+    detail.innerHTML = details[i];
+  }
+  steps.forEach(s => s.addEventListener('click', () => show(+s.dataset.i)));
+  show(0);
+</script>
+</body>
+</html>

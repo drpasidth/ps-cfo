@@ -12,6 +12,7 @@ import Scope3List from "./pages/Scope3List";
 import Scope3Significance from "./pages/Scope3Significance";
 import Scope3Criteria from "./pages/Scope3Criteria";
 import UncertaintyAssessment from "./pages/UncertaintyAssessment";
+import NetZeroPathway from "./pages/NetZeroPathway";
 import Report from "./pages/Report";
 import Export from "./pages/Export";
 import EmissionFactors from "./pages/EmissionFactors";
@@ -34,6 +35,7 @@ function ProtectedLayout() {
   if (status === "anon") return <Navigate to="/welcome" replace />;
   // Not approved yet, or subscription ended: only the package / payment page is available.
   if (session && needsPayment(session)) return <Package standalone />;
+  // (Package standalone already shows the copyright footer.)
   return (
     <AppProvider>
       <Layout>
@@ -62,6 +64,7 @@ export default function App() {
             <Route path="/scope3-significance" element={<FeatureGate feature="scope3"><Scope3Significance /></FeatureGate>} />
             <Route path="/scope3-criteria" element={<FeatureGate feature="scope3"><Scope3Criteria /></FeatureGate>} />
             <Route path="/uncertainty" element={<FeatureGate feature="scope3"><UncertaintyAssessment /></FeatureGate>} />
+            <Route path="/net-zero" element={<NetZeroPathway />} />
             <Route path="/report" element={<FeatureGate feature="verification"><Report /></FeatureGate>} />
             <Route path="/export" element={<FeatureGate feature="verification"><Export /></FeatureGate>} />
             <Route path="/emission-factors" element={<FeatureGate feature="scope1"><EmissionFactors /></FeatureGate>} />

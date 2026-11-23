@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { apiJson } from "../api";
+import { apiFetch, apiJson } from "../api";
 import { useAuth, type Action, type Permissions, type Resource } from "../context/AuthContext";
 
 const RESOURCES: { key: Resource; label: string }[] = [
@@ -157,6 +157,35 @@ export default function Team() {
   const [password, setPassword] = useState("");
   const [permissions, setPermissions] = useState<Permissions>(DEFAULT_PERMISSIONS);
   const [adding, setAdding] = useState(false);
+  const [backingUp, setBackingUp] = useState(false);
+
+  async function downloadBackup() {
+    setError("");
+    setMessage("");
+    setBackingUp(true);
+    try {
+      const response = await apiFetch("/api/tenant/backup");
+      if (!response.ok) {
+        const body = await response.json().catch(() => ({}));
+        throw new Error(body.error || response.statusText);
+      }
+      const blob = await response.blob();
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      const safeName = (session?.tenant.name ?? "company").replace(/[\\/:*?"<>|\x00-\x1f]/g, "").trim() || "company";
+      link.download = `${safeName}-${new Date().toISOString().slice(0, 10)}.sqlite3`;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+      setMessage("ดาวน์โหลดไฟล์สำรองข้อมูลแล้ว");
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "สำรองข้อมูลไม่สำเร็จ");
+    } finally {
+      setBackingUp(false);
+    }
+  }
 
   async function load() {
     try {
@@ -215,6 +244,20 @@ export default function Team() {
 
       {error && <div className="rounded-md bg-red-50 text-red-700 text-sm px-4 py-2">{error}</div>}
       {message && <div className="rounded-md bg-emerald-50 text-emerald-700 text-sm px-4 py-2">{message}</div>}
+
+      <div className="bg-white border border-gray-200 rounded-xl p-5 flex items-center justify-between gap-3">
+        <div>
+          <h2 className="font-semibold text-gray-900">สำรองข้อมูลบริษัท</h2>
+          <p className="text-sm text-gray-500">ดาวน์โหลดไฟล์ฐานข้อมูลทั้งหมดของบริษัทนี้ (กิจกรรม ข้อมูลบริษัท และการตั้งค่า)</p>
+        </div>
+        <button
+          onClick={downloadBackup}
+          disabled={backingUp}
+          className="shrink-0 px-4 py-2 rounded-md bg-gray-800 text-white text-sm hover:bg-gray-900 disabled:opacity-60"
+        >
+          {backingUp ? "กำลังสำรองข้อมูล..." : "ดาวน์โหลดไฟล์สำรอง"}
+        </button>
+      </div>
 
       <form onSubmit={addMember} className="bg-white border border-gray-200 rounded-xl p-5 space-y-3">
         <h2 className="font-semibold text-gray-900">เพิ่มผู้ใช้งาน</h2>
