@@ -80,8 +80,11 @@ function buildPrintHTML() {
     .manual-tip { display: flex; gap: 8px; padding: 10px 12px; background: #fef3c7; border: 1px solid #fcd34d; border-radius: 6px; margin: 10px 0; page-break-inside: avoid; }
     .manual-tip .lightbulb { font-size: 11pt; flex-shrink: 0; margin-top: 2px; }
     .manual-tip p { margin: 0; color: #92400e; font-size: 10.5pt; }
+    .manual-footer { position: fixed; bottom: 0; left: 0; right: 0; text-align: center; font-size: 9pt; color: #6b7280; border-top: 1px solid #e5e7eb; padding-top: 4px; background: #fff; }
+    body { padding-bottom: 28px; }
     @media print {
       .no-print { display: none !important; }
+      body { padding-bottom: 28px; }
     }
   </style>
 </head>
@@ -92,6 +95,7 @@ function buildPrintHTML() {
     <div class="toc">สารบัญ: ${manualSections.map((s, i) => (i > 0 ? " · " : "") + s.title.replace(/^\d+\.\s*/, "")).join("")}</div>
   </div>
   ${sectionsHtml}
+  <div class="manual-footer">Copy Right @ PS Evolution 2027 - psevolutionth@gmail.com</div>
   <script>
     // Auto-print when loaded
     window.onload = function() {
@@ -240,6 +244,9 @@ export default function UserManualModal({ open, onClose }: Props) {
                 ))}
               </section>
             ))}
+            <div className="pt-4 mt-2 border-t border-gray-200 text-center text-xs text-gray-500">
+              Copy Right @ PS Evolution 2027 - psevolutionth@gmail.com
+            </div>
           </div>
         </div>
       </div>
