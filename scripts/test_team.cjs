@@ -44,7 +44,7 @@ async function call(base, method, url, token, body) {
   // Approve the account and give the company Package A (1 user).
   const tenantId = me.json.tenant.id;
   master.prepare('UPDATE users SET approved = 1 WHERE tenant_id = ?').run(tenantId);
-  master.prepare("UPDATE tenants SET package_id = 'A' WHERE id = ?").run(tenantId);
+  master.prepare("UPDATE tenants SET package_id = 'A', trial_ends_at = datetime('now', '+1 month') WHERE id = ?").run(tenantId);
 
   const team0 = await call(base, 'GET', '/api/team', adminToken);
   check('package A allows 1 user', team0.json.maxUsers === 1, `(maxUsers=${team0.json.maxUsers})`);

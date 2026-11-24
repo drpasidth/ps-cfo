@@ -401,18 +401,19 @@ app.post('/api/auth/signup', (req, res) => {
     return res.status(409).json({ error: 'อีเมลนี้ถูกใช้งานแล้ว' });
   }
 
-  // Every signup gets its own empty company and a free 1-month trial (no payment, no slip).
-  // The trial uses the full BB package so every feature is available; when the trial ends the
-  // company chooses a package and pays by QR as before.
+  // Every signup gets its own empty company and a free 1-month trial, but the account must be approved
+  // by a superuser first (approved = 0). The trial clock (trial_ends_at) starts when the account is
+  // approved, see POST /api/admin/users/:id/approve. The trial uses the full BB package so every
+  // feature is available; when the trial ends the company chooses a package and pays by QR.
   const now = new Date().toISOString();
   const tenantId = crypto.randomUUID();
   const tenantFile = `tenants/${tenantId}.sqlite3`;
   const TRIAL_PACKAGE_ID = 'BB';
   master.transaction(() => {
     master.prepare('INSERT INTO tenants (id, name, db_file, created_at, package_id, trial_ends_at) VALUES (?,?,?,?,?,?)')
-      .run(tenantId, companyName, tenantFile, now, TRIAL_PACKAGE_ID, addMonths(now, TRIAL_MONTHS));
+      .run(tenantId, companyName, tenantFile, now, TRIAL_PACKAGE_ID, null);
     master.prepare(`INSERT INTO users (id, tenant_id, email, name, password_hash, role, approved, created_at)
-      VALUES (?,?,?,?,?,?,1,?)`).run(crypto.randomUUID(), tenantId, email, contactPerson, hashPassword(password), 'tenant_admin', now);
+      VALUES (?,?,?,?,?,?,0,?)`).run(crypto.randomUUID(), tenantId, email, contactPerson, hashPassword(password), 'tenant_admin', now);
   })();
   getTenantDb(tenantFile).prepare('INSERT INTO company_profile (id, data) VALUES (1, ?)').run(JSON.stringify({
     companyName,
@@ -424,6 +425,40 @@ app.post('/api/auth/signup', (req, res) => {
   }));
 
   logEvent('signup', { target: email, tenantName: companyName, detail: `ผู้ติดต่อ: ${contactPerson}, เบอร์: ${contactPhone}` });
+
+  // Notify the superuser and acknowledge the applicant. Emails are fire-and-forget: a failure is
+  // logged and never blocks the signup.
+  const superuserEmail = getSetting('superuser_email');
+  sendMail(
+    superuserEmail,
+    `[CFO Carbon] มีผู้สมัครใช้งานฟรี รอการอนุมัติ: ${companyName}`,
+    [
+      'มีผู้สมัครใช้งานฟรี (trial 1 เดือน) และรอการอนุมัติ',
+      '',
+      `บริษัท: ${companyName}`,
+      `เลขนิติบุคคล: ${taxId}`,
+      `ที่อยู่: ${address}`,
+      `ผู้ติดต่อ: ${contactPerson}`,
+      `เบอร์โทร: ${contactPhone}`,
+      `อีเมล: ${email}`,
+      '',
+      'กรุณาเข้าสู่ระบบ CFO Carbon ที่หน้า Admin เพื่อตรวจสอบและอนุมัติบัญชี',
+      'ผู้สมัครจะยังใช้งานไม่ได้จนกว่าจะได้รับการอนุมัติ',
+    ].join('\n'),
+  );
+  sendMail(
+    email,
+    'CFO Carbon: ได้รับใบสมัครของคุณแล้ว รอการอนุมัติ',
+    [
+      `เรียน ${contactPerson}`,
+      '',
+      `ขอบคุณที่สมัครใช้งาน CFO Carbon สำหรับบริษัท ${companyName}`,
+      'เราได้รับใบสมัครใช้งานฟรีของคุณแล้ว ขณะนี้อยู่ระหว่างรอการอนุมัติจากผู้ดูแลระบบ',
+      'คุณจะยังไม่สามารถใช้งานระบบได้จนกว่าบัญชีจะได้รับการอนุมัติ เมื่ออนุมัติแล้วจะมีอีเมลแจ้งให้ทราบ',
+      '',
+      'CFO Carbon',
+    ].join('\n'),
+  );
 
   const token = createSession(master.prepare('SELECT id FROM users WHERE email = ?').get(email).id);
   res.status(201).json({ token, ...publicSession(findSession(token)) });
@@ -622,11 +657,15 @@ app.post('/api/admin/users/:id/approve', requireAuth, requireSuperuser, (req, re
   }
   // Package: the package the company chose on its latest payment slip (this is what the customer paid for).
   // Fall back to the company's current package only if there is no payment.
-  const latestPayment = master.prepare('SELECT package_id FROM payments WHERE tenant_id = ? ORDER BY created_at DESC LIMIT 1').get(user.tenant_id);
+  // Only confirmed payments count (rejected or pending slips never set the package).
+  const latestPayment = master.prepare("SELECT package_id FROM payments WHERE tenant_id = ? AND status = 'confirmed' ORDER BY created_at DESC LIMIT 1").get(user.tenant_id);
   const pkgId = latestPayment?.package_id || user.tenant_package_id || null;
   if (pkgId && pkgId !== user.tenant_package_id) {
     master.prepare('UPDATE tenants SET package_id = ? WHERE id = ?').run(pkgId, user.tenant_id);
   }
+  // Free-trial signups have no trial clock until approval: start the 1-month trial now.
+  master.prepare('UPDATE tenants SET trial_ends_at = ? WHERE id = ? AND trial_ends_at IS NULL AND paid_until IS NULL')
+    .run(addMonths(new Date().toISOString(), TRIAL_MONTHS), user.tenant_id);
   const pkgRow = pkgId ? master.prepare('SELECT code, name FROM packages WHERE id = ?').get(pkgId) : null;
   const pkgLabel = pkgRow ? `${pkgRow.code} – ${pkgRow.name}` : 'ยังไม่ได้เลือกแพ็กเกจ';
   logEvent('approve_user', { actor: req.session.email, target: user.email, tenantName: user.tenant_name, detail: `แพ็กเกจ: ${pkgLabel}` });
@@ -927,9 +966,8 @@ app.post('/api/billing/payments', requireAuth, async (req, res) => {
   if (pending) return res.status(409).json({ error: 'มีรายการที่รอการอนุมัติอยู่แล้ว' });
   master.prepare(`INSERT INTO payments (id, tenant_id, package_id, amount, status, created_at, slip) VALUES (?,?,?,?,'pending',?,?)`)
     .run(crypto.randomUUID(), req.session.tenant_id, pkg.id, pkg.price, new Date().toISOString(), slip);
-  // Remember the chosen package on the company so the admin page shows it while the slip is waiting.
-  // Subscription dates are still only changed when the payment is confirmed.
-  master.prepare('UPDATE tenants SET package_id = ? WHERE id = ?').run(pkg.id, req.session.tenant_id);
+  // The chosen package is only stored on the payment. The company's package, features and subscription
+  // dates change only when a superuser confirms the payment (or approves the account).
 
   // Notify the superuser and acknowledge the applicant. Emails are sent after the payment is saved.
   const company = req.session.tenant_name || '-';

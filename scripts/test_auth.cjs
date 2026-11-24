@@ -6,7 +6,11 @@ const fs = require('fs');
 const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'cfo-test-'));
 process.env.DATA_DIR = dir;
 const { app, master } = require('../server.cjs');
-const approve = (email) => master.prepare('UPDATE users SET approved = 1 WHERE email = ?').run(email);
+// Mirrors the superuser approval: approve the account and start the 1-month free trial.
+const approve = (email) => {
+  master.prepare('UPDATE users SET approved = 1 WHERE email = ?').run(email);
+  master.prepare(`UPDATE tenants SET trial_ends_at = datetime('now', '+1 month') WHERE id = (SELECT tenant_id FROM users WHERE email = ?) AND trial_ends_at IS NULL AND paid_until IS NULL`).run(email);
+};
 
 const assert = (cond, msg) => {
   if (!cond) throw new Error('FAILED: ' + msg);
@@ -129,9 +133,8 @@ const company = (over) => ({
     console.log('\nAll auth tests passed.');
   } finally {
     server.close();
-    process.exit(0);
   }
-})().catch((e) => {
+})().then(() => process.exit(0)).catch((e) => {
   console.error(e);
   process.exit(1);
 });

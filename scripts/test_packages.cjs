@@ -44,9 +44,10 @@ function check(label, ok) {
 
     // Signup defaults to package A (pending approval)
     const signup = await call('POST', '/api/auth/signup', null, {
-      email: 'co@test.local', password: 'password123', name: 'Owner', companyName: 'Co Ltd',
+      email: 'co@test.local', password: 'password123', contactPerson: 'Owner', companyName: 'Co Ltd',
+      taxId: '1234567890123', address: '1 Test Road', contactPhone: '0812345678',
     });
-    check('signup accepted', signup.status === 202);
+    check('signup accepted', signup.status === 201);
     const tenantRow = master.prepare('SELECT t.id, t.package_id FROM tenants t JOIN users u ON u.tenant_id = t.id WHERE u.email = ?').get('co@test.local');
     check('new tenant gets package A', tenantRow.package_id === 'A');
     master.prepare('UPDATE users SET approved = 1 WHERE email = ?').run('co@test.local');

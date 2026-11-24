@@ -123,9 +123,12 @@ export default function Package({ standalone = false }: { standalone?: boolean }
   }
 
   const expired = info?.subscription.status === "expired";
-  const heading = info && !info.approved
-    ? "รอการอนุมัติ: เลือกแพ็กเกจและชำระค่าสมาชิก"
-    : "หมดอายุการใช้งาน: กรุณาต่ออายุสมาชิก";
+  const awaitingTrial = !!info && !info.approved && !info.subscription.trialEndsAt && info.payments.length === 0;
+  const heading = awaitingTrial
+    ? "รอการอนุมัติ: ใบสมัครใช้งานฟรีของคุณอยู่ระหว่างการตรวจสอบ"
+    : info && !info.approved
+      ? "รอการอนุมัติ: เลือกแพ็กเกจและชำระค่าสมาชิก"
+      : "หมดอายุการใช้งาน: กรุณาต่ออายุสมาชิก";
 
   const content = (
     <div className="space-y-6 max-w-3xl w-full">

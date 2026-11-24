@@ -61,8 +61,7 @@ const SLIP = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwC
     check('signup returns unapproved user', signup.json.user.approved === false);
     const token = signup.json.token;
     const row = master.prepare('SELECT t.id, t.trial_ends_at FROM tenants t JOIN users u ON u.tenant_id = t.id WHERE u.email = ?').get('co@test.local');
-    const days = (Date.parse(row.trial_ends_at) - Date.now()) / 86400000;
-    check('trial is about one month', days > 27 && days < 32);
+    check('no trial clock before approval', row.trial_ends_at === null);
     check('signup rejects missing tax ID', (await call('POST', '/api/auth/signup', null, {
       email: 'x@test.local', password: 'password123', companyName: 'X', taxId: '12', address: 'a', contactPhone: '0812345678', contactPerson: 'X',
     })).status === 400);
@@ -80,7 +79,11 @@ const SLIP = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwC
     check('payment without package rejected', (await call('POST', '/api/billing/payments', token, { slip: SLIP })).status === 400);
 
     // Approve the account, then test expiry
-    master.prepare('UPDATE users SET approved = 1 WHERE email = ?').run('co@test.local');
+    const coUser = master.prepare('SELECT id FROM users WHERE email = ?').get('co@test.local');
+    const approved = await call('POST', `/api/admin/users/${coUser.id}/approve`, root);
+    check('superuser approves signup', approved.status === 200);
+    const trialDays = (Date.parse(master.prepare('SELECT trial_ends_at FROM tenants WHERE id = ?').get(row.id).trial_ends_at) - Date.now()) / 86400000;
+    check('trial starts on approval (about one month)', trialDays > 27 && trialDays < 32);
     const login = await call('POST', '/api/auth/login', null, { email: 'co@test.local', password: 'password123' });
     check('approved user logs in', login.status === 200);
     check('session reports trial status', login.json.tenant.subscription?.status === 'trial');
