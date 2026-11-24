@@ -60,7 +60,7 @@ export default function Billing() {
         <h2 className="font-semibold text-gray-900">แพ็กเกจของบริษัท</h2>
         {info?.package ? (
           <p className="text-sm text-gray-700">
-            {info.package.code} – {info.package.name}: <span className="font-semibold">{info.package.price.toLocaleString("th-TH")} {info.package.currency}</span> / เดือน
+            {info.package.code} – {info.package.name}: <span className="font-semibold">{info.package.price.toLocaleString("th-TH")} {info.package.currency}</span> / ปี
           </p>
         ) : (
           <p className="text-sm text-gray-500">ยังไม่ได้เลือกแพ็กเกจ</p>

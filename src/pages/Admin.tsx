@@ -47,6 +47,7 @@ interface AdminPackage {
   name: string;
   description: string;
   price: number;
+  monthly_price: number;
   currency: string;
   features: FeatureKey[];
   maxUsers: number;
@@ -200,7 +201,7 @@ export default function Admin() {
     setMessage("");
     try {
       await apiJson(`/api/admin/payments/${id}/confirm`, { method: "POST" });
-      setMessage("ยืนยันการชำระเงินแล้ว อนุมัติบัญชี และต่ออายุสมาชิก 1 เดือน");
+      setMessage("ยืนยันการชำระเงินแล้ว อนุมัติบัญชี และต่ออายุสมาชิก 1 ปี");
       load();
     } catch (err) {
       setError(err instanceof Error ? err.message : "ยืนยันไม่สำเร็จ");
@@ -284,7 +285,7 @@ export default function Admin() {
       <section className="space-y-3">
         <div>
           <h2 className="font-semibold text-gray-900">รายการแจ้งชำระเงิน (รอยืนยัน)</h2>
-          <p className="text-xs text-gray-500">ตรวจยอดเข้าบัญชี PromptPay แล้วกดยืนยัน ระบบจะต่ออายุสมาชิก 1 เดือนและเปิดใช้งานทันที</p>
+          <p className="text-xs text-gray-500">ตรวจยอดเข้าบัญชี PromptPay แล้วกดยืนยัน ระบบจะต่ออายุสมาชิก 1 ปีและเปิดใช้งานทันที</p>
         </div>
         <div className="bg-white border border-gray-200 rounded-xl p-5">
           {payments.length === 0 ? (
@@ -571,7 +572,7 @@ function CreatePackageForm({
   const [code, setCode] = useState("");
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
-  const [price, setPrice] = useState("0");
+  const [monthlyPrice, setMonthlyPrice] = useState("0");
   const [maxUsers, setMaxUsers] = useState("1");
   const [features, setFeatures] = useState<FeatureKey[]>([]);
   const [saving, setSaving] = useState(false);
@@ -584,7 +585,7 @@ function CreatePackageForm({
     setCode("");
     setName("");
     setDescription("");
-    setPrice("0");
+    setMonthlyPrice("0");
     setMaxUsers("1");
     setFeatures([]);
   }
@@ -595,7 +596,7 @@ function CreatePackageForm({
     try {
       await apiJson("/api/admin/packages", {
         method: "POST",
-        body: JSON.stringify({ code, name, description, price: Number(price), maxUsers: Number(maxUsers), features }),
+        body: JSON.stringify({ code, name, description, monthlyPrice: Number(monthlyPrice), maxUsers: Number(maxUsers), features }),
       });
       onCreated(`สร้างแพ็กเกจ ${code.trim().toUpperCase()} แล้ว`);
       reset();
@@ -653,11 +654,15 @@ function CreatePackageForm({
           type="number"
           min={0}
           step="0.01"
-          value={price}
-          onChange={(e) => setPrice(e.target.value)}
+          value={monthlyPrice}
+          onChange={(e) => setMonthlyPrice(e.target.value)}
           className="w-32 border border-gray-300 rounded-md px-3 py-1.5 text-sm"
+          aria-label="ราคารายเดือน"
         />
         <span className="text-gray-400">/ เดือน</span>
+        <span className="text-gray-500 text-xs">
+          (รายปี {Number(monthlyPrice) > 0 ? (Number(monthlyPrice) * 12).toLocaleString("th-TH", { minimumFractionDigits: 0, maximumFractionDigits: 2 }) : "-"} บาท)
+        </span>
       </label>
       <MaxUsersField value={maxUsers} onChange={setMaxUsers} />
       <div className="space-y-1">
@@ -930,7 +935,7 @@ function PackageCard({
 }) {
   const [name, setName] = useState(pkg.name);
   const [description, setDescription] = useState(pkg.description);
-  const [price, setPrice] = useState(String(pkg.price));
+  const [monthlyPrice, setMonthlyPrice] = useState(String(pkg.monthly_price));
   const [maxUsers, setMaxUsers] = useState(String(pkg.maxUsers));
   const [features, setFeatures] = useState<FeatureKey[]>(pkg.features);
   const [saving, setSaving] = useState(false);
@@ -938,7 +943,7 @@ function PackageCard({
   useEffect(() => {
     setName(pkg.name);
     setDescription(pkg.description);
-    setPrice(String(pkg.price));
+    setMonthlyPrice(String(pkg.monthly_price));
     setMaxUsers(String(pkg.maxUsers));
     setFeatures(pkg.features);
   }, [pkg]);
@@ -952,7 +957,7 @@ function PackageCard({
     try {
       await apiJson(`/api/admin/packages/${pkg.id}`, {
         method: "PUT",
-        body: JSON.stringify({ name, description, price: Number(price), maxUsers: Number(maxUsers), features }),
+        body: JSON.stringify({ name, description, monthlyPrice: Number(monthlyPrice), maxUsers: Number(maxUsers), features }),
       });
       onSaved(`บันทึกแพ็กเกจ ${pkg.code} แล้ว`);
     } catch (err) {
@@ -985,11 +990,15 @@ function PackageCard({
           type="number"
           min={0}
           step="0.01"
-          value={price}
-          onChange={(e) => setPrice(e.target.value)}
+          value={monthlyPrice}
+          onChange={(e) => setMonthlyPrice(e.target.value)}
           className="w-32 border border-gray-300 rounded-md px-3 py-1.5 text-sm"
+          aria-label="ราคารายเดือน"
         />
         <span className="text-gray-400">/ เดือน</span>
+        <span className="text-gray-500 text-xs">
+          (รายปี {Number(monthlyPrice) > 0 ? (Number(monthlyPrice) * 12).toLocaleString("th-TH", { minimumFractionDigits: 0, maximumFractionDigits: 2 }) : "-"} บาท)
+        </span>
       </label>
       <MaxUsersField value={maxUsers} onChange={setMaxUsers} />
       <div className="space-y-1">

@@ -129,9 +129,13 @@ master.exec(`CREATE TABLE IF NOT EXISTS payments (
 // Transfer slip (data URL image) uploaded by the customer with the payment report.
 const paymentColumns = master.prepare('PRAGMA table_info(payments)').all().map(c => c.name);
 if (!paymentColumns.includes('slip')) master.exec('ALTER TABLE payments ADD COLUMN slip TEXT');
+// 'new' = full package price (trial end, expired, or first purchase); 'upgrade' = price difference, new 12-month term.
+if (!paymentColumns.includes('kind')) master.exec("ALTER TABLE payments ADD COLUMN kind TEXT NOT NULL DEFAULT 'new'");
 const MAX_SLIP_CHARS = 7 * 1024 * 1024; // about 5 MB of image before Base64 encoding
 
 const TRIAL_MONTHS = 1;
+// Package prices are yearly rates, so a confirmed payment extends the subscription by 12 months.
+const PAID_MONTHS = 12;
 function addMonths(iso, months) {
   const d = new Date(iso);
   d.setMonth(d.getMonth() + months);
@@ -145,6 +149,20 @@ function subscriptionOf(row) {
   if (row.paid_until && Date.parse(row.paid_until) > now) return { status: 'active', ...base };
   if (row.trial_ends_at && Date.parse(row.trial_ends_at) > now) return { status: 'trial', ...base };
   return { status: 'expired', ...base };
+}
+
+// What the company has to pay for a package. An active paid company moving to a more expensive
+// package pays only the price difference; the new package then starts a new 12-month term.
+// Everything else (trial, expired, first purchase, same or lower package) pays the full price.
+function paymentQuote(session, pkg) {
+  const active = session.paid_until && Date.parse(session.paid_until) > Date.now();
+  const current = active && session.package_id
+    ? master.prepare('SELECT id, code, name, price FROM packages WHERE id = ?').get(session.package_id)
+    : null;
+  if (current && current.price > 0 && pkg.price > current.price && pkg.id !== current.id) {
+    return { amount: pkg.price - current.price, kind: 'upgrade', from: current };
+  }
+  return { amount: pkg.price, kind: 'new', from: null };
 }
 
 // PromptPay (EMVCo) payload for a phone number, national/tax ID or e-wallet ID.
@@ -181,16 +199,29 @@ function promptpayPayload(id, amount) {
   return payload + crc16(payload);
 }
 
+// monthly = ราคาต่อเดือน, price = ราคาต่อปี (monthly x 12)
 const DEFAULT_PACKAGES = [
-  { id: 'A', name: 'Package A', description: 'Scope 1, Scope 2 และ Verification Sheet', price: 990, maxUsers: 1,
+  { id: 'A', name: 'Package A', description: 'Scope 1, Scope 2 และ Verification Sheet', monthly: 599, maxUsers: 1,
     features: ['scope1', 'scope2', 'verification'] },
-  { id: 'AA', name: 'Package AA', description: 'Scope 1, Scope 2, Verification Sheet และรายงาน Word', price: 1490, maxUsers: 5,
+  { id: 'AA', name: 'Package AA', description: 'Scope 1, Scope 2, Verification Sheet และรายงาน Word', monthly: 699, maxUsers: 5,
     features: ['scope1', 'scope2', 'verification', 'report_word'] },
-  { id: 'B', name: 'Package B', description: 'Scope 1-3, Verification Sheet และ AI Assistant', price: 2490, maxUsers: 10,
+  { id: 'B', name: 'Package B', description: 'Scope 1-3, Verification Sheet และ AI Assistant', monthly: 999, maxUsers: 10,
     features: ['scope1', 'scope2', 'scope3', 'verification', 'ai'] },
-  { id: 'BB', name: 'Package BB', description: 'Scope 1-3, Verification Sheet, รายงาน Word และ AI Assistant', price: 3490, maxUsers: 20,
+  { id: 'BB', name: 'Package BB', description: 'Scope 1-3, Verification Sheet, รายงาน Word และ AI Assistant', monthly: 1299, maxUsers: 20,
     features: ['scope1', 'scope2', 'scope3', 'verification', 'report_word', 'ai'] },
-];
+].map(p => ({ ...p, price: p.monthly * 12 }));
+
+// Monthly and yearly prices from a request. Monthly wins if given; otherwise yearly is used.
+function parsePrices(b, fallback) {
+  if (b.monthlyPrice !== undefined && b.monthlyPrice !== '') {
+    const monthly = Number(b.monthlyPrice);
+    if (!Number.isFinite(monthly) || monthly < 0) return null;
+    return { monthly, price: monthly * 12 };
+  }
+  const price = b.price === undefined || b.price === '' ? fallback.price : Number(b.price);
+  if (!Number.isFinite(price) || price < 0) return null;
+  return { monthly: price / 12, price };
+}
 // Number of users (including the tenant admin) a package allows.
 const packageColumns = master.prepare('PRAGMA table_info(packages)').all().map(c => c.name);
 const addMaxUsers = !packageColumns.includes('max_users');
@@ -200,6 +231,11 @@ const insertPackage = master.prepare(`INSERT OR IGNORE INTO packages (id, code, 
 for (const p of DEFAULT_PACKAGES) insertPackage.run(p.id, p.id, p.name, p.description, p.price, JSON.stringify(p.features), p.maxUsers);
 if (addMaxUsers) {
   for (const p of DEFAULT_PACKAGES) master.prepare('UPDATE packages SET max_users = ? WHERE id = ?').run(p.maxUsers, p.id);
+}
+// Monthly price (yearly price = monthly x 12). Existing packages get it from their yearly price.
+if (!packageColumns.includes('monthly_price')) {
+  master.exec('ALTER TABLE packages ADD COLUMN monthly_price REAL NOT NULL DEFAULT 0');
+  master.exec('UPDATE packages SET monthly_price = price / 12.0');
 }
 // Companies that existed before packages keep full access.
 master.prepare("UPDATE tenants SET package_id = 'BB' WHERE package_id IS NULL").run();
@@ -647,7 +683,7 @@ app.post('/api/admin/users/:id/approve', requireAuth, requireSuperuser, (req, re
     const tenantRow = master.prepare('SELECT paid_until FROM tenants WHERE id = ?').get(user.tenant_id);
     const now = Date.now();
     const base = tenantRow?.paid_until && Date.parse(tenantRow.paid_until) > now ? tenantRow.paid_until : new Date(now).toISOString();
-    const paidUntil = addMonths(base, 1);
+    const paidUntil = addMonths(base, PAID_MONTHS);
     master.transaction(() => {
       master.prepare("UPDATE payments SET status = 'confirmed', confirmed_at = ? WHERE id = ?").run(new Date().toISOString(), pending.id);
       master.prepare('UPDATE tenants SET paid_until = ?, package_id = ? WHERE id = ?').run(paidUntil, pending.package_id, user.tenant_id);
@@ -702,7 +738,7 @@ app.get('/api/admin/logs', requireAuth, requireSuperuser, (req, res) => {
 
 // Superuser: list packages with their features and prices.
 function listPackages() {
-  return master.prepare('SELECT id, code, name, description, price, currency, features, max_users FROM packages ORDER BY price')
+  return master.prepare('SELECT id, code, name, description, price, monthly_price, currency, features, max_users FROM packages ORDER BY price')
     .all()
     .map(({ max_users, features, ...p }) => ({ ...p, features: JSON.parse(features), maxUsers: max_users }));
 }
@@ -718,17 +754,19 @@ app.put('/api/admin/packages/:id', requireAuth, requireSuperuser, (req, res) => 
   const b = req.body || {};
   const name = String(b.name ?? current.name).trim();
   const description = String(b.description ?? current.description);
-  const price = b.price === undefined ? current.price : Number(b.price);
+  const prices = (b.monthlyPrice === undefined && b.price === undefined)
+    ? { monthly: current.monthly_price, price: current.price }
+    : parsePrices(b, { price: current.price });
   const features = b.features === undefined ? JSON.parse(current.features) : b.features;
   const maxUsers = parseMaxUsers(b.maxUsers, current.max_users);
   if (maxUsers === null) return res.status(400).json({ error: 'จำนวนผู้ใช้งานต้องเป็นจำนวนเต็มตั้งแต่ 1 ขึ้นไป' });
   if (!name) return res.status(400).json({ error: 'กรุณาระบุชื่อแพ็กเกจ' });
-  if (!Number.isFinite(price) || price < 0) return res.status(400).json({ error: 'ราคาต้องเป็นตัวเลขที่ไม่ติดลบ' });
+  if (!prices) return res.status(400).json({ error: 'ราคาต้องเป็นตัวเลขที่ไม่ติดลบ' });
   if (!Array.isArray(features) || features.some(f => !FEATURE_KEYS.includes(f))) {
     return res.status(400).json({ error: 'ฟีเจอร์ไม่ถูกต้อง' });
   }
-  master.prepare('UPDATE packages SET name = ?, description = ?, price = ?, features = ?, max_users = ? WHERE id = ?')
-    .run(name, description, price, JSON.stringify([...new Set(features)]), maxUsers, current.id);
+  master.prepare('UPDATE packages SET name = ?, description = ?, price = ?, monthly_price = ?, features = ?, max_users = ? WHERE id = ?')
+    .run(name, description, prices.price, prices.monthly, JSON.stringify([...new Set(features)]), maxUsers, current.id);
   res.json({ ok: true });
 });
 
@@ -738,7 +776,7 @@ app.post('/api/admin/packages', requireAuth, requireSuperuser, (req, res) => {
   const code = String(b.code || '').trim().toUpperCase();
   const name = String(b.name || '').trim();
   const description = String(b.description ?? '');
-  const price = b.price === undefined || b.price === '' ? 0 : Number(b.price);
+  const prices = parsePrices(b, { price: 0 });
   const features = Array.isArray(b.features) ? [...new Set(b.features)] : [];
   const maxUsers = parseMaxUsers(b.maxUsers, 1);
   if (maxUsers === null) return res.status(400).json({ error: 'จำนวนผู้ใช้งานต้องเป็นจำนวนเต็มตั้งแต่ 1 ขึ้นไป' });
@@ -746,13 +784,14 @@ app.post('/api/admin/packages', requireAuth, requireSuperuser, (req, res) => {
     return res.status(400).json({ error: 'รหัสแพ็กเกจต้องเป็น A-Z, 0-9, _ หรือ - ไม่เกิน 20 ตัวอักษร' });
   }
   if (!name) return res.status(400).json({ error: 'กรุณาระบุชื่อแพ็กเกจ' });
-  if (!Number.isFinite(price) || price < 0) return res.status(400).json({ error: 'ราคาต้องเป็นตัวเลขที่ไม่ติดลบ' });
+  if (!prices) return res.status(400).json({ error: 'ราคาต้องเป็นตัวเลขที่ไม่ติดลบ' });
+  const price = prices.price;
   if (features.some(f => !FEATURE_KEYS.includes(f))) return res.status(400).json({ error: 'ฟีเจอร์ไม่ถูกต้อง' });
   if (master.prepare('SELECT id FROM packages WHERE id = ?').get(code)) {
     return res.status(409).json({ error: `มีแพ็กเกจรหัส ${code} อยู่แล้ว` });
   }
-  master.prepare('INSERT INTO packages (id, code, name, description, price, features, max_users) VALUES (?,?,?,?,?,?,?)')
-    .run(code, code, name, description, price, JSON.stringify(features), maxUsers);
+  master.prepare('INSERT INTO packages (id, code, name, description, price, monthly_price, features, max_users) VALUES (?,?,?,?,?,?,?,?)')
+    .run(code, code, name, description, price, prices.monthly, JSON.stringify(features), maxUsers);
   res.json({ ok: true, id: code });
 });
 
@@ -940,14 +979,18 @@ app.get('/api/billing/qr', requireAuth, async (req, res) => {
     .get(String(req.query.packageId || ''));
   if (!pkg) return res.status(404).json({ error: 'ไม่พบแพ็กเกจ' });
   if (!(pkg.price > 0)) return res.status(400).json({ error: 'แพ็กเกจนี้ไม่มีค่าใช้จ่าย' });
+  const quote = paymentQuote(req.session, pkg);
   const promptpayId = getSetting('promptpay_id');
   let qrDataUrl = null;
   if (promptpayId) {
-    const payload = promptpayPayload(promptpayId, pkg.price);
+    const payload = promptpayPayload(promptpayId, quote.amount);
     if (payload) qrDataUrl = await QRCode.toDataURL(payload, { margin: 1, width: 300 });
   }
   res.json({
     package: pkg,
+    amount: quote.amount,
+    kind: quote.kind,
+    upgradeFrom: quote.from,
     promptpay: { accountName: getSetting('promptpay_name'), configured: !!promptpayId, qrDataUrl },
   });
 });
@@ -964,8 +1007,9 @@ app.post('/api/billing/payments', requireAuth, async (req, res) => {
   if (slip.length > MAX_SLIP_CHARS) return res.status(400).json({ error: 'ไฟล์สลิปต้องมีขนาดไม่เกิน 5 MB' });
   const pending = master.prepare("SELECT id FROM payments WHERE tenant_id = ? AND status = 'pending'").get(req.session.tenant_id);
   if (pending) return res.status(409).json({ error: 'มีรายการที่รอการอนุมัติอยู่แล้ว' });
-  master.prepare(`INSERT INTO payments (id, tenant_id, package_id, amount, status, created_at, slip) VALUES (?,?,?,?,'pending',?,?)`)
-    .run(crypto.randomUUID(), req.session.tenant_id, pkg.id, pkg.price, new Date().toISOString(), slip);
+  const quote = paymentQuote(req.session, pkg);
+  master.prepare(`INSERT INTO payments (id, tenant_id, package_id, amount, status, created_at, slip, kind) VALUES (?,?,?,?,'pending',?,?,?)`)
+    .run(crypto.randomUUID(), req.session.tenant_id, pkg.id, quote.amount, new Date().toISOString(), slip, quote.kind);
   // The chosen package is only stored on the payment. The company's package, features and subscription
   // dates change only when a superuser confirms the payment (or approves the account).
 
@@ -974,8 +1018,9 @@ app.post('/api/billing/payments', requireAuth, async (req, res) => {
   const applicant = req.session.email;
   const pkgRow = master.prepare('SELECT code, name FROM packages WHERE id = ?').get(pkg.id);
   const pkgLabel = pkgRow ? `${pkgRow.code} – ${pkgRow.name}` : pkg.id;
-  const amountText = `${pkg.price.toLocaleString('th-TH')} บาท`;
-  logEvent('payment_submit', { actor: applicant, target: applicant, tenantName: company, detail: `แพ็กเกจ ${pkgLabel}, ${amountText}` });
+  const amountText = `${quote.amount.toLocaleString('th-TH')} บาท`;
+  const kindText = quote.kind === 'upgrade' ? ` (อัพเกรดจาก ${quote.from.code}, ชำระส่วนต่าง)` : '';
+  logEvent('payment_submit', { actor: applicant, target: applicant, tenantName: company, detail: `แพ็กเกจ ${pkgLabel}${kindText}, ${amountText}` });
   const superuserEmail = getSetting('superuser_email');
   await Promise.all([
     sendMail(
@@ -1045,8 +1090,12 @@ app.post('/api/admin/payments/:id/confirm', requireAuth, requireSuperuser, (req,
   if (!payment) return res.status(404).json({ error: 'ไม่พบรายการที่รอยืนยัน' });
   const tenant = master.prepare('SELECT name, paid_until FROM tenants WHERE id = ?').get(payment.tenant_id);
   const now = Date.now();
-  const base = tenant?.paid_until && Date.parse(tenant.paid_until) > now ? tenant.paid_until : new Date(now).toISOString();
-  const paidUntil = addMonths(base, 1);
+  // Upgrade: the new package starts a fresh 12-month term from today.
+  // Otherwise the term is added to the current end date (or starts today if it has ended).
+  const base = payment.kind !== 'upgrade' && tenant?.paid_until && Date.parse(tenant.paid_until) > now
+    ? tenant.paid_until
+    : new Date(now).toISOString();
+  const paidUntil = addMonths(base, PAID_MONTHS);
   master.transaction(() => {
     master.prepare("UPDATE payments SET status = 'confirmed', confirmed_at = ? WHERE id = ?")
       .run(new Date().toISOString(), payment.id);

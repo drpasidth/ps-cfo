@@ -7,28 +7,28 @@ const PACKAGES = [
   {
     code: "A",
     name: "Package A",
-    price: 990,
+    price: 7188,
     description: "Scope 1, Scope 2 และ Verification Sheet",
     features: ["scope1", "scope2", "verification"],
   },
   {
     code: "AA",
     name: "Package AA",
-    price: 1490,
+    price: 8388,
     description: "Scope 1, Scope 2, Verification Sheet และรายงาน Word",
     features: ["scope1", "scope2", "verification", "report_word"],
   },
   {
     code: "B",
     name: "Package B",
-    price: 2490,
+    price: 11988,
     description: "Scope 1-3, Verification Sheet และ AI Assistant",
     features: ["scope1", "scope2", "scope3", "verification", "ai"],
   },
   {
     code: "BB",
     name: "Package BB",
-    price: 3490,
+    price: 15588,
     description: "Scope 1-3, Verification Sheet, รายงาน Word และ AI Assistant",
     features: ["scope1", "scope2", "scope3", "verification", "report_word", "ai"],
   },
@@ -302,7 +302,7 @@ export default function Landing() {
         <div className="max-w-6xl mx-auto px-5">
           <h2 className="text-3xl font-bold text-center">แพ็กเกจและราคา</h2>
           <p className="text-center text-gray-600 mt-2">
-            ทดลองใช้ฟรี <span className="font-semibold text-emerald-700">1 เดือน</span> ทุกแพ็กเกจ · ราคาต่อเดือน ชำระผ่าน PromptPay หลังครบกำหนดทดลองใช้
+            ทดลองใช้ฟรี <span className="font-semibold text-emerald-700">1 เดือน</span> ทุกแพ็กเกจ · ราคาต่อเดือน (คิดจากราคารายปี ÷ 12) ชำระผ่าน PromptPay หลังครบกำหนดทดลองใช้
           </p>
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {PACKAGES.map((p, i) => (
@@ -318,7 +318,7 @@ export default function Landing() {
                 </div>
                 <p className="font-bold text-lg mt-3">{p.name}</p>
                 <p className="mt-2">
-                  <span className="text-3xl font-extrabold">{p.price.toLocaleString("th-TH")}</span>
+                  <span className="text-3xl font-extrabold">{(p.price / 12).toLocaleString("th-TH", { minimumFractionDigits: 0, maximumFractionDigits: 2 })}</span>
                   <span className="text-sm text-gray-500"> บาท / เดือน</span>
                 </p>
                 <p className="mt-2 inline-block self-start text-xs font-semibold text-emerald-700 bg-emerald-50 rounded-full px-2.5 py-1">

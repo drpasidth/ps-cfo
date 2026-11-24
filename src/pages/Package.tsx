@@ -10,6 +10,7 @@ interface PackageOption {
   name: string;
   description: string;
   price: number;
+  monthly_price: number;
   currency: string;
   features: FeatureKey[];
 }
@@ -32,6 +33,9 @@ interface BillingInfo {
 
 interface QrInfo {
   package: PackageOption;
+  amount: number;
+  kind: "new" | "upgrade";
+  upgradeFrom: { code: string; name: string; price: number } | null;
   promptpay: { accountName: string; configured: boolean; qrDataUrl: string | null };
 }
 
@@ -163,8 +167,13 @@ export default function Package({ standalone = false }: { standalone?: boolean }
                 >
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-bold text-emerald-700 bg-emerald-50 rounded px-2 py-0.5">{p.code}</span>
-                    <span className="font-semibold text-gray-900">
-                      {p.price.toLocaleString("th-TH")} {p.currency} / เดือน
+                    <span className="text-right">
+                      <span className="block font-semibold text-gray-900">
+                        {p.monthly_price.toLocaleString("th-TH", { maximumFractionDigits: 2 })} {p.currency} / เดือน
+                      </span>
+                      <span className="block text-xs text-gray-500">
+                        {p.price.toLocaleString("th-TH", { maximumFractionDigits: 2 })} {p.currency} / ปี
+                      </span>
                     </span>
                   </div>
                   <p className="font-semibold text-gray-900">{p.name}</p>
@@ -184,7 +193,15 @@ export default function Package({ standalone = false }: { standalone?: boolean }
                   <img src={qr.promptpay.qrDataUrl} alt="PromptPay QR" className="w-60 h-60 border border-gray-200 rounded-lg" />
                   <div className="text-sm text-gray-700 space-y-1">
                     <p>แพ็กเกจ: <span className="font-medium">{selected.code} – {selected.name}</span></p>
-                    <p>จำนวนเงิน: <span className="font-semibold">{selected.price.toLocaleString("th-TH")} {selected.currency}</span></p>
+                    {qr.kind === "upgrade" && qr.upgradeFrom ? (
+                      <>
+                        <p>อัพเกรดจาก <span className="font-medium">{qr.upgradeFrom.code} – {qr.upgradeFrom.name}</span></p>
+                        <p className="text-xs text-gray-500">
+                          ชำระเฉพาะส่วนต่าง ({selected.price.toLocaleString("th-TH")} − {qr.upgradeFrom.price.toLocaleString("th-TH")}) และเริ่มนับอายุการใช้งาน 12 เดือนใหม่นับจากวันที่อนุมัติ
+                        </p>
+                      </>
+                    ) : null}
+                    <p>จำนวนเงินที่ต้องชำระ: <span className="font-semibold">{qr.amount.toLocaleString("th-TH")} {selected.currency}</span></p>
                     {qr.promptpay.accountName && <p>ชื่อบัญชี: <span className="font-medium">{qr.promptpay.accountName}</span></p>}
                     <p className="text-xs text-gray-500">สแกน QR ด้วยแอปธนาคารเพื่อโอนเงินตามจำนวนข้างต้น</p>
                   </div>
